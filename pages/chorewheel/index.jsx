@@ -62,9 +62,16 @@ export default function ({ images }) {
 
           <br></br>
 
-          <Button variant="outline-primary" size="md" href={quickstartUrl}>Get Started</Button>
-
+          <Button variant="outline-primary" size="md" href={quickstartUrl}>Get Started Today</Button>
           <br></br>
+          <br></br>
+
+          <p>
+            Not sure if Chore Wheel is right for you?
+            <br></br>
+            <Link href={interestUrl} className="text-decoration-none"><b>Fill out an interest form</b></Link>.
+          </p>
+
           <br></br>
 
           <YouTube videoSrc={choreWheelUrl} videoTitle="Chore Wheel Intro" />
@@ -93,7 +100,7 @@ export default function ({ images }) {
           <p>
             Designed for <b>intentional communities</b>, <b>casual roommates</b>, <b>cohabitating partners</b>, and everything in-between,
             Chore Wheel helps people share the <b>emotional and mental labor</b> of sustaining communities.
-            Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for what really matters.
+            Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for what really matters — <b>being together</b>.
           </p>
 
           <p>
@@ -101,7 +108,7 @@ export default function ({ images }) {
           </p>
 
           <p>
-            Not sure if Chore Wheel is right for you? <Link href={interestUrl} className="text-decoration-none"><b>Fill out this form</b></Link> and someone will be in touch.
+            Not sure if Chore Wheel is right for you? <Link href={interestUrl} className="text-decoration-none"><b>Fill out an interest form</b></Link>.
           </p>
 
           <p>
