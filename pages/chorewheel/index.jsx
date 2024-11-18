@@ -3,7 +3,7 @@ import { Alert, Container, Row, Col, Table, Button } from 'react-bootstrap';
 
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
-import Video from '../../components/video';
+import YouTube from '../../components/youtube';
 import SlackButton from '../../components/slack';
 
 import { getImages } from '../../utils/s3';
@@ -67,7 +67,7 @@ export default function ({ images }) {
           <br></br>
           <br></br>
 
-          <Video videoSrc={choreWheelUrl} videoType={"video/mp4"} />
+          <YouTube videoSrc={choreWheelUrl} videoTitle="Chore Wheel Intro" />
         </Col>
         <Col />
       </Row>

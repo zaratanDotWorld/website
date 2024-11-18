@@ -4,7 +4,7 @@ import { Container, Row, Col, Table, Button } from 'react-bootstrap';
 
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
-import Video from '../../components/video';
+import YouTube from '../../components/youtube';
 
 import { getImages } from '../../utils/s3';
 import { instagramUrl, tongvaUrl, applyUrl, nbcUrl, joysOfSageUrl, supernuclearUrl, structuresUrl } from '../../utils/constants';
@@ -44,7 +44,7 @@ export default function ({ images }) {
 
           <br></br>
 
-          <Video videoSrc={joysOfSageUrl} videoType={"video/mp4"} />
+          <YouTube videoSrc={joysOfSageUrl} videoTitle="Joys of Sage House" />
         </Col>
         <Col />
       </Row>
