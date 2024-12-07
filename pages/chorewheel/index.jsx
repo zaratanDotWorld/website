@@ -62,7 +62,7 @@ export default function ({ images }) {
 
           <br></br>
 
-          <Button variant="outline-primary" size="md" href={quickstartUrl}>Get Started Today</Button>
+          <Button variant="primary" size="md" href={quickstartUrl}>Get Started Today</Button>
           <br></br>
           <br></br>
 
@@ -91,7 +91,7 @@ export default function ({ images }) {
             Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is a family of <b>Slack apps</b> helping people share space:
           </p>
           <ul>
-            <li><b><Link className="text-decoration-none" href="/chorewheel/chores">Chores</Link></b> for keeping it clean</li>
+            <li><b><Link className="text-decoration-none" href="/chorewheel/chores">Chores</Link></b> for dividing up tasks</li>
             <li><b><Link className="text-decoration-none" href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability</li>
             <li><b><Link className="text-decoration-none" href="/chorewheel/things">Things</Link></b> for group purchasing</li>
             <li>And more to come...</li>
@@ -105,10 +105,6 @@ export default function ({ images }) {
 
           <p>
             <b>The best part? It's fun to use. <Link className="text-decoration-none" href={quickstartUrl}>Get started today.</Link> &#x2728;</b>
-          </p>
-
-          <p>
-            Not sure if Chore Wheel is right for you? <Link href={interestUrl} className="text-decoration-none"><b>Fill out an interest form</b></Link>.
           </p>
 
           <p>

@@ -24,8 +24,9 @@ const s3Root = "https://s3.amazonaws.com/zaratan.world/public/";
 export const nbcUrl = s3Root + "videos/sage-nbc.mp4";
 
 // Media (Youtube)
-export const joysOfSageUrl = "https://www.youtube.com/embed/RLovItiq8Do";
+export const joysOfColivingUrl = "https://www.youtube.com/embed/RLovItiq8Do";
 export const choreWheelUrl = "https://www.youtube.com/embed/OMfJdXoh04k";
+export const sageHouseFullUrl = "https://www.youtube.com/embed/uS-xdC4DJKg";
 
 // Media (Other)
 export const supernuclearUrl = "https://supernuclear.substack.com/p/case-study-sage-house";

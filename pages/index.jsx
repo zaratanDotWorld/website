@@ -6,7 +6,9 @@ import { Alert, Container, Row, Col } from 'react-bootstrap';
 import Headpiece from '../components/headpiece';
 import zaratanPic from "../public/images/zaratan-art.jpg";
 import instagramLogo from "../public/instagram.png";
-import { instagramUrl, zaratanUrl, structuresUrl } from '../utils/constants';
+import YouTube from '../components/youtube';
+
+import { joysOfColivingUrl, instagramUrl, zaratanUrl, structuresUrl } from '../utils/constants';
 
 export default function () {
   return (
@@ -18,7 +20,7 @@ export default function () {
 
       <Row className="p-5">
         <Col />
-        <Col>
+        <Col md={8} xl={6}>
           <Headpiece
             mainText="Zaratan"
             subText="Building Better Worlds"
@@ -29,6 +31,11 @@ export default function () {
           <br></br>
 
           <SignupForm text="Get our newsletter" placeholder="~ email address ~" />
+
+          <br></br>
+          <br></br>
+
+          <YouTube videoSrc={joysOfColivingUrl} videoTitle="The Joys of Coliving" />
         </Col>
         <Col />
       </Row>

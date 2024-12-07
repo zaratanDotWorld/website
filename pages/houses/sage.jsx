@@ -7,7 +7,7 @@ import Headpiece from '../../components/headpiece';
 import YouTube from '../../components/youtube';
 
 import { getImages } from '../../utils/s3';
-import { instagramUrl, tongvaUrl, applyUrl, nbcUrl, joysOfSageUrl, supernuclearUrl, structuresUrl } from '../../utils/constants';
+import { instagramUrl, tongvaUrl, applyUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl, structuresUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Sage House";
@@ -44,7 +44,7 @@ export default function ({ images }) {
 
           <br></br>
 
-          <YouTube videoSrc={joysOfSageUrl} videoTitle="Joys of Sage House" />
+          <YouTube videoSrc={sageHouseFullUrl} videoTitle="People love Sage House!" />
         </Col>
         <Col />
       </Row>
