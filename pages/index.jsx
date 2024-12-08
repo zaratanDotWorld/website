@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Alert, Container, Row, Col } from 'react-bootstrap';
 
 import Headpiece from '../components/headpiece';
-import zaratanPic from "../public/images/zaratan-art.jpg";
+import zaratanPic from "../public/images/zaratan-art.png";
 import instagramLogo from "../public/instagram.png";
 import YouTube from '../components/youtube';
 
@@ -93,13 +93,12 @@ export default function () {
 
       <Row className="p-5">
         <Col />
-        <Col md={8} xl={6}  style={{position:"relative", height:"500px"}}>
-          {/* Image Source: https://www.deviantart.com/rowye/art/Turtle-Island-483132909 */}
+        <Col md={8} xl={6}  style={{position:"relative", height:"600px"}}>
           <Link href={zaratanUrl}>
             <Image
               fill
               src={zaratanPic}
-              alt="Image of a Zaratan"
+              alt="Image of a Zaratan, source: Midjourney"
               style={{ margin: "auto", display: "block", opacity: "0.85", objectFit: "contain" }}
             />
           </Link>
