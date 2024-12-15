@@ -77,6 +77,9 @@ export default function () {
           <p>
             If you have housing, but <b>struggle with group dynamics</b>, check out <Link href="/chorewheel" className="text-decoration-none">Chore Wheel</Link>.
           </p>
+          <p>
+            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.com" className="text-decoration-none">drop us a line</Link>.
+          </p>
           <br></br>
           <Link href={instagramUrl}>
             <Image
