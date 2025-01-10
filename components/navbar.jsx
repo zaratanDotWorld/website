@@ -21,6 +21,7 @@ export default function () {
               <NavDropdown.Item href="/chorewheel/things">&nbsp; &#x1f6d2; Things</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href={blogUrl}>Blog</Nav.Link>
+            <Nav.Link href="mailto:hello@zaratan.world">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         {/* <LoginButton /> */}

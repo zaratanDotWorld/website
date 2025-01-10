@@ -10,7 +10,6 @@ import { getImages } from '../../utils/s3';
 import {
   repoUrl,
   docsUrl,
-  interestUrl,
   quickstartUrl,
   metagovUrl,
   choreWheelUrl,
@@ -37,8 +36,8 @@ export default function ({ images }) {
   return (
     <Container fluid>
       <br></br>
-      <Alert variant="success" className="center" dismissible>
-        Read our <Alert.Link href={structuresUrl}>peer-reviewed case study</Alert.Link> of Chore Wheel and Sage House
+      <Alert variant="info" className="center" dismissible>
+        Do you live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6">Share your experiences</Alert.Link>
       </Alert>
 
       <Row className="p-5 center">
@@ -65,13 +64,6 @@ export default function ({ images }) {
           <Button variant="primary" size="md" href={quickstartUrl}>Get Started Today</Button>
           <br></br>
           <br></br>
-
-          <p>
-            Not sure if Chore Wheel is right for you?
-            <br></br>
-            <Link href={interestUrl} className="text-decoration-none"><b>Fill out an interest form</b></Link>.
-          </p>
-
           <br></br>
 
           <YouTube videoSrc={choreWheelUrl} videoTitle="Chore Wheel Intro" />
@@ -91,7 +83,7 @@ export default function ({ images }) {
             Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is a family of <b>Slack apps</b> helping people share space:
           </p>
           <ul>
-            <li><b><Link className="text-decoration-none" href="/chorewheel/chores">Chores</Link></b> for dividing up tasks</li>
+            <li><b><Link className="text-decoration-none" href="/chorewheel/chores">Chores</Link></b> for divvying up tasks</li>
             <li><b><Link className="text-decoration-none" href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability</li>
             <li><b><Link className="text-decoration-none" href="/chorewheel/things">Things</Link></b> for group purchasing</li>
             <li>And more to come...</li>
@@ -100,7 +92,7 @@ export default function ({ images }) {
           <p>
             Designed for <b>intentional communities</b>, <b>casual roommates</b>, <b>cohabitating partners</b>, and everything in-between,
             Chore Wheel helps people share the <b>emotional and mental labor</b> of sustaining communities.
-            Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for what really matters — <b>being together</b>.
+            Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for actually <b>being together</b>.
           </p>
 
           <p>

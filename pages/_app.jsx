@@ -3,20 +3,19 @@ import Head from 'next/head';
 import Analytics from '../components/analytics';
 import Layout from '../components/layout';
 
+import { fontsUrl, analyticsTag } from '../utils/constants';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/global.css';
 import '../styles/mailchimp.css';
 import '../styles/video.css';
 
 export  default function ({ Component, pageProps }) {
-  const fontsUrl = "https://fonts.googleapis.com/css" +
-    "?family=EB+Garamond:400,700&display=swap";
-
   const pageTitle = pageProps.pageTitle || "Zaratan Coliving";
 
   return (
     <div>
-      <Analytics analyticsId='G-GC4C7YJ78Q' />
+      <Analytics analyticsId={analyticsTag} />
       <link href={fontsUrl} rel="stylesheet" />
 
       <Head>

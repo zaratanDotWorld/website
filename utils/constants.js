@@ -1,9 +1,11 @@
 // General
+export const analyticsTag = "G-GC4C7YJ78Q"
+export const blogUrl = "https://blog.zaratan.world"
+export const fontsUrl = "https://fonts.googleapis.com/css?family=EB+Garamond:400,700&display=swap";
 export const applyUrl = "https://zaratan.managebuilding.com/Resident/rental-application/new";
 export const instagramUrl = "https://www.instagram.com/zaratan.world";
 export const kronosapiensUrl ="https://kronosapiens.github.io"
 export const loginUrl = "https://zaratan.managebuilding.com/Resident/portal";
-export const blogUrl = "https://blog.zaratan.world"
 
 // Codebase
 export const repoUrl = "https://github.com/zaratanDotWorld/choreWheel";

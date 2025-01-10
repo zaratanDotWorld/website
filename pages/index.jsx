@@ -8,14 +8,14 @@ import zaratanPic from "../public/images/zaratan-art.png";
 import instagramLogo from "../public/instagram.png";
 import YouTube from '../components/youtube';
 
-import { joysOfColivingUrl, instagramUrl, zaratanUrl, structuresUrl } from '../utils/constants';
+import { joysOfColivingUrl, instagramUrl, zaratanUrl } from '../utils/constants';
 
 export default function () {
   return (
     <Container fluid>
       <br></br>
-      <Alert variant="success" className="center" dismissible>
-        Read our <Alert.Link href={structuresUrl}>peer-reviewed case study</Alert.Link> of Chore Wheel and Sage House
+      <Alert variant="info" className="center" dismissible>
+        Do you live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6">Share your experiences</Alert.Link>
       </Alert>
 
       <Row className="p-5">
@@ -78,7 +78,7 @@ export default function () {
             If you have housing, but <b>struggle with group dynamics</b>, check out <Link href="/chorewheel" className="text-decoration-none">Chore Wheel</Link>.
           </p>
           <p>
-            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.com" className="text-decoration-none">drop us a line</Link>.
+            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world" className="text-decoration-none">drop us a line</Link>.
           </p>
           <br></br>
           <Link href={instagramUrl}>
