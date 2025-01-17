@@ -46,7 +46,7 @@ export default function ({ images }) {
           </p>
 
           <p>
-            Help your house run itself. <Link className="text-decoration-none" href={quickstartUrl}>Get started today.</Link> &#x2728;
+            Help your house run itself. <Link href={quickstartUrl}>Get started today.</Link> &#x2728;
           </p>
           <hr></hr>
         </Col>

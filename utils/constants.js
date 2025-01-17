@@ -36,4 +36,5 @@ export const supernuclearUrl = "https://supernuclear.substack.com/p/case-study-s
 export const metagovUrl = "https://archive.org/details/kronovet-metagov-20230329";
 export const zaratanUrl = "https://en.wikipedia.org/wiki/Zaratan";
 export const structuresUrl = "https://ssrn.com/abstract=4856267";
+export const thesisUrl = "https://ssrn.com/abstract=3359677";
 export const choreWheelDeck = "https://docs.google.com/presentation/d/e/2PACX-1vTEpnw9C_uLeqHlRsiqUvbV0cDfjjTWC9FwIJ_adNRIQGcyv0WFLNNMotU1qDDWUkW6KO0ckQ-PqA1Q/pub"

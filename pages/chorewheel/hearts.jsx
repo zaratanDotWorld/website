@@ -45,7 +45,7 @@ export default function ({ images }) {
           </p>
 
           <p>
-            Make accountability fun and easy. <Link className="text-decoration-none" href={quickstartUrl}>Get started today.</Link> &#x2728;
+            Make accountability fun and easy. <Link href={quickstartUrl}>Get started today.</Link> &#x2728;
           </p>
           <hr></hr>
         </Col>

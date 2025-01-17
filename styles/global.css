@@ -2,6 +2,10 @@ body {
   font-family: EB Garamond, serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .center {
   text-align: center;
 }

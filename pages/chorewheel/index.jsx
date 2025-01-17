@@ -75,7 +75,7 @@ export default function ({ images }) {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            <b>Chore Wheel</b> is <Link className="text-decoration-none" href={structuresUrl}>pioneering software for coliving</Link>, helping communities thrive.
+            <b>Chore Wheel</b> is <Link href={structuresUrl}>pioneering software for coliving</Link>, helping communities thrive.
           </h5>
 
           <hr></hr>
@@ -83,9 +83,9 @@ export default function ({ images }) {
             Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is a family of <b>Slack apps</b> helping people share space:
           </p>
           <ul>
-            <li><b><Link className="text-decoration-none" href="/chorewheel/chores">Chores</Link></b> for divvying up tasks</li>
-            <li><b><Link className="text-decoration-none" href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability</li>
-            <li><b><Link className="text-decoration-none" href="/chorewheel/things">Things</Link></b> for group purchasing</li>
+            <li><b><Link href="/chorewheel/chores">Chores</Link></b> for divvying up tasks</li>
+            <li><b><Link href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability</li>
+            <li><b><Link href="/chorewheel/things">Things</Link></b> for group purchasing</li>
             <li>And more to come...</li>
           </ul>
 
@@ -96,14 +96,14 @@ export default function ({ images }) {
           </p>
 
           <p>
-            <b>The best part? It's fun to use. <Link className="text-decoration-none" href={quickstartUrl}>Get started today.</Link> &#x2728;</b>
+            <b>The best part? It's fun to use. <Link href={quickstartUrl}>Get started today.</Link> &#x2728;</b>
           </p>
 
           <p>
             <i>
               Development of Chore Wheel was supported by the&nbsp;
               <b>Open-Source Software</b> (2x), <b>Governance Research</b>, and <b>Metacrisis</b> rounds of&nbsp;
-              <b><Link className="text-decoration-none" href="https://grants.gitcoin.co/">Gitcoin Grants</Link></b>.
+              <b><Link href="https://grants.gitcoin.co/">Gitcoin Grants</Link></b>.
             </i>
           </p>
 

@@ -12,7 +12,9 @@ import bobPic from "../public/images/bob.jpeg";
 import {
   buildingSageUrl,
   structuresUrl,
+  thesisUrl,
   blogUrl,
+  zaratanUrl,
 } from '../utils/constants';
 
 export async function getStaticProps() {
@@ -87,7 +89,7 @@ export default function () {
                 <i>What is a Zaratan?</i>
               </p>
               <p>
-                <Link href="https://en.wikipedia.org/wiki/Zaratan">Zaratani</Link> are <b>mythical giant sea turtles</b>, often mistaken for islands by sailors lost at sea.
+                <Link href={zaratanUrl}>Zaratani</Link> are <b>mythical giant sea turtles</b>, often mistaken for islands by sailors lost at sea.
                 By naming ourselves after these creatures, we evoke the way that organizational innovations can act as foundations for thriving communities.
                 In addition, the Zaratan is known for its slow movement and long life, which we evoke through our intentional approach to growth.
               </p>
@@ -108,7 +110,7 @@ export default function () {
                 Within days, the pandemic hit.
                 Undeterred, Daniel teamed up with his dad, Robert Kronovet, recruited architect Matt Manion, and started working on what would become Sage House.
                 Over a period of two years they renovated what was then a run-down old house into a beautiful and functional new home.
-                At the same time, Daniel worked with collaborators Seth Frey and Joseph DeSimone to develop Chore Wheel, the tool that would help Sage House function.
+                At the same time, Daniel worked with collaborators Seth Frey and Joseph DeSimone to develop Chore Wheel, the tool that would help Sage function.
               </p>
               <p>
                 In September 2022, Sage opened and filled up quickly.
@@ -159,7 +161,7 @@ export default function () {
                 These experiences broadened his perspective, exposing him to a diversity of organizational structures and practices.
               </p>
               <p>
-                Returning to the United States, Daniel moved to New York City and went into technology, earning a master's degree in Quantitative Social Science at Columbia University, with research focused on voting systems.
+                Returning to the United States, Daniel moved to New York City and went into technology, earning a master's degree in Quantitative Social Science at Columbia University, with <Link href={thesisUrl}>research focused on voting systems</Link>.
                 Starting his career as a machine learning engineer, he soon pivoted to mechanism design, as a research engineer at the pioneering future-of-work project <Link href="https://colony.io">Colony</Link> (where he still actively contributes).
                 In this role, Daniel gained a deeper understanding of the skills needed to design and implement complex systems.
               </p>
@@ -170,7 +172,7 @@ export default function () {
               </p>
 
               <p>
-                <b>Want to know more?</b> <Link href="mailto:hello@zaratan.world" className="text-decoration-none">Drop us a line</Link>
+                <b>Want to know more?</b> <Link href="mailto:hello@zaratan.world">Drop us a line</Link>
               </p>
             </Col>
           </Row>

@@ -44,8 +44,8 @@ export default function () {
         <Col md={8} xl={6}>
           <h5>
             Zaratan is an emerging coliving company in Los Angeles.
-            We build <Link href="/houses/sage" className="text-decoration-none">physical houses</Link>
-            &nbsp;and <Link href="/chorewheel" className="text-decoration-none">pioneering software tools</Link>.
+            We build <Link href="/houses/sage">physical houses</Link>
+            &nbsp;and <Link href="/chorewheel">pioneering software tools</Link>.
           </h5>
           <h5>
             Our mission is the creation of beautiful and naturally-affordable housing through creative organization and adaptive reuse.
@@ -71,14 +71,14 @@ export default function () {
           <p><b>Next steps:</b></p>
           <p>
             If you are <b>looking for housing</b>, check out&nbsp;
-            <Link href="/houses/sage" className="text-decoration-none">Sage House</Link> or&nbsp;
-            <Link href="/houses/cactus" className="text-decoration-none">Cactus Cottage</Link>.
+            <Link href="/houses/sage">Sage House</Link> or&nbsp;
+            <Link href="/houses/cactus">Cactus Cottage</Link>.
           </p>
           <p>
-            If you have housing, but <b>struggle with group dynamics</b>, check out <Link href="/chorewheel" className="text-decoration-none">Chore Wheel</Link>.
+            If you have housing, but <b>struggle with group dynamics</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
           </p>
           <p>
-            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world" className="text-decoration-none">drop us a line</Link>.
+            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link>.
           </p>
           <br></br>
           <Link href={instagramUrl}>
