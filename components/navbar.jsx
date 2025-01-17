@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { blogUrl } from '../utils/constants';
+import { blogUrl, docsUrl } from '../utils/constants';
 
 export default function () {
   return (
@@ -15,13 +15,16 @@ export default function () {
               <NavDropdown.Item href="/houses/cactus">&#x1F335; Cactus Cottage</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Chore Wheel" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/chorewheel">&#x1F506; Overview</NavDropdown.Item>
-              <NavDropdown.Item href="/chorewheel/chores">&nbsp; &#x1f9e4; Chores</NavDropdown.Item>
-              <NavDropdown.Item href="/chorewheel/hearts">&nbsp; &#x1f496; Hearts</NavDropdown.Item>
-              <NavDropdown.Item href="/chorewheel/things">&nbsp; &#x1f6d2; Things</NavDropdown.Item>
+              <NavDropdown.Header>Overview</NavDropdown.Header>
+              <NavDropdown.Item href="/chorewheel">&#x1F506; Introduction</NavDropdown.Item>
+              <NavDropdown.Item href={docsUrl}>&#x1F425; Getting Started</NavDropdown.Item>
+              <NavDropdown.Header>Apps</NavDropdown.Header>
+              <NavDropdown.Item href="/chorewheel/chores">&#x1f9e4; Chores</NavDropdown.Item>
+              <NavDropdown.Item href="/chorewheel/hearts">&#x1f496; Hearts</NavDropdown.Item>
+              <NavDropdown.Item href="/chorewheel/things">&#x1f6d2; Things</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href={blogUrl}>Blog</Nav.Link>
-            <Nav.Link href="mailto:hello@zaratan.world">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         {/* <LoginButton /> */}
