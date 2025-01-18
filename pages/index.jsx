@@ -4,18 +4,19 @@ import Image from 'next/image';
 import { Alert, Container, Row, Col } from 'react-bootstrap';
 
 import Headpiece from '../components/headpiece';
-import zaratanPic from "../public/images/zaratan-art.png";
-import instagramLogo from "../public/instagram.png";
 import YouTube from '../components/youtube';
 
-import { joysOfColivingUrl, instagramUrl, zaratanUrl } from '../utils/constants';
+import zaratanPic from "../public/images/zaratan-art.png";
+import instagramLogo from "../public/instagram.png";
+
+import { joysOfColivingUrl, instagramUrl } from '../utils/constants';
 
 export default function () {
   return (
     <Container fluid>
       <br></br>
       <Alert variant="info" className="center" dismissible>
-        Do you live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6">Share your experiences</Alert.Link>
+        Do you live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6" style={{ textDecoration: 'underline' }}>Share your experiences</Alert.Link>
       </Alert>
 
       <Row className="p-5">
@@ -27,10 +28,6 @@ export default function () {
             icon="&#x1F422;"
             color="green"
           />
-
-          <br></br>
-
-          <SignupForm text="Get our newsletter" placeholder="~ email address ~" />
 
           <br></br>
           <br></br>
@@ -52,14 +49,14 @@ export default function () {
           </h5>
           <hr></hr>
           <p><b>We believe that:</b></p>
-          <p>
-            <b>Housing</b> is not a luxury &#x2013;&nbsp;
-            <b>Home</b> is a place of empowerment &#x2013;&nbsp;
-            <b>Community</b> cannot be bought &#x2013;&nbsp;
-            <b>Rules</b> can be simple &#x2013;&nbsp;
-            <b>Work</b> should be valued &#x2013;&nbsp;
-            <b>Conservation</b> starts locally.
-          </p>
+          <ul>
+            <li><b>Housing</b> is not a luxury</li>
+            <li><b>Home</b> is a place of empowerment</li>
+            <li><b>Community</b> cannot be bought</li>
+            <li><b>Rules</b> can be simple</li>
+            <li><b>Work</b> should be valued</li>
+            <li><b>Conservation</b> starts at home</li>
+          </ul>
 
           <p>
             We're looking for people who are <b>friendly, creative, and reliable</b>.
@@ -78,18 +75,12 @@ export default function () {
             If you have housing, but <b>struggle with group dynamics</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
           </p>
           <p>
-            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link>.
+            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl}>Instagram</Link>.
           </p>
+
           <br></br>
-          <Link href={instagramUrl}>
-            <Image
-              width="40"
-              height="40"
-              src={instagramLogo}
-              alt="Instagram logo"
-              style={{ margin: "auto", display: "block" }}
-            />
-          </Link>
+
+          <SignupForm text="Get awesome updates" placeholder="~ email address ~" />
         </Col>
         <Col />
       </Row>
@@ -97,7 +88,7 @@ export default function () {
       <Row className="p-5">
         <Col />
         <Col md={8} xl={6}  style={{position:"relative", height:"600px"}}>
-          <Link href={zaratanUrl}>
+          <Link href={instagramUrl}>
             <Image
               fill
               src={zaratanPic}

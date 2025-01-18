@@ -37,7 +37,7 @@ export default function ({ images }) {
     <Container fluid>
       <br></br>
       <Alert variant="info" className="center" dismissible>
-        Do you live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6">Share your experiences</Alert.Link>
+        Do you live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6" style={{ textDecoration: 'underline' }}>Share your experiences</Alert.Link>
       </Alert>
 
       <Row className="p-5 center">
