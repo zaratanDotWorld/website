@@ -61,11 +61,6 @@ export default function ({ images }) {
 
           <br></br>
 
-          <Button variant="primary" size="md" href={quickstartUrl}>Get Started Today</Button>
-          <br></br>
-          <br></br>
-          <br></br>
-
           <YouTube videoSrc={choreWheelUrl} videoTitle="Chore Wheel Intro" />
         </Col>
         <Col />
@@ -83,7 +78,7 @@ export default function ({ images }) {
             Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is a family of <b>Slack apps</b> helping people share space:
           </p>
           <ul>
-            <li><b><Link href="/chorewheel/chores">Chores</Link></b> for divvying up tasks</li>
+            <li><b><Link href="/chorewheel/chores">Chores</Link></b> for splitting up tasks</li>
             <li><b><Link href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability</li>
             <li><b><Link href="/chorewheel/things">Things</Link></b> for group purchasing</li>
             <li>And more to come...</li>
@@ -96,24 +91,22 @@ export default function ({ images }) {
           </p>
 
           <p>
-            <b>The best part? It's fun to use. <Link href={quickstartUrl}>Get started today.</Link> &#x2728;</b>
+            <b>The best part? It's fun to use.</b>
           </p>
 
-          <p>
-            <i>
-              Development of Chore Wheel was supported by the&nbsp;
-              <b>Open-Source Software</b> (2x), <b>Governance Research</b>, and <b>Metacrisis</b> rounds of&nbsp;
-              <b><Link href="https://grants.gitcoin.co/">Gitcoin Grants</Link></b>.
-            </i>
-          </p>
+          <br></br>
 
           <div className="center">
+            <Button variant="primary" size="md" href={quickstartUrl}>Get Started Today</Button>
+            <br></br>
+            <br></br>
             <Link href={metagovUrl}>Watch the talk</Link>
             &nbsp;·&nbsp;
             <Link href={repoUrl}>See the code</Link>
             &nbsp;·&nbsp;
             <Link href={docsUrl}>Read the docs</Link>
           </div>
+
         </Col>
         <Col />
       </Row>
