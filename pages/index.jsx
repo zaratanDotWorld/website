@@ -7,7 +7,6 @@ import Headpiece from '../components/headpiece';
 import YouTube from '../components/youtube';
 
 import zaratanPic from "../public/images/zaratan-art.png";
-import instagramLogo from "../public/instagram.png";
 
 import { joysOfColivingUrl, instagramUrl } from '../utils/constants';
 
@@ -16,14 +15,14 @@ export default function () {
     <Container fluid>
       <br></br>
       <Alert variant="info" className="center" dismissible>
-        Do you live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6" style={{ textDecoration: 'underline' }}>Share your experiences</Alert.Link>
+        Live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6" style={{ textDecoration: 'underline' }}>Share your experience</Alert.Link>
       </Alert>
 
       <Row className="p-5">
         <Col />
         <Col md={8} xl={6}>
           <Headpiece
-            mainText="Zaratan"
+            mainText="Zaratan Coliving"
             subText="Building Better Worlds"
             icon="&#x1F422;"
             color="green"
@@ -67,12 +66,10 @@ export default function () {
           <hr></hr>
           <p><b>Next steps:</b></p>
           <p>
-            If you are <b>looking for housing</b>, check out&nbsp;
-            <Link href="/houses/sage">Sage House</Link> or&nbsp;
-            <Link href="/houses/cactus">Cactus Cottage</Link>.
+            If you <b>need housing</b>, check out <Link href="/houses/sage">Sage House</Link> or <Link href="/houses/cactus">Cactus Cottage</Link>.
           </p>
           <p>
-            If you have housing, but <b>struggle with group dynamics</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
+            If you have housing, but <b>think it could be better</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
           </p>
           <p>
             If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl}>Instagram</Link>.

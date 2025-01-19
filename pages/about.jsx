@@ -60,12 +60,12 @@ export default function () {
               <ul>
                 <li>the human need for connection</li>
                 <li>the rising cost of housing</li>
-                <li>the decline of civil society</li>
+                <li>the decline of democratic civil society</li>
               </ul>
 
               <p>
                 We see these challenges as linked, and believe that <b>coliving can address them all</b>, by enabling residents to co-create their own housing —
-                building relationships, saving money, and cultivating skills in the process.
+                building relationships, saving money, and <Link href="https://geo.coop/archives/huetman604.htm">cultivating skills</Link> in the process.
               </p>
 
               <p>
@@ -91,7 +91,7 @@ export default function () {
               <p>
                 A <Link href={zaratanUrl}>Zaratan</Link> is a <b>mythical giant sea turtle</b>, often mistaken for an island by sailors lost at sea.
                 By naming ourselves after this creature, we evoke the way that organizational innovations can act as foundations for thriving communities.
-                In addition, Zaratani are known for their slow movement and long life, which we evoke through our intentional approach to growth.
+                In addition, Zaratani are known for their slow movements and long life, which we evoke through our patient and intentional approach to growth.
               </p>
             </Col>
           </Row>
@@ -173,7 +173,7 @@ export default function () {
               </p>
 
               <p>
-                <b>Want to know more?</b> <Link href="mailto:hello@zaratan.world">Drop us a line</Link>.
+                <b>Want to know more?</b> <Link href="mailto:hello@zaratan.world">Send us a note</Link>.
               </p>
             </Col>
           </Row>
