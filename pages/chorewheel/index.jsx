@@ -91,14 +91,14 @@ export default function ({ images }) {
           </p>
 
           <p>
-            <b>The best part? It's fun to use.</b>
+            The best part? <b>It's fun to use</b>.
           </p>
 
           <br></br>
 
           <div className="center">
-            <Button variant="primary" size="md" href={quickstartUrl}>Get Started Today</Button>
-            <br></br>
+            <Button variant="primary" size="md" className="m-2" href={quickstartUrl}>✨ Get Started Today ✨</Button>
+            <p><i>90 days free, then $10 / month</i></p>
             <br></br>
             <Link href={metagovUrl}>Watch the talk</Link>
             &nbsp;·&nbsp;
