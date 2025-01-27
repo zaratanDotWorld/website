@@ -5,7 +5,7 @@ export default function () {
   return (
     <Navbar bg="light" expand="lg" style={{ padding: "10px 10px 10px 30px"}}>
       <Container fluid>
-        <Navbar.Brand href="/">Zaratan &#x1F422;</Navbar.Brand>
+        <Navbar.Brand href="/">Zaratan Coliving &#x1F422;</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -14,7 +14,7 @@ export default function () {
               <NavDropdown.Item href="/houses/sage">&#x1FAB4; Sage House</NavDropdown.Item>
               <NavDropdown.Item href="/houses/cactus">&#x1F335; Cactus Cottage</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Chore Wheel" id="basic-nav-dropdown">
+            <NavDropdown title="Chore Wheel App" id="basic-nav-dropdown">
               <NavDropdown.Header>Overview</NavDropdown.Header>
               <NavDropdown.Item href="/chorewheel">&#x1F506; Introduction</NavDropdown.Item>
               <NavDropdown.Item href={docsUrl}>&#x1F425; Getting Started</NavDropdown.Item>
