@@ -9,7 +9,6 @@ import SlackButton from '../../components/slack';
 import { getImages } from '../../utils/s3';
 import {
   repoUrl,
-  docsUrl,
   quickstartUrl,
   metagovUrl,
   choreWheelUrl,
@@ -45,7 +44,7 @@ export default function ({ images }) {
         <Col md={8} xl={6}>
          <Headpiece
             mainText="Chore Wheel"
-            subText="Community Made Easier"
+            subText="Coliving, Simplified"
             // icon="☀️"
             icon="&#x1F506;"
             color="blue"
@@ -58,10 +57,6 @@ export default function ({ images }) {
             <br></br>
             <b>- Molly B.</b>
           </p>
-
-          <br></br>
-
-          <YouTube videoSrc={choreWheelUrl} videoTitle="Chore Wheel Intro" />
         </Col>
         <Col />
       </Row>
@@ -78,20 +73,24 @@ export default function ({ images }) {
             Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is a family of <b>Slack apps</b> helping people share space:
           </p>
           <ul>
-            <li><b><Link href="/chorewheel/chores">Chores</Link></b> for splitting up tasks</li>
-            <li><b><Link href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability</li>
-            <li><b><Link href="/chorewheel/things">Things</Link></b> for group purchasing</li>
+            <li><b><Link href="/chorewheel/chores">Chores</Link></b> for fairly sharing tasks, without passive-aggressive sticky notes</li>
+            <li><b><Link href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability, resolving conflict <i>without</i> drama</li>
+            <li><b><Link href="/chorewheel/things">Things</Link></b> for group purchasing, avoiding spreadsheets and Venmo requests</li>
             <li>And more to come...</li>
           </ul>
 
           <p>
             Designed for <b>intentional communities</b>, <b>casual roommates</b>, <b>cohabitating partners</b>, and everything in-between,
-            Chore Wheel helps people share the <b>emotional and mental labor</b> of sustaining communities.
+            Chore Wheel helps people share the <b>emotional and mental labor</b> of sustaining communities, through streamlined systems you don't have to think about.
             Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for actually <b>being together</b>.
           </p>
 
           <p>
-            The best part? <b>It's fun to use</b>.
+            The best part? <b>It's easy to use</b>.
+          </p>
+
+          <p>
+            Spend less time <b>fighting with your roommates</b> and more time <b>living your life</b>.
           </p>
 
           <br></br>
@@ -99,14 +98,17 @@ export default function ({ images }) {
           <div className="center">
             <Button variant="primary" size="md" className="m-2" href={quickstartUrl}>✨ Get Started Today ✨</Button>
             <p><i>90 days free, then $10 / month</i></p>
-            <br></br>
+            <Link href={structuresUrl}>Read the paper</Link>
+            &nbsp;·&nbsp;
             <Link href={metagovUrl}>Watch the talk</Link>
             &nbsp;·&nbsp;
             <Link href={repoUrl}>See the code</Link>
-            &nbsp;·&nbsp;
-            <Link href={docsUrl}>Read the docs</Link>
           </div>
 
+          <br></br>
+          <br></br>
+
+          <YouTube videoSrc={choreWheelUrl} videoTitle="Chore Wheel Intro" />
         </Col>
         <Col />
       </Row>
