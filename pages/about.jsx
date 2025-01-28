@@ -94,11 +94,11 @@ export default function () {
                 By naming ourselves after this creature, we evoke the way that organizational innovations can act as foundations for thriving communities.
                 In addition, Zaratani are known for their slow movements and long life, which we evoke through our patient and intentional approach to growth.
               </p>
-              <p>
+              {/* <p>
                 The Zaratan is opposed by the fearsome <Link href={manticoreUrl}>Manticore</Link>, symbolizing the egotistical drive for status and control.
                 With its thick shell and careful movements, the Zaratan is able to withstand the Manticore, who quickly tires and loses its edge.
                 This (fictional) conflict evokes the way that thoughtful process can outlast charismatic leadership.
-              </p>
+              </p> */}
             </Col>
           </Row>
 
