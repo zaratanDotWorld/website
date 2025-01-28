@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Container, Row, Col, Table, Button } from 'react-bootstrap';
+import { Alert, Container, Row, Col, Table } from 'react-bootstrap';
 
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
@@ -20,6 +20,11 @@ export async function getStaticProps() {
 export default function ({ images }) {
   return (
     <Container fluid>
+      {/* <br></br>
+      <Alert variant="danger" className="center" dismissible>
+        Room available February 1 — <Alert.Link href={applyUrl} style={{ textDecoration: 'underline' }}>apply now!</Alert.Link>
+      </Alert> */}
+
       <Row className="p-5">
         <Col />
         <Col md={8} xl={6}>
@@ -38,8 +43,6 @@ export default function ({ images }) {
               <br></br>
               <b>- Haven Y.</b>
             </p>
-            <br></br>
-            <Button variant="outline-danger" size="md" href={applyUrl}>Apply Now</Button>
           </div>
 
           <br></br>
@@ -54,7 +57,7 @@ export default function ({ images }) {
         <Col md={8} xl={6}>
           <div className="center">
             <p>
-              <em>As seen on <Link href={nbcUrl}>NBC4</Link>, <Link href={supernuclearUrl}>Supernuclear</Link>, and <Link href={structuresUrl}>SSRN</Link></em>
+              <em>As seen on <Link href={nbcUrl}>NBC4</Link> and <Link href={supernuclearUrl}>Supernuclear</Link></em>
               <br></br>
               <br></br>
               A beautifully-restored 1905 Craftsman, in the heart of vibrant <b>Highland Park, Los Angeles</b>.
@@ -73,9 +76,10 @@ export default function ({ images }) {
               guest room,
               and four full bathrooms.
             </p>
-            <p><b>Check our <Link href={instagramUrl}>Instagram</Link> for vacancy information.</b></p>
-            <p><i>A proud supporter of the <Link href={tongvaUrl}>Tongva Conservancy</Link></i></p>
+            <p>Rooms open up periodically. To learn more, <b><Link href="mailto:hello@zaratan.world">drop us a line</Link></b> or check out our <b><Link href={instagramUrl}>Instagram</Link></b>.</p>
           </div>
+
+          {/* TODO: Add vacancy email signup */}
 
           <br></br>
           <hr></hr>
@@ -98,6 +102,10 @@ export default function ({ images }) {
           </Table>
 
           <p>*Price varies by room</p>
+
+          <br></br>
+
+          <p><i>Sage House is a proud supporter of the <Link href={tongvaUrl}>Tongva Conservancy</Link></i></p>
         </Col>
         <Col />
       </Row>

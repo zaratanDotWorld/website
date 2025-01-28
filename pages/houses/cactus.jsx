@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Alert, Container, Row, Col } from 'react-bootstrap';
 
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
@@ -19,20 +19,20 @@ export async function getStaticProps() {
 export default function ({ images }) {
   return (
     <Container fluid>
+      {/* <br></br>
+      <Alert variant="info" className="center" dismissible>
+        Available February 1 — <Alert.Link href={applyUrl} style={{ textDecoration: 'underline' }}>apply now!</Alert.Link>
+      </Alert> */}
+
       <Row className="p-5">
         <Col />
         <Col md={8} xl={6}>
           <Headpiece
             mainText="Cactus Cottage"
-            subText="The Urban Sanctuary"
+            subText="An Urban Sanctuary"
             icon="&#x1F335;"
             color="blue"
           />
-
-          <br></br>
-          <div className="center">
-            <Button variant="outline-primary" size="md" href={applyUrl}>Apply Now</Button>
-          </div>
         </Col>
         <Col />
       </Row>
@@ -41,7 +41,7 @@ export default function ({ images }) {
         <Col />
         <Col md={8} xl={6}>
           <p>
-            A stunning cottage in the heart of vibrant <b>Highland Park, Los Angeles</b>.
+            A stunning studio, in the heart of vibrant <b>Highland Park, Los Angeles</b>.
             <br></br>
             <br></br>
             This freestanding tiny home features
@@ -62,8 +62,12 @@ export default function ({ images }) {
             and basement storage
             on-site.
           </p>
-          <p><b>Check our <Link href={instagramUrl}>Instagram</Link> for vacancy information.</b></p>
-          <p><i>A proud supporter of the <Link href={tongvaUrl}>Tongva Conservancy</Link></i></p>
+
+          <p>For availability information, <b><Link href="mailto:hello@zaratan.world">drop us a line</Link></b>.</p>
+
+          {/* TODO: Add vacancy email signup */}
+
+          <p><i>Cactus Cottage is a proud supporter of the <Link href={tongvaUrl}>Tongva Conservancy</Link></i></p>
         </Col>
         <Col />
       </Row>
