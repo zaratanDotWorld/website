@@ -1,17 +1,22 @@
 export default function ({ text, url }) {
   return (
-    <a href={url} style={{
-      alignItems:"center",
-      color:"#000",
-      backgroundColor:"#fff",
-      border:"1px solid #ddd",
-      borderRadius:"4px",
-      display:"inline-flex",
-      fontSize:"14px",
-      height:"36px",
-      textDecoration:"none",
-      width:"108px"
-    }}>
+    <a
+      className="m-3"
+      target="_blank"
+      href={url}
+      style={{
+        alignItems:"center",
+        color:"#000",
+        backgroundColor:"#fff",
+        border:"1px solid #ddd",
+        borderRadius:"4px",
+        display:"inline-flex",
+        fontSize:"14px",
+        height:"36px",
+        textDecoration:"none",
+        width:"108px"
+      }}
+    >
       <SlackIcon size="small" />
       {text}
     </a>

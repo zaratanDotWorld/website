@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { kronosapiensUrl } from '../utils/constants';
+import { kronosapiensUrl, supportUrl } from '../utils/constants';
 
 export default function () {
   return (
@@ -9,7 +9,7 @@ export default function () {
       <br></br>
       <Link href="/privacy.html" style={{ fontSize: "14px" }}>Privacy Policy</Link>
       &nbsp;·&nbsp;
-      <Link href="mailto:support@zaratan.world" style={{ fontSize: "14px" }}>Contact Support</Link>
+      <Link href={supportUrl} style={{ fontSize: "14px" }}>Contact Support</Link>
     </div>
   )
 }

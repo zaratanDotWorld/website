@@ -6,6 +6,8 @@ export const applyUrl = "https://zaratan.managebuilding.com/Resident/rental-appl
 export const instagramUrl = "https://www.instagram.com/zaratan.world";
 export const kronosapiensUrl ="https://kronosapiens.github.io"
 export const loginUrl = "https://zaratan.managebuilding.com/Resident/portal";
+export const contactUrl = "mailto:hello@zaratan.world";
+export const supportUrl = "mailto:support@zaratan.world";
 
 // Codebase
 export const repoUrl = "https://github.com/zaratanDotWorld/choreWheel";
@@ -19,6 +21,7 @@ export const thingsInstallUrl = "https://things.mirror.zaratan.world/slack/insta
 // Marketing
 export const mailchimpUrl = "https://mailchi.mp/a69de84158a5/app-interest";
 export const interestUrl = "https://forms.gle/Aeod1bNUq2sDoe2Q8";
+export const slackCommunityUrl = "https://join.slack.com/t/chorewheel-community/shared_invite/zt-2986s4ec6-5YmCmZG3N3kgsAwN~d2PeA";
 export const tongvaUrl = "https://tongva.land/";
 
 // Media (S3)

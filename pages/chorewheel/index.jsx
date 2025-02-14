@@ -96,7 +96,7 @@ export default function ({ images }) {
           <br></br>
 
           <div className="center">
-            <Button variant="primary" size="md" className="m-2" href={quickstartUrl}>✨ Get Started Today ✨</Button>
+            <Button variant="primary" size="md" className="m-2" href="/chorewheel/start">✨ Get Started Today ✨</Button>
             <p><i>90 days free, then $10 / month</i></p>
             <Link href={structuresUrl}>Read the paper</Link>
             &nbsp;·&nbsp;

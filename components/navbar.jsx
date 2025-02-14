@@ -17,14 +17,14 @@ export default function () {
             <NavDropdown title="Chore Wheel App" id="basic-nav-dropdown">
               <NavDropdown.Header>Overview</NavDropdown.Header>
               <NavDropdown.Item href="/chorewheel">&#x1F506; Introduction</NavDropdown.Item>
-              <NavDropdown.Item href={docsUrl}>&#x1F425; Getting Started</NavDropdown.Item>
+              <NavDropdown.Item href="/chorewheel/start">&#x1F425; Getting Started</NavDropdown.Item>
               <NavDropdown.Header>Tools</NavDropdown.Header>
               <NavDropdown.Item href="/chorewheel/chores">&#x1f9e4; Chores</NavDropdown.Item>
               <NavDropdown.Item href="/chorewheel/hearts">&#x1f496; Hearts</NavDropdown.Item>
               <NavDropdown.Item href="/chorewheel/things">&#x1f6d2; Things</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href={blogUrl}>Blog</Nav.Link>
+            <Nav.Link href={blogUrl} target="_blank">Blog</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         {/* <LoginButton /> */}
