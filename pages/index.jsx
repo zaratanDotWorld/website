@@ -22,7 +22,7 @@ export default function () {
         <Col />
         <Col md={8} xl={6}>
           <Headpiece
-            mainText="Zaratan Coliving"
+            mainText="Zaratan"
             subText="Building Better Worlds"
             icon="&#x1F422;"
             color="green"
@@ -39,12 +39,12 @@ export default function () {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            Zaratan is an emerging coliving company in Los Angeles.
+            Zaratan is an <b>emerging coliving company</b> in Los Angeles.
             We build <Link href="/houses/sage">physical houses</Link>
             &nbsp;and <Link href="/chorewheel">pioneering software tools</Link>.
           </h5>
           <h5>
-            Our mission is the creation of beautiful and naturally-affordable housing through creative organization and adaptive reuse.
+            Our mission is the creation of beautiful and naturally-affordable housing through <b>creative organization</b> and <b>adaptive reuse</b>.
           </h5>
           <hr></hr>
           <p><b>We believe that:</b></p>
@@ -69,7 +69,7 @@ export default function () {
             If you <b>need housing</b>, check out <Link href="/houses/sage">Sage House</Link> or <Link href="/houses/cactus">Cactus Cottage</Link>.
           </p>
           <p>
-            If you have housing, but <b>think it could be better</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
+            If you have housing, but <b>think it could be better</b>, check out our <Link href="/chorewheel">coliving apps</Link>.
           </p>
           <p>
             If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl}>Instagram</Link>.

@@ -65,12 +65,12 @@ export default function ({ images }) {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            <b>Chore Wheel</b> is <Link href={structuresUrl}>pioneering software for coliving</Link>, helping communities thrive.
+            <b>Chore Wheel</b> is Zaratan's <Link href={structuresUrl}>pioneering software for coliving</Link>, helping communities thrive.
           </h5>
 
           <hr></hr>
           <p>
-            Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is a family of <b>Slack apps</b> helping people share space:
+            Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is Zaratan's family of <b>Slack apps</b> for helping people share space:
           </p>
           <ul>
             <li><b><Link href="/chorewheel/chores">Chores</Link></b> for fairly sharing tasks, without passive-aggressive sticky notes</li>
@@ -83,9 +83,6 @@ export default function ({ images }) {
             Designed for <b>intentional communities</b>, <b>casual roommates</b>, <b>cohabitating partners</b>, and everything in-between,
             Chore Wheel helps people share the <b>emotional and mental labor</b> of sustaining communities, through streamlined systems you don't have to think about.
             Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for actually <b>being together</b>.
-          </p>
-
-          <p>
             The best part? <b>It's easy to use</b>.
           </p>
 

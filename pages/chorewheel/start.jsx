@@ -59,10 +59,18 @@ export default function () {
       <Row className="p-5 accent-blue">
         <Col />
         <Col md={8} xl={6}>
+          <p>
+            <b>Getting started with Chore Wheel</b> is easy, and takes about <b>20 minutes</b>.
+            To get started, you'll first create a Slack workspace, and then install the tools.
+          </p>
+
           <h5><b>Step 1:</b> Set Up Slack</h5>
           <hr></hr>
 
           <p>
+            <i>If your community is already on Slack, you can skip this step.</i>
+            <br></br>
+            <br></br>
             While household communication <i>can</i> happen through simple groupchats,
             we believe that&nbsp;
             <Link href="https://slackdemo.com/" target="_blank">full-featured platforms like Slack</Link>
@@ -130,7 +138,7 @@ export default function () {
 
           <br></br>
 
-          <h5><b>Step 3:</b> Thrive Forever</h5>
+          <h5><b>Step 3:</b> Start Thriving</h5>
           <hr></hr>
 
           <p>
