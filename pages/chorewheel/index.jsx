@@ -101,11 +101,6 @@ export default function ({ images }) {
             &nbsp;·&nbsp;
             <Link href={repoUrl}>See the code</Link>
           </div>
-
-          <br></br>
-          <br></br>
-
-          <YouTube videoSrc={choreWheelUrl} videoTitle="Chore Wheel Intro" />
         </Col>
         <Col />
       </Row>

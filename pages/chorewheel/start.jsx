@@ -4,8 +4,7 @@ import { Alert, Container, Row, Col, Button } from 'react-bootstrap';
 
 import Headpiece from '../../components/headpiece';
 import SlackButton from '../../components/slack';
-
-import instagramLogo from "../../public/instagram.png";
+import YouTube from '../../components/youtube';
 
 import {
   quickstartUrl,
@@ -18,7 +17,8 @@ import {
   contactUrl,
   supportUrl,
   instagramUrl,
-  structuresUrl
+  structuresUrl,
+  choreWheelUrl
 } from '../../utils/constants';
 
 export async function getStaticProps() {
@@ -132,7 +132,7 @@ export default function () {
 
           <div className="center">
             <small>
-              Chore Wheel is free for <b>90 days</b>, and then costs <b>$10 / month</b> for <i>all</i> of the apps.
+              Chore Wheel is free for <b>90 days</b> (no credit card required), and then <b>$10 / month</b> for <i>all</i> of the apps.
             </small>
           </div>
 
@@ -145,27 +145,20 @@ export default function () {
             Chore Wheel's apps are <b>dynamic</b> and <b>flexible</b>,
             and it can take a few days to fall into a rhythm.
             Once you do, you'll be amazed at how well everything starts to work.
+            If you need any help, the <Link href={docsUrl}><b>project documentation</b></Link> has details of how the apps work and examples for how to use them.
+            Or, just send us <Link href={supportUrl} target="_blank">an email</Link>.
           </p>
 
           <p>
             We'd love to hear about your experience!
             Share your stories (and tag us at <Link href={instagramUrl} target="_blank">@zaratan.world</Link>),
-            or contact us <Link href={contactUrl} target="_blank">via email</Link>.
-            Or, if you're having trouble and need some help, please <Link href={supportUrl} target="_blank">reach out</Link>!
+            or <Link href={contactUrl} target="_blank">contact us</Link>.
           </p>
 
           <br></br>
 
-          <Link href={instagramUrl} target="_blank">
-            <Image
-              width="40"
-              height="40"
-              src={instagramLogo}
-              alt="Instagram logo"
-              style={{ margin: "auto", display: "block" }}
-            />
-          </Link>
-          </Col>
+          <YouTube videoSrc={choreWheelUrl} videoTitle="Chore Wheel Intro" />
+        </Col>
         <Col />
       </Row>
 
@@ -181,6 +174,14 @@ export default function () {
             No! While Chore Wheel was initially designed for coliving communities,
             the tools can be used by any group looking to collaborate more effectively.
             Chore Wheel has been used by organizations large and small to help support their operations.
+          </p>
+
+          <p>
+            <b>Isn't using Slack a lot of extra work?</b>
+            <br></br>
+            Definitely not! The apps are designed to be simple and easy to use, with basic tasks taking no more than a few clicks.
+            Compare the apps to a whiteboard chore chart, where you need to physically walk over, take a marker, and mark off your task.
+            Using your phone to claim a chore is not that much more complicated — arguably, it's easier.
           </p>
 
           <p>
