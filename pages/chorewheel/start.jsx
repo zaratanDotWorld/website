@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Alert, Container, Row, Col, Button } from 'react-bootstrap';
 
 import Headpiece from '../../components/headpiece';
@@ -88,13 +87,11 @@ export default function () {
             To get started with Chore Wheel, first create a Slack workspace.
           </p>
 
-          <div className="center">
+          <div className="center py-3">
             <Button variant="primary" href="https://slack.com/get-started" target="_blank">
               Create Your Free Workspace
             </Button>
           </div>
-
-          <br></br>
 
           <div className="center">
             <small>
@@ -124,7 +121,7 @@ export default function () {
             See the <Link href={quickstartUrl}><b>getting started guide</b></Link> for more details about the apps and how to use them.
           </p>
 
-          <div className="center my-2">
+          <div className="center py-2">
             <SlackButton text="Get Chores" url={choresInstallUrl} />
             <SlackButton text="Get Hearts" url={heartsInstallUrl} />
             <SlackButton text="Get Things" url={thingsInstallUrl} />

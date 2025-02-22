@@ -61,7 +61,7 @@ export default function ({ images }) {
         <Col />
       </Row>
 
-      <Row className="p-5 accent-blue">
+      <Row className="pt-5 accent-blue">
         <Col />
         <Col md={8} xl={6}>
           <h5>
@@ -86,11 +86,40 @@ export default function ({ images }) {
             The best part? <b>It's easy to use</b>.
           </p>
 
+          <hr></hr>
+          </Col>
+        <Col />
+      </Row>
+
+      <Row className="accent-blue px-5">
+        <Col/>
+        <Col md={4} xl={3}>
+          <h5>&#x1f62d; Old Way</h5>
+          <ul>
+            <li>Dirty dishes</li>
+            <li>Holding grudges</li>
+            <li>Endless meetings</li>
+            <li>Frustration</li>
+          </ul>
+        </Col>
+        <Col md={4} xl={3}>
+          <h5>&#x1f929; New Way</h5>
+          <ul>
+            <li>Clean sinks</li>
+            <li>Fun and engagement</li>
+            <li>Clear process</li>
+            <li>Empowerment</li>
+          </ul>
+        </Col>
+        <Col/>
+      </Row>
+
+      <Row className="pb-5 accent-blue">
+        <Col />
+        <Col md={8} xl={6}>
           <p>
             Spend less time <b>fighting with your roommates</b> and more time <b>living your life</b>.
           </p>
-
-          <br></br>
 
           <div className="center">
             <Button variant="primary" size="md" className="m-2" href="/chorewheel/start">✨ Get Started Today ✨</Button>
