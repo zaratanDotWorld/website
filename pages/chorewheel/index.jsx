@@ -97,7 +97,7 @@ export default function ({ images }) {
           <h5>&#x1f62d; Old Way</h5>
           <ul>
             <li>Dirty dishes</li>
-            <li>Holding grudges</li>
+            <li>Cliques and drama</li>
             <li>Endless meetings</li>
             <li>Frustration</li>
           </ul>

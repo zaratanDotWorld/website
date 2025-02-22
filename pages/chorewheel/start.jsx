@@ -45,8 +45,8 @@ export default function () {
             <b>You're making a great choice!</b> Groups using Chore Wheel:<br/>
             <br></br>
             ✅ Spend ~75% less time on household tasks*<br/>
-            ✅ Have less personal conflicts and better quality of life<br/>
-            ✅ Enjoy big savings of time and money through living together
+            ✅ Have fewer personal conflicts and better quality of life<br/>
+            ✅ Enjoy large savings of time and money through living together
             <br></br>
             <br></br>
             <small><i>*Sage House residents have one monthly meeting and do about one hour of chores per week.</i></small>
@@ -59,8 +59,8 @@ export default function () {
         <Col />
         <Col md={8} xl={6}>
           <p>
-            <b>Getting started with Chore Wheel</b> is easy, and takes about <b>20 minutes</b>.
-            To get started, you'll first create a Slack workspace, and then install the tools.
+            <b>Getting started</b> with Chore Wheel is easy, and takes about <b>20 minutes</b>.
+            You'll first create a Slack workspace, and then install the tools.
           </p>
 
           <h5><b>Step 1:</b> Set Up Slack</h5>
@@ -70,16 +70,16 @@ export default function () {
             <i>If your community is already on Slack, you can skip this step.</i>
             <br></br>
             <br></br>
-            While household communication <i>can</i> happen through simple groupchats,
+            While household communication <i>can</i> happen through simple group-chats,
             we believe that&nbsp;
             <Link href="https://slackdemo.com/" target="_blank">full-featured platforms like Slack</Link>
-            &nbsp;are better foundations for rich interactions.
+            &nbsp;are better foundations for rich group interactions.
             With Slack, you can:
           </p>
           <ul>
             <li><b>Organize conversations</b> in different channels (#projects, #social, etc)</li>
             <li><b>Communicate seamlessly</b> on multiple devices, including desktop and mobile</li>
-            <li><b>Integrate apps</b> (like ours!) to super-charge your community</li>
+            <li><b>Integrate apps</b> (like ours!) to super-charge your capabilities</li>
           </ul>
 
           <p>
@@ -182,10 +182,18 @@ export default function () {
           </p>
 
           <p>
-            <b>Why are you so confident in Chore Wheel?</b>
+            <b>Won't tracking things add a lot of extra stress?</b>
+            <br></br>
+            Just the opposite!
+            Right now, someone in your group is spending a lot of mental energy keeping track of who's doing what.
+            Chore Wheel takes that burden off of the most generous individuals, while making sure people get recognized for their contributions.
+          </p>
+
+          <p>
+            <b>Why are you so confident?</b>
             <br></br>
             Chore Wheel is the result of years of research and development,
-            mixing both well-known economic theory and more progressive ideas around design and interaction.
+            mixing established economic theory with contemporary thinking on design and interaction.
             Chore Wheel has been the subject of a peer-reviewed research paper,
             which you can find <Link href={structuresUrl} target="_blank">here</Link>.
           </p>

@@ -22,7 +22,7 @@ export default function () {
         <Col />
         <Col md={8} xl={6}>
           <Headpiece
-            mainText="Zaratan"
+            mainText="Zaratan Coliving"
             subText="Building Better Worlds"
             icon="&#x1F422;"
             color="green"
@@ -43,11 +43,13 @@ export default function () {
             We build <Link href="/houses/sage">physical houses</Link>
             &nbsp;and <Link href="/chorewheel">pioneering software tools</Link>.
           </h5>
-          <h5>
-            Our mission is the creation of beautiful and naturally-affordable housing through <b>creative organization</b> and <b>adaptive reuse</b>.
-          </h5>
           <hr></hr>
-          <p><b>We believe that:</b></p>
+          <p>
+            Our mission is the creation of beautiful and naturally-affordable housing through <b>creative organization</b> and <b>adaptive reuse</b>.
+          </p>
+          <p>
+            <b>We believe that:</b>
+          </p>
           <ul>
             <li><b>Housing</b> is not a luxury</li>
             <li><b>Home</b> is a place of empowerment</li>
@@ -69,7 +71,7 @@ export default function () {
             If you <b>need housing</b>, check out <Link href="/houses/sage">Sage House</Link> or <Link href="/houses/cactus">Cactus Cottage</Link>.
           </p>
           <p>
-            If you have housing, but <b>think it could be better</b>, check out our <Link href="/chorewheel">coliving apps</Link>.
+            If you have housing, but <b>think it could be better</b>, check out our <Link href="/chorewheel">Chore Wheel</Link>.
           </p>
           <p>
             If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl}>Instagram</Link>.
