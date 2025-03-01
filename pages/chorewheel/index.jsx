@@ -35,8 +35,13 @@ export default function ({ images }) {
   return (
     <Container fluid>
       <br></br>
-      <Alert variant="info" className="center" dismissible>
-        Live with others? <Alert.Link href="https://forms.gle/j1UNiwBPGTEueJXx6" style={{ textDecoration: 'underline' }}>Share your experience</Alert.Link>
+      <Alert variant="info" className="center">
+        <Alert.Link
+          href="https://protocolized.summerofprotocols.com/p/chore-protocols"
+          style={{ textDecoration: 'underline' }}
+        >
+          Read "Chore Protocols" in <i>Protocolized Magazine</i>
+        </Alert.Link>
       </Alert>
 
       <Row className="p-5 center">
