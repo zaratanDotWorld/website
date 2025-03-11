@@ -3,16 +3,15 @@ import { Alert, Container, Row, Col, Table, Button } from 'react-bootstrap';
 
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
-import YouTube from '../../components/youtube';
+import SignupForm from '../../components/mailchimp';
 import SlackButton from '../../components/slack';
 
 import { getImages } from '../../utils/s3';
 import {
   repoUrl,
-  quickstartUrl,
   metagovUrl,
-  choreWheelUrl,
   structuresUrl,
+  mailchimpAppInterest,
   choresInstallUrl,
   heartsInstallUrl,
   thingsInstallUrl,
@@ -49,7 +48,7 @@ export default function ({ images }) {
         <Col md={8} xl={6}>
          <Headpiece
             mainText="Chore Wheel"
-            subText="Coliving, Simplified"
+            subText="Community Made Easier"
             // icon="☀️"
             icon="&#x1F506;"
             color="blue"
@@ -61,6 +60,12 @@ export default function ({ images }) {
             <i>"Far more practical and functional than [what] I've experienced in group living before."</i>
             <br></br>
             <b>- Molly B.</b>
+          </p>
+
+          <p>
+            <i>"This is a one in a hundred project."</i>
+            <br></br>
+            <b>- Victor R.</b>
           </p>
         </Col>
         <Col />
@@ -86,12 +91,27 @@ export default function ({ images }) {
 
           <p>
             Designed for <b>intentional communities</b>, <b>casual roommates</b>, <b>cohabitating partners</b>, and everything in-between,
-            Chore Wheel helps people share the <b>emotional and mental labor</b> of sustaining communities, through streamlined systems you don't have to think about.
+            Chore Wheel helps people share the <b>emotional and mental labor</b> of sustaining communities, through simple and streamlined systems you don't have to think about.
             Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for actually <b>being together</b>.
-            The best part? <b>It's easy to use</b>.
           </p>
 
+          <p>
+            Spend less time <b>fighting with your roommates</b> and more time <b>living your life</b>.
+          </p>
+
+          <div className="center">
+            <Button variant="primary" size="md" className="m-2" href="/chorewheel/start">✨ Get Started Today ✨</Button>
+            <p><i><b>90 days</b> free, then <b>$10 / mo</b></i></p>
+
+
+            <Link href={structuresUrl}>Read the paper</Link>
+            &nbsp;·&nbsp;
+            <Link href={metagovUrl}>Watch the talk</Link>
+            &nbsp;·&nbsp;
+            <Link href={repoUrl}>See the code</Link>
+          </div>
           <hr></hr>
+          <p>Chore Wheel turns <b>stress</b> and <b>frustration</b> into <b>empowerment</b> and <b>connection</b>.</p>
           </Col>
         <Col />
       </Row>
@@ -111,7 +131,7 @@ export default function ({ images }) {
           <h5>&#x1f929; New Way</h5>
           <ul>
             <li>Clean sinks</li>
-            <li>Fun and engagement</li>
+            <li>Fun and connection</li>
             <li>Clear process</li>
             <li>Empowerment</li>
           </ul>
@@ -122,18 +142,10 @@ export default function ({ images }) {
       <Row className="pb-5 accent-blue">
         <Col />
         <Col md={8} xl={6}>
-          <p>
-            Spend less time <b>fighting with your roommates</b> and more time <b>living your life</b>.
-          </p>
-
           <div className="center">
-            <Button variant="primary" size="md" className="m-2" href="/chorewheel/start">✨ Get Started Today ✨</Button>
-            <p><i>90 days free, then $10 / month</i></p>
-            <Link href={structuresUrl}>Read the paper</Link>
-            &nbsp;·&nbsp;
-            <Link href={metagovUrl}>Watch the talk</Link>
-            &nbsp;·&nbsp;
-            <Link href={repoUrl}>See the code</Link>
+            <br></br>
+            <i>Still have questions?</i>
+            <SignupForm text="Get more info" placeholder="~ email address ~" tags={mailchimpAppInterest} />
           </div>
         </Col>
         <Col />
