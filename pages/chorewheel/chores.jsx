@@ -5,9 +5,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Headpiece from '../../components/headpiece';
 import Carousel from '../../components/carousel';
 import SlackButton from '../../components/slack';
+import YouTube from '../../components/youtube';
 
 import { getImages } from '../../utils/s3';
-import { choresInstallUrl, quickstartUrl } from '../../utils/constants';
+import { choresInstallUrl, quickstartUrl, choresAppDemoUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Chores";
@@ -47,14 +48,14 @@ export default function ({ images }) {
           </p>
 
           <p>
-            Stop fighting over dishes. <Link href={quickstartUrl}>Get started today.</Link> &#x2728;
+            Stop fighting over dishes. <Link href="/chorewheel/start">Get started today.</Link> &#x2728;
           </p>
           <hr></hr>
         </Col>
         <Col />
       </Row>
 
-      <Row className="accent-green pb-5 px-5">
+      <Row className="accent-green pb-2 px-5">
         <Col/>
         <Col md={5} xl={3}>
           <h5>&#x1f62d; Old Way</h5>
@@ -75,6 +76,14 @@ export default function ({ images }) {
           </ul>
         </Col>
         <Col/>
+      </Row>
+
+      <Row className="accent-green pb-5 px-5">
+        <Col />
+        <Col md={10} xl={6}>
+          <YouTube videoSrc={choresAppDemoUrl} videoTitle="Chores App Demo" />
+        </Col>
+        <Col />
       </Row>
 
       <Row className="p-4">

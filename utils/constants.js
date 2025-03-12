@@ -34,6 +34,7 @@ export const joysOfColivingUrl = "https://www.youtube.com/embed/RLovItiq8Do";
 export const choreWheelUrl = "https://www.youtube.com/embed/OMfJdXoh04k";
 export const sageHouseFullUrl = "https://www.youtube.com/embed/uS-xdC4DJKg";
 export const buildingSageUrl = "https://www.youtube.com/embed/jiVFy7CgJWU";
+export const choresAppDemoUrl = "https://www.youtube.com/embed/VuBfmSGrEV8";
 
 // Media (Other)
 export const supernuclearUrl = "https://supernuclear.substack.com/p/case-study-sage-house";
