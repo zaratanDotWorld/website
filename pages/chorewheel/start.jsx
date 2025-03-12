@@ -17,7 +17,10 @@ import {
   supportUrl,
   instagramUrl,
   structuresUrl,
-  choreWheelUrl
+  choreWheelUrl,
+  bookUrlOstrom,
+  bookUrlBeer,
+  bookUrlLaloux
 } from '../../utils/constants';
 
 export async function getStaticProps() {
@@ -36,7 +39,7 @@ export default function () {
             mainText="Getting Started"
             subText="To Infinity, and Beyond"
             icon="&#x1F680;"
-            color="blue"
+            color="green"
           />
 
           <br></br>
@@ -55,7 +58,7 @@ export default function () {
         <Col />
       </Row>
 
-      <Row className="p-5 accent-blue">
+      <Row className="p-5 accent-green">
         <Col />
         <Col md={8} xl={6}>
           <p>
@@ -129,7 +132,7 @@ export default function () {
 
           <div className="center">
             <small>
-              Chore Wheel is free for <b>90 days</b> (no credit card required), and then <b>$10 / month</b> for <i>all</i> of the apps.
+              Chore Wheel is free for <b>90 days</b> (no credit card required), and then <b>$10 / mo</b> for <i>all</i> of the apps.
             </small>
           </div>
 
@@ -166,6 +169,18 @@ export default function () {
           <hr></hr>
 
           <p>
+            <b>What were the influences for Chore Wheel?</b>
+            <br></br>
+            Chore Wheel was influenced by major ideas in economics and computer science,
+            as well as by newer thinking on organizational design and leadership.
+            Specifically, we were influenced by the work of Nobel Laureate Elinor Ostrom (<Link href={bookUrlOstrom}>Governing the Commons</Link>),
+            Stafford Beer (<Link href={bookUrlBeer}>Designing Freedom</Link>),
+            and Frederic Laloux (<Link href={bookUrlLaloux}>Reinventing Organizations</Link>).
+            While Chore Wheel might seem like a "tech" solution to a human problem,
+            it's actually the result of a lot of careful thinking about how people work together.
+          </p>
+
+          <p>
             <b>Is Chore Wheel only for physical housing?</b>
             <br></br>
             No! While Chore Wheel was initially designed for coliving communities,
@@ -178,14 +193,15 @@ export default function () {
             <br></br>
             Definitely not! The apps are designed to be simple and easy to use, with basic tasks taking no more than a few clicks.
             Compare the apps to a whiteboard chore chart, where you need to physically walk over, take a marker, and mark off your task.
-            Using your phone to claim a chore is not that much more complicated — arguably, it's easier.
+            Using your phone to claim a chore is not that much more complicated — in some ways, it's easier.
+            Plus, Slack gives you a lot more flexibility for how you communicate with your group compared to a group-chat.
           </p>
 
           <p>
-            <b>Won't tracking things add a lot of extra stress?</b>
+            <b>Won't tracking things add extra stress?</b>
             <br></br>
             Just the opposite!
-            Right now, someone in your group is spending a lot of mental energy keeping track of who's doing what.
+            Right now, someone in your group is spending a lot of mental energy remembering who's been doing what.
             Chore Wheel takes that burden off of the most generous individuals, while making sure people get recognized for their contributions.
           </p>
 
@@ -194,6 +210,7 @@ export default function () {
             <br></br>
             Chore Wheel is the result of years of research and development,
             mixing established economic theory with contemporary thinking on design and interaction.
+            Plus, the majority of groups who have tried Chore Wheel use it to this day!
             Chore Wheel has been the subject of a peer-reviewed research paper,
             which you can find <Link href={structuresUrl} target="_blank">here</Link>.
           </p>

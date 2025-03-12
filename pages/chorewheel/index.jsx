@@ -55,6 +55,7 @@ export default function ({ images }) {
           />
 
           <br></br>
+          <br></br>
 
           <p>
             <i>"Far more practical and functional than [what] I've experienced in group living before."</i>

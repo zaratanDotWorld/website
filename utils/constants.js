@@ -43,3 +43,7 @@ export const manticoreUrl = "https://en.wikipedia.org/wiki/Manticore";
 export const structuresUrl = "https://ssrn.com/abstract=4856267";
 export const thesisUrl = "https://ssrn.com/abstract=3359677";
 export const choreWheelDeck = "https://docs.google.com/presentation/d/e/2PACX-1vTEpnw9C_uLeqHlRsiqUvbV0cDfjjTWC9FwIJ_adNRIQGcyv0WFLNNMotU1qDDWUkW6KO0ckQ-PqA1Q/pub"
+
+export const bookUrlOstrom = "https://www.amazon.com/Governing-Commons-Evolution-Institutions-Collective/dp/0521405998";
+export const bookUrlBeer = "https://www.amazon.com/Designing-Freedom-CBC-Massey-Lecture/dp/08878454797";
+export const bookUrlLaloux = "https://www.amazon.com/Reinventing-Organizations-Frederic-Laloux/dp/2960133501";
