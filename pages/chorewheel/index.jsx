@@ -112,7 +112,7 @@ export default function ({ images }) {
             <Link href={repoUrl}>See the code</Link>
           </div>
           <hr></hr>
-          <p>Chore Wheel turns <b>stress</b> and <b>frustration</b> into <b>empowerment</b> and <b>connection</b>.</p>
+          <p>Chore Wheel turns <b>stress</b> and <b>frustration</b> into <b>empowerment</b> and <b>connection</b>, by creating houses that practically <b>run themselves</b>.</p>
           </Col>
         <Col />
       </Row>

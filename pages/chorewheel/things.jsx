@@ -38,7 +38,7 @@ export default function ({ images }) {
       <Row className="accent-blue pt-5 px-5">
         <Col />
         <Col md={10} xl={6}>
-          <h5><b>Things is Chore Wheel's spending system</b>, helping people manage shared funds.</h5>
+          <h5><b>Things is Zaratan's spending system</b>, helping people manage shared funds.</h5>
           <p>
             Things lets folks co-create a list of shared staples.
             When supplies run low, anyone can buy more.&nbsp;

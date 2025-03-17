@@ -39,16 +39,25 @@ export default function ({ images }) {
       <Row className="accent-green pt-5 px-5">
         <Col />
         <Col md={10} xl={6}>
-          <h5><b>Chores is Chore Wheel's chore system</b>, making dirty dishes and passive-aggressive sticky notes a thing of the past.</h5>
+          <h5><b>Chores is Zaratan's chore system</b>, making dirty dishes and passive-aggressive sticky notes a thing of the past.</h5>
+          <hr></hr>
+
           <p>
             Chores helps folks spend less time doing chores, and less time talking about chores.
-            Instead of <b>inflexible schedules</b> or <b>inconsistent <Link href="/chorewheel/hearts">bragging boards</Link></b>, people do chores for points.
-            Everyone owes 100 points per month, and chores gain points the longer they go undone.
+            Instead of <b>inflexible schedules</b> or <b>inconsistent bragging boards</b>, people do chores for points.
+            Everyone owes <b>100 points per month</b>, and chores gain points the longer they go undone.
+          </p>
+
+          <p>
+            Just enter in the tasks that you want done, and they'll start accumulating points automatically.
+            Folks can pitch in when and where it works for them — Chores keeps track of everything.
+            No meetings, no arguments, no sticky notes.
             It really works, with over <b>2,000 chores</b> claimed to-date.
           </p>
 
           <p>
-            Stop fighting over dishes. <Link href="/chorewheel/start">Get started today.</Link> &#x2728;
+            Help your house run itself.&nbsp;
+            <Link href="/chorewheel/start">Get started today.</Link>&#x2728;
           </p>
           <hr></hr>
         </Col>

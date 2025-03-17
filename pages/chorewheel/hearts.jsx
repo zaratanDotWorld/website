@@ -38,7 +38,7 @@ export default function ({ images }) {
       <Row className="accent-red pt-5 px-5">
         <Col />
         <Col md={10} xl={6}>
-          <h5><b>Hearts is Chore Wheel's accountability system</b>, helping people establish expectations, recognize contributions, and resolve conflicts.</h5>
+          <h5><b>Hearts is Zaratan's accountability system</b>, helping people establish expectations, recognize contributions, and resolve conflicts.</h5>
           <p>
             Hearts helps hold people accountable to shared commitments, while encouraging sponteneity, and centering personal growth.
             Hearts <b>supercharges bragging boards</b>, and supports fair and transparent resolution to interpersonal conflicts.

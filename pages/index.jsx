@@ -51,6 +51,10 @@ export default function () {
           </h5>
           <hr></hr>
           <p>
+            We offer physical housing at <Link href="/houses/sage">Sage House</Link>,
+            and community governance tools through <Link href="/chorewheel">Chore Wheel</Link>.
+          </p>
+          <p>
             Our mission is the creation of beautiful and naturally-affordable housing through <b>creative organization</b> and <b>adaptive reuse</b>.
           </p>
           <p>
