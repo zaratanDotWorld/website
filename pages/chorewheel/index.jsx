@@ -76,7 +76,7 @@ export default function ({ images }) {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            <b>Chore Wheel</b> is Zaratan's <Link href={structuresUrl}>pioneering software for coliving</Link>, helping communities thrive.
+            <b>Chore Wheel</b> is Zaratan's <Link href={structuresUrl}>pioneering software for coliving</Link>, turning unspoken expectations into shared agreements.
           </h5>
 
           <hr></hr>
