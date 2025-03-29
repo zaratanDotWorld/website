@@ -39,6 +39,9 @@ export default function ({ images }) {
         <Col />
         <Col md={10} xl={6}>
           <h5><b>Hearts is Zaratan's accountability system</b>, helping people establish expectations, recognize contributions, and resolve conflicts.</h5>
+
+          <hr></hr>
+
           <p>
             Hearts helps hold people accountable to shared commitments, while encouraging sponteneity, and centering personal growth.
             Hearts <b>supercharges bragging boards</b>, and supports fair and transparent resolution to interpersonal conflicts.
@@ -47,6 +50,7 @@ export default function ({ images }) {
           <p>
             Make accountability fun and easy. <Link href={quickstartUrl}>Get started today.</Link> &#x2728;
           </p>
+
           <hr></hr>
         </Col>
         <Col />

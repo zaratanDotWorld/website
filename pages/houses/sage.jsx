@@ -89,15 +89,16 @@ export default function ({ images }) {
 
           <Table hover responsive style={{"--bs-table-bg": "rgba(0, 0, 0, 0.0)"}}>
             <thead>
-              <tr><th></th><th>Sage</th><th>Craigslist</th></tr>
+              <tr><th></th><th>Sage</th><th>Other Coliving</th><th>Craigslist</th></tr>
             </thead>
             <tbody>
-              <tr><th>Rent</th><td>$1,200*</td><td>$1,050</td></tr>
-              <tr><th>Utilities</th><td>Included</td><td>$80</td></tr>
-              <tr><th>Supplies</th><td>Included</td><td>$60</td></tr>
-              <tr><th>Food Staples</th><td>Included</td><td>$120</td></tr>
-              <tr><th>Internet</th><td>Included</td><td>$40</td></tr>
-              <tr><th>Total</th><td style={{backgroundColor: "#00ff7f33"}}>$1,200</td><td>$1,350</td></tr>
+              <tr><th>Rent</th><td>$1,200*</td><td>$1,250</td><td>$1,050</td></tr>
+              <tr><th>Utilities</th><td>Included</td><td>Included</td><td>$80</td></tr>
+              <tr><th>Supplies</th><td>Included</td><td>Included</td><td>$60</td></tr>
+              <tr><th>Food Staples</th><td>Included</td><td>$120</td><td>$120</td></tr>
+              <tr><th>Internet</th><td>Included</td><td>Included</td><td>$40</td></tr>
+              <tr><th>Membership Fee</th><td>$0</td><td>$150</td><td>$0</td></tr>
+              <tr><th>Total</th><td style={{backgroundColor: "#00ff7f33"}}>$1,200</td><td>$1,620</td><td>$1,350</td></tr>
             </tbody>
           </Table>
 

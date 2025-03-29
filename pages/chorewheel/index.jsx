@@ -76,7 +76,7 @@ export default function ({ images }) {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            <b>Chore Wheel</b> is Zaratan's <Link href={structuresUrl}>pioneering software for coliving</Link>, turning unspoken expectations into shared agreements.
+            <b>Chore Wheel</b> is Zaratan's suite of <Link href={structuresUrl}>community governance tools</Link>, turning <b>unspoken expectations</b> into <b>shared agreements</b>.
           </h5>
 
           <hr></hr>
@@ -84,7 +84,7 @@ export default function ({ images }) {
             Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is Zaratan's family of <b>Slack apps</b> for helping people share space:
           </p>
           <ul>
-            <li><b><Link href="/chorewheel/chores">Chores</Link></b> for fairly sharing tasks, without passive-aggressive sticky notes</li>
+            <li><b><Link href="/chorewheel/chores">Chores</Link></b> for fairly sharing tasks, without schedules or passive-aggressive sticky notes</li>
             <li><b><Link href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability, resolving conflict <i>without</i> drama</li>
             <li><b><Link href="/chorewheel/things">Things</Link></b> for group purchasing, avoiding spreadsheets and Venmo requests</li>
             <li>And more to come...</li>
@@ -92,7 +92,7 @@ export default function ({ images }) {
 
           <p>
             Designed for <b>intentional communities</b>, <b>casual roommates</b>, <b>cohabitating partners</b>, and everything in-between,
-            Chore Wheel helps people share the <b>emotional and mental labor</b> of sustaining communities, through simple and streamlined systems you don't have to think about.
+            Chore Wheel helps people share the <b>emotional</b> and <b>mental labor</b> of sustaining communities, through simple and streamlined systems you don't have to think about.
             Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for actually <b>being together</b>.
           </p>
 
@@ -111,8 +111,13 @@ export default function ({ images }) {
             &nbsp;·&nbsp;
             <Link href={repoUrl}>See the code</Link>
           </div>
+
           <hr></hr>
-          <p>Chore Wheel turns <b>stress</b> and <b>frustration</b> into <b>empowerment</b> and <b>connection</b>, by creating houses that practically <b>run themselves</b>.</p>
+
+          <p>
+            Chore Wheel turns <b>stress</b> and <b>frustration</b> into <b>empowerment</b> and <b>connection</b>.
+          </p>
+
           </Col>
         <Col />
       </Row>
@@ -123,8 +128,8 @@ export default function ({ images }) {
           <h5>&#x1f62d; Old Way</h5>
           <ul>
             <li>Dirty dishes</li>
-            <li>Cliques and drama</li>
-            <li>Endless meetings</li>
+            <li>Opaque hierarchy</li>
+            <li>Long meetings</li>
             <li>Frustration</li>
           </ul>
         </Col>
@@ -132,8 +137,8 @@ export default function ({ images }) {
           <h5>&#x1f929; New Way</h5>
           <ul>
             <li>Clean sinks</li>
-            <li>Fun and connection</li>
-            <li>Clear process</li>
+            <li>Clarity and connection</li>
+            <li>Flexible process</li>
             <li>Empowerment</li>
           </ul>
         </Col>
@@ -145,8 +150,8 @@ export default function ({ images }) {
         <Col md={8} xl={6}>
           <div className="center">
             <br></br>
-            <i>Still have questions?</i>
-            <SignupForm text="Get more info" placeholder="~ email address ~" tags={mailchimpAppInterest} />
+            <i>Have more questions?</i>
+            <SignupForm text="Get more answers" placeholder="~ email address ~" tags={mailchimpAppInterest} />
           </div>
         </Col>
         <Col />

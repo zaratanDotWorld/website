@@ -169,7 +169,7 @@ export default function () {
               </p>
               <p>
                 Returning to the United States, Daniel went to New York City and into technology, earning a master's degree in Quantitative Social Science at Columbia University, <Link href={thesisUrl}>researching voting systems</Link>.
-                Starting his career as a machine learning engineer, he soon pivoted to mechanism design, as a research engineer at the pioneering future-of-work project <Link href="https://colony.io">Colony</Link> (where he still actively contributes).
+                Starting his career as a machine learning engineer, he soon pivoted to mechanism design, as a research engineer at the pioneering future-of-work project <Link href="https://colony.io">Colony</Link>.
                 In this role, Daniel gained a deeper understanding of the skills needed to design and implement complex systems.
               </p>
               <p>

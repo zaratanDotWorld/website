@@ -39,6 +39,9 @@ export default function ({ images }) {
         <Col />
         <Col md={10} xl={6}>
           <h5><b>Things is Zaratan's spending system</b>, helping people manage shared funds.</h5>
+
+          <hr></hr>
+
           <p>
             Things lets folks co-create a list of shared staples.
             When supplies run low, anyone can buy more.&nbsp;
@@ -48,6 +51,7 @@ export default function ({ images }) {
           <p>
             Help your house run itself. <Link href={quickstartUrl}>Get started today.</Link> &#x2728;
           </p>
+
           <hr></hr>
         </Col>
         <Col />

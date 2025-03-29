@@ -45,35 +45,30 @@ export default function () {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            Zaratan is an <b>emerging coliving company</b> in Los Angeles.
+            Zaratan is an <b>emerging coliving company</b> in Los Angeles, pursuing <b>housing abundance</b>.
             We build <Link href="/houses/sage">physical houses</Link>
             &nbsp;and <Link href="/chorewheel">pioneering software tools</Link>.
           </h5>
+
           <hr></hr>
-          <p>
-            We offer physical housing at <Link href="/houses/sage">Sage House</Link>,
-            and community governance tools through <Link href="/chorewheel">Chore Wheel</Link>.
-          </p>
-          <p>
-            Our mission is the creation of beautiful and naturally-affordable housing through <b>creative organization</b> and <b>adaptive reuse</b>.
-          </p>
-          <p>
-            <b>We believe that:</b>
-          </p>
-          <ul>
-            <li><b>Housing</b> is not a luxury</li>
-            <li><b>Home</b> is a place of empowerment</li>
-            <li><b>Community</b> cannot be bought</li>
-            <li><b>Rules</b> can be simple</li>
-            <li><b>Work</b> should be valued</li>
-            <li><b>Conservation</b> starts at home</li>
-          </ul>
 
           <p>
-            We're looking for people who are <b>friendly, creative, and reliable</b>.
-            We keep prices low, and ask residents to help run their houses.
-            Embrace the opportunity, and this could be one of the best experiences of your life.
+            Zaratan creates naturally-affordable housing by converting <b>beautiful, old buildings</b> into <b>high-density coliving</b>,
+            and <b>operating them dynamically</b> with the help of <Link href="/chorewheel">Chore Wheel</Link>, our open-source suite of <b>community governance tools</b>.
           </p>
+
+          <p>
+            We envision a world of <b>abundant housing</b> and <b>accessible community</b>.
+            We believe that:
+          </p>
+          <ul>
+            <li><b>Home</b> is a place of empowerment</li>
+            <li><b>Housing</b> is not a luxury</li>
+            <li><b>Work</b> should be valued</li>
+            <li><b>Community</b> cannot be bought</li>
+            <li><b>Rules</b> can be simple</li>
+            <li><b>Conservation</b> starts at home</li>
+          </ul>
 
           <hr></hr>
           <p><b>Next steps:</b></p>
@@ -81,7 +76,7 @@ export default function () {
             If you <b>need housing</b>, check out <Link href="/houses/sage">Sage House</Link> or <Link href="/houses/cactus">Cactus Cottage</Link>.
           </p>
           <p>
-            If you have housing, but <b>think it could be better</b>, check out our <Link href="/chorewheel">Chore Wheel</Link>.
+            If you have housing, but <b>want better vibes</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
           </p>
           <p>
             If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl}>Instagram</Link>.
