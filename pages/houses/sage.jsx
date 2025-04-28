@@ -5,9 +5,10 @@ import { Alert, Container, Row, Col, Table } from 'react-bootstrap';
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
 import YouTube from '../../components/youtube';
+import SignupForm from '../../components/mailchimp';
 
 import { getImages } from '../../utils/s3';
-import { instagramUrl, tongvaUrl, applyUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl, structuresUrl } from '../../utils/constants';
+import { instagramUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl, mailchimpSageWaitlist } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Sage House";
@@ -58,11 +59,13 @@ export default function ({ images }) {
           <div className="center">
             <p>
               <em>As seen on <Link href={nbcUrl}>NBC4</Link> and <Link href={supernuclearUrl}>Supernuclear</Link></em>
-              <br></br>
-              <br></br>
+            </p>
+
+            <p>
               A beautifully-restored 1905 Craftsman, in the heart of vibrant <b>Highland Park, Los Angeles</b>.
-              <br></br>
-              <br></br>
+            </p>
+
+            <p>
               This nine-bedroom home features
               hardwood floors,
               a restaurant-style kitchen,
@@ -76,10 +79,14 @@ export default function ({ images }) {
               guest room,
               and four full bathrooms.
             </p>
-            <p>Rooms open up periodically. To learn more, <b><Link href="mailto:hello@zaratan.world">drop us a line</Link></b> or check out our <b><Link href={instagramUrl}>Instagram</Link></b>.</p>
-          </div>
 
-          {/* TODO: Add vacancy email signup */}
+            <p>
+              Rooms open up periodically.
+              To get notified, follow our <b><Link href={instagramUrl}>Instagram</Link></b> or sign up for our <b>waitlist</b>:
+            </p>
+
+            <SignupForm text="Join the waitlist" placeholder="~ email address ~" tags={mailchimpSageWaitlist} />
+          </div>
 
           <br></br>
           <hr></hr>
