@@ -42,7 +42,7 @@ export default function ({ images }) {
             <p>
               <i>"This is the best living situation I've ever had"</i>
               <br></br>
-              <b>- Haven Y.</b>
+              <b>- Haven</b>, resident
             </p>
           </div>
 
@@ -82,10 +82,10 @@ export default function ({ images }) {
 
             <p>
               Rooms open up periodically.
-              To get notified, follow our <b><Link href={instagramUrl}>Instagram</Link></b> or sign up for our <b>waitlist</b>:
+              To get notified, follow our <b><Link href={instagramUrl}>Instagram</Link></b> or join our <b>waitlist</b>:
             </p>
 
-            <SignupForm text="Join the waitlist" placeholder="~ email address ~" tags={mailchimpSageWaitlist} />
+            <SignupForm text="Get hyped" placeholder="~ email address ~" tags={mailchimpSageWaitlist} />
           </div>
 
           <br></br>

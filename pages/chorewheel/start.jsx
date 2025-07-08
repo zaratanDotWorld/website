@@ -4,6 +4,7 @@ import { Alert, Container, Row, Col, Button } from 'react-bootstrap';
 import Headpiece from '../../components/headpiece';
 import SlackButton from '../../components/slack';
 import YouTube from '../../components/youtube';
+import SignupForm from '../../components/mailchimp';
 
 import {
   quickstartUrl,
@@ -18,6 +19,7 @@ import {
   instagramUrl,
   structuresUrl,
   choreWheelUrl,
+  mailchimpAppInterest,
   bookUrlOstrom,
   bookUrlBeer,
   bookUrlLaloux
@@ -32,7 +34,7 @@ export async function getStaticProps() {
 export default function () {
   return (
     <Container fluid>
-      <Row className="p-5">
+      <Row className="pt-5">
         <Col />
         <Col md={8} xl={6}>
           <Headpiece
@@ -41,18 +43,19 @@ export default function () {
             icon="&#x1F680;"
             color="green"
           />
+        </Col>
+        <Col />
+      </Row>
 
-          <br></br>
+      <br></br>
+      <br></br>
 
-          <Alert variant="info" className="center">
-            <b>You're making a great choice!</b> Groups using Chore Wheel:<br/>
-            <br></br>
-            ✅ Spend ~75% less time on household tasks*<br/>
-            ✅ Have fewer personal conflicts and better quality of life<br/>
-            ✅ Enjoy large savings of time and money through living together
-            <br></br>
-            <br></br>
-            <small><i>*Sage House residents have one monthly meeting and do about one hour of chores per week.</i></small>
+      <Row className="pb-5">
+        <Col />
+        <Col md={4} xl={3}>
+          <Alert variant="success" className="center">
+            <i>Not sure yet?</i>
+            <SignupForm text="Get more info" placeholder="~ email address ~" tags={mailchimpAppInterest} />
           </Alert>
         </Col>
         <Col />
@@ -63,7 +66,6 @@ export default function () {
         <Col md={8} xl={6}>
           <p>
             <b>Getting started</b> with Chore Wheel is easy, and takes about <b>20 minutes</b>.
-            You'll first create a Slack workspace, and then install the tools.
           </p>
 
           <h5><b>Step 1:</b> Set Up Slack</h5>
@@ -76,8 +78,8 @@ export default function () {
             While household communication <i>can</i> happen through simple group-chats,
             we believe that&nbsp;
             <Link href="https://slackdemo.com/" target="_blank">full-featured platforms like Slack</Link>
-            &nbsp;are better foundations for rich group interactions.
-            With Slack, you can:
+            &nbsp;are better foundations for group interactions.
+            Slack lets you:
           </p>
           <ul>
             <li><b>Organize conversations</b> in different channels (#projects, #social, etc)</li>
@@ -87,7 +89,6 @@ export default function () {
 
           <p>
             Slack offers <b>free plans with no limit</b> on the number of participants.
-            To get started with Chore Wheel, first create a Slack workspace.
           </p>
 
           <div className="center py-3">
@@ -120,8 +121,8 @@ export default function () {
           </ul>
 
           <p>
-            You can install the apps by clicking the buttons below (must be a <b>workspace admin</b>).
-            See the <Link href={quickstartUrl}><b>getting started guide</b></Link> for more details about the apps and how to use them.
+            You can install the apps by <b>clicking the buttons below</b> (must be a workspace admin).
+            You can read the <Link href={quickstartUrl}><b>getting started guide</b></Link> for more details about the apps and how to use them.
           </p>
 
           <div className="center py-2">
@@ -130,28 +131,24 @@ export default function () {
             <SlackButton text="Get Things" url={thingsInstallUrl} />
           </div>
 
-          <div className="center">
-            <small>
-              Chore Wheel is free for <b>90 days</b> (no credit card required), and then <b>$10 / mo</b> for <i>all</i> of the apps.
-            </small>
-          </div>
-
           <br></br>
 
-          <h5><b>Step 3:</b> Start Thriving</h5>
+          <h5><b>Step 3:</b> Start Thriving!</h5>
           <hr></hr>
 
           <p>
             Chore Wheel's apps are <b>dynamic</b> and <b>flexible</b>,
             and it can take a few days to fall into a rhythm.
+          </p>
+          <p>
             Once you do, you'll be amazed at how well everything starts to work.
-            If you need any help, the <Link href={docsUrl}><b>project documentation</b></Link> has details of how the apps work and examples for how to use them.
-            Or, just send us <Link href={supportUrl} target="_blank">an email</Link>.
+            If you need any help, the <Link href={docsUrl}><b>project docs</b></Link> have details of how the apps work and examples for how to use them.
+            Or, just send us <Link href={supportUrl} target="_blank"><b>an email</b></Link>.
           </p>
 
           <p>
             We'd love to hear about your experience!
-            Share your stories (and tag us at <Link href={instagramUrl} target="_blank">@zaratan.world</Link>),
+            Share your stories (tag <Link href={instagramUrl} target="_blank">@zaratan.world</Link>),
             or <Link href={contactUrl} target="_blank">contact us</Link>.
           </p>
 
@@ -169,32 +166,11 @@ export default function () {
           <hr></hr>
 
           <p>
-            <b>What were the influences for Chore Wheel?</b>
-            <br></br>
-            Chore Wheel was influenced by major ideas in economics and computer science,
-            as well as by newer thinking on organizational design and leadership.
-            Specifically, we were influenced by the work of Nobel Laureate Elinor Ostrom (<Link href={bookUrlOstrom}>Governing the Commons</Link>),
-            Stafford Beer (<Link href={bookUrlBeer}>Designing Freedom</Link>),
-            and Frederic Laloux (<Link href={bookUrlLaloux}>Reinventing Organizations</Link>).
-            While Chore Wheel might seem like a "tech" solution to a human problem,
-            it's actually the result of a lot of careful thinking about how people work together.
-          </p>
-
-          <p>
-            <b>Is Chore Wheel only for physical housing?</b>
-            <br></br>
-            No! While Chore Wheel was initially designed for coliving communities,
-            the tools can be used by any group looking to collaborate more effectively.
-            Chore Wheel has been used by organizations large and small to help support their operations.
-          </p>
-
-          <p>
             <b>Isn't using Slack a lot of extra work?</b>
             <br></br>
             Definitely not! The apps are designed to be simple and easy to use, with basic tasks taking no more than a few clicks.
-            Compare the apps to a whiteboard chore chart, where you need to physically walk over, take a marker, and mark off your task.
-            Using your phone to claim a chore is not that much more complicated — in some ways, it's easier.
-            Plus, Slack gives you a lot more flexibility for how you communicate with your group compared to a group-chat.
+            Compare that to a whiteboard chore chart, which you need to physically go to mark off your task.
+            Plus, Slack gives you a lot more flexibility for how you communicate with your group, compared to a group-chat.
           </p>
 
           <p>
@@ -206,13 +182,11 @@ export default function () {
           </p>
 
           <p>
-            <b>Why are you so confident?</b>
+            <b>Is Chore Wheel only for physical housing?</b>
             <br></br>
-            Chore Wheel is the result of years of research and development,
-            mixing established economic theory with contemporary thinking on design and interaction.
-            Plus, the majority of groups who have tried Chore Wheel use it to this day!
-            Chore Wheel has been the subject of a peer-reviewed research paper,
-            which you can find <Link href={structuresUrl} target="_blank">here</Link>.
+            No! While Chore Wheel was initially designed for coliving communities,
+            the tools can be used by any group looking to collaborate more effectively.
+            Chore Wheel has been used by organizations large and small to help support their operations.
           </p>
 
           <p>
@@ -224,11 +198,22 @@ export default function () {
           </p>
 
           <p>
-            <b>Does Chore Wheel cost money?</b>
+            <b>Why are you so confident?</b>
             <br></br>
-            Yes, Chore Wheel is $10 per month after a 90-day trial period.
-            This charge goes to supporting ongoing maintenance and development of the tools.
-            If you'd rather host the apps yourself, you can <Link href={repoUrl}>clone the source code</Link> and run your own instance.
+            Chore Wheel is the result of years of research and development,
+            mixing established economic theory with contemporary thinking on design and interaction.
+            Chore Wheel has been the subject of a peer-reviewed research paper,
+            which you can find <Link href={structuresUrl} target="_blank">here</Link>.
+          </p>
+
+          <p>
+            <b>What were the influences for Chore Wheel?</b>
+            <br></br>
+            Chore Wheel was heavily influenced by the work of Nobel Laureate Elinor Ostrom (<Link href={bookUrlOstrom}>Governing the Commons</Link>),
+            Stafford Beer (<Link href={bookUrlBeer}>Designing Freedom</Link>),
+            and Frederic Laloux (<Link href={bookUrlLaloux}>Reinventing Organizations</Link>).
+            While Chore Wheel might seem like a "tech" solution to a human problem,
+            it's actually the result of a lot of deep thinking about how people work together.
           </p>
 
           <br></br>

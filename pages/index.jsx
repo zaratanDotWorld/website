@@ -45,7 +45,7 @@ export default function () {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            Zaratan is an <b>emerging coliving company</b> in Los Angeles, pursuing <b>housing abundance</b>.
+            Zaratan is an <b>emerging coliving company</b> in Los Angeles, cultivating <b>housing abundance</b>.
             We build <Link href="/houses/sage">physical houses</Link>
             &nbsp;and <Link href="/chorewheel">pioneering software tools</Link>.
           </h5>
@@ -54,7 +54,7 @@ export default function () {
 
           <p>
             Zaratan creates naturally-affordable housing by converting <b>beautiful, old buildings</b> into <b>high-density coliving</b>,
-            and <b>operating them dynamically</b> with the help of <Link href="/chorewheel">Chore Wheel</Link>, our open-source suite of <b>community governance tools</b>.
+            and <b>operating them dynamically</b> with the help of <Link href="/chorewheel">Chore Wheel</Link>, our open-source suite of <b>collaboration tools</b>.
           </p>
 
           <p>
@@ -76,7 +76,7 @@ export default function () {
             If you <b>need housing</b>, check out <Link href="/houses/sage">Sage House</Link> or <Link href="/houses/cactus">Cactus Cottage</Link>.
           </p>
           <p>
-            If you have housing, but <b>want better vibes</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
+            If you have housing, but <b>want higher vibes</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
           </p>
           <p>
             If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl}>Instagram</Link>.

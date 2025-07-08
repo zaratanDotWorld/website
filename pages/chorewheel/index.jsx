@@ -3,7 +3,6 @@ import { Alert, Container, Row, Col, Table, Button } from 'react-bootstrap';
 
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
-import SignupForm from '../../components/mailchimp';
 import SlackButton from '../../components/slack';
 
 import { getImages } from '../../utils/s3';
@@ -55,18 +54,17 @@ export default function ({ images }) {
           />
 
           <br></br>
-          <br></br>
 
           <p>
             <i>"Far more practical and functional than [what] I've experienced in group living before."</i>
             <br></br>
-            <b>- Molly B.</b>
+            <b>- Molly</b>, user
           </p>
 
           <p>
             <i>"This is a one in a hundred project."</i>
             <br></br>
-            <b>- Victor R.</b>
+            <b>- Victor</b>, investor
           </p>
         </Col>
         <Col />
@@ -76,7 +74,7 @@ export default function ({ images }) {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            <b>Chore Wheel</b> is Zaratan's suite of <Link href={structuresUrl}>community governance tools</Link>, turning <b>unspoken expectations</b> into <b>shared agreements</b>.
+            <b>Chore Wheel</b> is Zaratan's suite of <Link href={structuresUrl}>collaboration tools</Link>, turning <b>unspoken expectations</b> into <b>shared agreements</b>.
           </h5>
 
           <hr></hr>
@@ -85,7 +83,7 @@ export default function ({ images }) {
           </p>
           <ul>
             <li><b><Link href="/chorewheel/chores">Chores</Link></b> for fairly sharing tasks, without schedules or passive-aggressive sticky notes</li>
-            <li><b><Link href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability, resolving conflict <i>without</i> drama</li>
+            <li><b><Link href="/chorewheel/hearts">Hearts</Link></b> for mutual accountability, resolving conflict clearly and respectfully</li>
             <li><b><Link href="/chorewheel/things">Things</Link></b> for group purchasing, avoiding spreadsheets and Venmo requests</li>
             <li>And more to come...</li>
           </ul>
@@ -93,17 +91,12 @@ export default function ({ images }) {
           <p>
             Designed for <b>intentional communities</b>, <b>casual roommates</b>, <b>cohabitating partners</b>, and everything in-between,
             Chore Wheel helps people share the <b>emotional</b> and <b>mental labor</b> of sustaining communities, through simple and streamlined systems you don't have to think about.
-            Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, leaving more time for actually <b>being together</b>.
-          </p>
-
-          <p>
-            Spend less time <b>fighting with your roommates</b> and more time <b>living your life</b>.
+            Groups using Chore Wheel have <b>fewer meetings</b> and <b>less conflict</b>, and more time for actually <b>being together</b>.
           </p>
 
           <div className="center">
-            <Button variant="primary" size="md" className="m-2" href="/chorewheel/start">✨ Get Started Today ✨</Button>
-            <p><i><b>90 days</b> free, then <b>$10 / mo</b></i></p>
-
+            <Button variant="primary" size="md" className="m-4" href="/chorewheel/start">✨ Get Started Today ✨</Button>
+            <br></br>
 
             <Link href={structuresUrl}>Read the paper</Link>
             &nbsp;·&nbsp;
@@ -130,31 +123,19 @@ export default function ({ images }) {
             <li>Dirty dishes</li>
             <li>Opaque hierarchy</li>
             <li>Long meetings</li>
-            <li>Frustration</li>
+            <li>Burnout</li>
           </ul>
         </Col>
         <Col md={4} xl={3}>
           <h5>&#x1f929; New Way</h5>
           <ul>
             <li>Clean sinks</li>
-            <li>Clarity and connection</li>
+            <li>Clear communication</li>
             <li>Flexible process</li>
-            <li>Empowerment</li>
+            <li>Generativity</li>
           </ul>
         </Col>
         <Col/>
-      </Row>
-
-      <Row className="pb-5 accent-blue">
-        <Col />
-        <Col md={8} xl={6}>
-          <div className="center">
-            <br></br>
-            <i>Have more questions?</i>
-            <SignupForm text="Get more answers" placeholder="~ email address ~" tags={mailchimpAppInterest} />
-          </div>
-        </Col>
-        <Col />
       </Row>
 
       <Row className="p-5 center">
