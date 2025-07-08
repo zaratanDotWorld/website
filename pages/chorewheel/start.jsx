@@ -4,7 +4,6 @@ import { Alert, Container, Row, Col, Button } from 'react-bootstrap';
 import Headpiece from '../../components/headpiece';
 import SlackButton from '../../components/slack';
 import YouTube from '../../components/youtube';
-import SignupForm from '../../components/mailchimp';
 
 import {
   quickstartUrl,
@@ -14,12 +13,12 @@ import {
   repoUrl,
   docsUrl,
   slackCommunityUrl,
+  interestFormUrl,
   contactUrl,
   supportUrl,
   instagramUrl,
   structuresUrl,
   choreWheelUrl,
-  mailchimpAppInterest,
   bookUrlOstrom,
   bookUrlBeer,
   bookUrlLaloux
@@ -55,7 +54,8 @@ export default function () {
         <Col md={4} xl={3}>
           <Alert variant="success" className="center">
             <i>Not sure yet?</i>
-            <SignupForm text="Get more info" placeholder="~ email address ~" tags={mailchimpAppInterest} />
+            <br></br>
+            <Link href={interestFormUrl} target="_blank"><b>Fill out an interest form</b></Link>
           </Alert>
         </Col>
         <Col />
