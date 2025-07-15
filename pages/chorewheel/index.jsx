@@ -64,7 +64,7 @@ export default function ({ images }) {
           <p>
             <i>"This is a one in a hundred project."</i>
             <br></br>
-            <b>- Victor</b>, investor
+            <b>- Victor</b>, technologist
           </p>
         </Col>
         <Col />
@@ -95,7 +95,7 @@ export default function ({ images }) {
           </p>
 
           <div className="center">
-            <Button variant="primary" size="md" className="m-4" href="/chorewheel/start">✨ Get Started Today ✨</Button>
+            <Button variant="primary" size="md" className="mt-3 mb-4" href="/chorewheel/start">✨ Get Started Today ✨</Button>
             <br></br>
 
             <Link href={structuresUrl}>Read the paper</Link>
