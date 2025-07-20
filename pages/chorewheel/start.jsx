@@ -91,7 +91,7 @@ export default function () {
             Slack offers <b>free plans with no limit</b> on the number of participants.
           </p>
 
-          <div className="center py-3">
+          <div className="center py-3 pb-4">
             <Button variant="primary" href="https://slack.com/get-started" target="_blank">
               Create Your Free Workspace
             </Button>
@@ -126,22 +126,25 @@ export default function () {
           </p>
 
           <div className="center py-2">
+            ✨
             <SlackButton text="Get Chores" url={choresInstallUrl} />
+            ✨
             <SlackButton text="Get Hearts" url={heartsInstallUrl} />
+            ✨
             <SlackButton text="Get Things" url={thingsInstallUrl} />
+            ✨
           </div>
 
           <br></br>
 
-          <h5><b>Step 3:</b> Start Thriving!</h5>
+          <h5><b>Step 3:</b>Thrive!</h5>
           <hr></hr>
 
           <p>
-            Chore Wheel's apps are <b>dynamic</b> and <b>flexible</b>,
-            and it can take a few days to fall into a rhythm.
+            Chore Wheel's apps are <b>dynamic</b> and <b>flexible</b> — it can take a few days to fall into a rhythm.
           </p>
           <p>
-            Once you do, you'll be amazed at how well everything starts to work.
+            Once you do, you'll be amazed at how well everything works.
             If you need any help, the <Link href={docsUrl}><b>project docs</b></Link> have details of how the apps work and examples for how to use them.
             Or, just send us <Link href={supportUrl} target="_blank"><b>an email</b></Link>.
           </p>
@@ -164,6 +167,20 @@ export default function () {
         <Col md={8} xl={6}>
           <h5>Frequently Asked Questions</h5>
           <hr></hr>
+
+          <p>
+            <b>Does Chore Wheel cost money?</b>
+            <br></br>
+            Chore Wheel is free-to-use.
+          </p>
+
+          <p>
+            <b>How does Chore Wheel compare to a chore chart?</b>
+            <br></br>
+            Chore charts (physical or digital) work fine when there's a clear authority, like a manager or a parent.
+            In cases where everyone is equal, like a coliving house or group of roommates, Chore Wheel is a better fit.
+            Chore Wheel makes everyone accountable <i>to each other</i>, and makes it easier for people to contribute when and how it works for them.
+          </p>
 
           <p>
             <b>Isn't using Slack a lot of extra work?</b>
@@ -194,7 +211,7 @@ export default function () {
             <br></br>
             Yes! Chore Wheel is open-source under the <Link href="https://choosealicense.com/licenses/agpl-3.0/">AGPL-3 license</Link>.
             You can see the <Link href={repoUrl}>source code on GitHub</Link>,
-            and contributions are welcome!
+            and contributions are welcome.
           </p>
 
           <p>
