@@ -35,14 +35,14 @@ export default function () {
             mainText="About"
             subText="Who We Are"
             icon="&#x1F44B;&#x1F3FD;"
-            color="green"
+            color="blue"
           />
 
         </Col>
         <Col />
       </Row>
 
-      <Row className="p-5 accent-green">
+      <Row className="p-5 accent-blue">
         <Col />
         <Col md={8} xl={6}>
           <Row>

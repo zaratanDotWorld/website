@@ -8,6 +8,7 @@ export const kronosapiensUrl ="https://kronosapiens.github.io"
 export const loginUrl = "https://zaratan.managebuilding.com/Resident/portal";
 export const contactUrl = "mailto:hello@zaratan.world";
 export const supportUrl = "mailto:support@zaratan.world";
+export const calendlyUrl = "https://calendly.com/zaratan-krono/30min";
 
 // Codebase
 export const repoUrl = "https://github.com/zaratanDotWorld/choreWheel";
