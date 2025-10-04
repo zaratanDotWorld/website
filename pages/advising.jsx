@@ -42,12 +42,30 @@ export default function () {
           <hr></hr>
 
           <p>
-            Humans have been trying to live together for ten thousand years.
+            <b>Humans have been trying to live together for ten thousand years.</b>
             We at Zaratan studied the lessons of the past and developed cutting-edge techniques for building thriving communities.
           </p>
 
           <p>
-            <Link href={calendlyUrl} target="_blank"><b>Please reach out for a free 30-minute consultation.</b></Link>
+            We can help groups navigate...
+          </p>
+
+          <ul>
+            <li>different levels of <b>engagement</b> and capacity for contribution</li>
+            <li>managing <b>turnover</b> and integrating new members</li>
+            <li>establishing and maintaining shared <b>agreements</b> and norms</li>
+            <li>interpersonal <b>conflict</b> and dispute resolution</li>
+            <li>and much more</li>
+          </ul>
+
+          <p>
+            Whether you are a <b>group of friends</b> who want to live together,
+            a <b>professional coliving company</b> looking to improve operations,
+            or a <b>cultural or educational organization</b> running shared housing as part of your mission, we can help.
+          </p>
+
+          <p>
+            <Link href={calendlyUrl} target="_blank"><b>Click here</b></Link> to book a free 30-minute consultation.
           </p>
         </Col>
         <Col />
