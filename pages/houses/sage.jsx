@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Alert, Container, Row, Col, Table } from 'react-bootstrap';
+import { Alert, Container, Row, Col, Table, Button } from 'react-bootstrap';
 
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
@@ -8,7 +8,7 @@ import YouTube from '../../components/youtube';
 import SignupForm from '../../components/mailchimp';
 
 import { getImages } from '../../utils/s3';
-import { instagramUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl, mailchimpSageWaitlist } from '../../utils/constants';
+import { applyUrl, instagramUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl, mailchimpSageWaitlist } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Sage House";
@@ -21,11 +21,6 @@ export async function getStaticProps() {
 export default function ({ images }) {
   return (
     <Container fluid>
-      {/* <br></br>
-      <Alert variant="danger" className="center" dismissible>
-        Room available February 1 — <Alert.Link href={applyUrl} style={{ textDecoration: 'underline' }}>apply now!</Alert.Link>
-      </Alert> */}
-
       <Row className="p-5">
         <Col />
         <Col md={8} xl={6}>
@@ -79,6 +74,8 @@ export default function ({ images }) {
               guest room,
               and four full bathrooms.
             </p>
+
+            <Button variant="warning" size="md" className="mt-2 mb-4" href={applyUrl}>Apply Now</Button>
 
             <p>
               Rooms open up periodically.

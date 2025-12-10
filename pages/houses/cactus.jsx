@@ -6,7 +6,7 @@ import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
 
 import { getImages } from '../../utils/s3';
-import { applyUrl, tongvaUrl, instagramUrl } from '../../utils/constants';
+import { tongvaUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Cactus Cottage";
@@ -19,11 +19,6 @@ export async function getStaticProps() {
 export default function ({ images }) {
   return (
     <Container fluid>
-      {/* <br></br>
-      <Alert variant="info" className="center" dismissible>
-        Available February 1 — <Alert.Link href={applyUrl} style={{ textDecoration: 'underline' }}>apply now!</Alert.Link>
-      </Alert> */}
-
       <Row className="p-5">
         <Col />
         <Col md={8} xl={6}>
