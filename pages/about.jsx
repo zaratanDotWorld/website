@@ -16,6 +16,7 @@ import {
   blogUrl,
   zaratanUrl,
   manticoreUrl,
+  calendlyUrl,
 } from '../utils/constants';
 
 export async function getStaticProps() {
@@ -180,6 +181,12 @@ export default function () {
 
               <p>
                 <b>Want to know more?</b> <Link href="mailto:hello@zaratan.world">Send us a note</Link>.
+              </p>
+
+              <hr></hr>
+
+              <p>
+                We offer advising to coliving operators and aspiring communities. To learn more, <Link href={calendlyUrl} target="_blank"><b>book a free consultation</b></Link>.
               </p>
             </Col>
           </Row>
