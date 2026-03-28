@@ -17,10 +17,10 @@ export default function () {
       <br></br>
       <Alert variant="info" className="center">
         <Alert.Link
-          href="https://protocolized.summerofprotocols.com/p/chore-protocols"
+          href="/content/fence.pdf"
           style={{ textDecoration: 'underline' }}
         >
-          Read "Chore Protocols" in <i>Protocolized Magazine</i>
+          Read "Beyond the White Picket Fence" — a senior thesis featuring Sage House
         </Alert.Link>
       </Alert>
 
