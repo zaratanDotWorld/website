@@ -5,10 +5,9 @@ import { Alert, Container, Row, Col, Table, Button } from 'react-bootstrap';
 import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
 import YouTube from '../../components/youtube';
-import SignupForm from '../../components/mailchimp';
 
 import { getImages } from '../../utils/s3';
-import { applyUrl, instagramUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl, mailchimpSageWaitlist } from '../../utils/constants';
+import { tallyInterestUrl, instagramUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Sage House";
@@ -61,12 +60,12 @@ export default function ({ images }) {
             </p>
 
             <p>
-              This nine-bedroom home features
+              This nine-bedroom house features
               hardwood floors,
-              a restaurant-style kitchen,
+              restaurant-style kitchen,
               elegant dining room,
               sunny living room,
-              quiet library,
+              art space,
               upstairs deck,
               backyard fire pit,
               recording studio,
@@ -75,17 +74,13 @@ export default function ({ images }) {
               and four full bathrooms.
             </p>
 
-            <Button variant="warning" size="md" className="mt-2 mb-4" href={applyUrl}>Apply Now</Button>
+            <Button variant="warning" size="md" className="mt-2 mb-4" href={tallyInterestUrl}>I'm Interested!</Button>
 
             <p>
-              Rooms open up periodically.
-              To get notified, follow our <b><Link href={instagramUrl}>Instagram</Link></b> or join our <b>waitlist</b>:
+              You can also <b><Link href={instagramUrl}>follow us</Link></b> on Instagram.
             </p>
-
-            <SignupForm text="Get hyped" placeholder="~ email address ~" tags={mailchimpSageWaitlist} />
           </div>
 
-          <br></br>
           <hr></hr>
           <br></br>
 
@@ -96,13 +91,13 @@ export default function ({ images }) {
               <tr><th></th><th>Sage</th><th>Other Coliving</th><th>Craigslist</th></tr>
             </thead>
             <tbody>
-              <tr><th>Rent</th><td>$1,200*</td><td>$1,250</td><td>$1,050</td></tr>
+              <tr><th>Rent</th><td>$1,250*</td><td>$1,300</td><td>$1,050</td></tr>
               <tr><th>Utilities</th><td>Included</td><td>Included</td><td>$80</td></tr>
               <tr><th>Supplies</th><td>Included</td><td>Included</td><td>$60</td></tr>
               <tr><th>Food Staples</th><td>Included</td><td>$120</td><td>$120</td></tr>
-              <tr><th>Internet</th><td>Included</td><td>Included</td><td>$40</td></tr>
-              <tr><th>Membership Fee</th><td>$0</td><td>$150</td><td>$0</td></tr>
-              <tr><th>Total</th><td style={{backgroundColor: "#00ff7f33"}}>$1,200</td><td>$1,620</td><td>$1,350</td></tr>
+              <tr><th>Internet</th><td>Included</td><td>Included</td><td>$50</td></tr>
+              <tr><th>Community Fee</th><td>$0</td><td>$150</td><td>$0</td></tr>
+              <tr><th>Total</th><td style={{backgroundColor: "#00ff7f33"}}>$1,250</td><td>$1,570</td><td>$1,360</td></tr>
             </tbody>
           </Table>
 

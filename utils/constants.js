@@ -2,7 +2,7 @@
 export const analyticsTag = "G-GC4C7YJ78Q"
 export const blogUrl = "https://blog.zaratan.world"
 export const fontsUrl = "https://fonts.googleapis.com/css?family=EB+Garamond:400,700&display=swap";
-export const applyUrl = "https://zaratan.managebuilding.com/Resident/rental-application/new";
+export const tallyInterestUrl = "https://tally.so/r/gDLPzN";
 export const instagramUrl = "https://www.instagram.com/zaratan.world";
 export const kronosapiensUrl ="https://kronosapiens.github.io"
 export const loginUrl = "https://zaratan.managebuilding.com/Resident/portal";
@@ -22,7 +22,6 @@ export const thingsInstallUrl = "https://things.mirror.zaratan.world/slack/insta
 // Marketing
 export const mailchimpGeneral = "3025024";
 export const mailchimpAppInterest = "3025025";
-export const mailchimpSageWaitlist = "3025663";
 export const interestUrl = "https://forms.gle/Aeod1bNUq2sDoe2Q8";
 export const slackCommunityUrl = "https://join.slack.com/t/chorewheel-community/shared_invite/zt-2986s4ec6-5YmCmZG3N3kgsAwN~d2PeA";
 export const interestFormUrl = "https://forms.gle/ZAYzNqvQjrGAnDtZ7";
