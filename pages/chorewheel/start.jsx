@@ -26,8 +26,11 @@ import {
 
 export async function getStaticProps() {
   const pageTitle = "Getting Started";
+  const pageDescription =
+    "Get started with Chore Wheel in 20 minutes. " +
+    "Install the Slack apps, invite your housemates, and start running your shared house without meetings or managers.";
 
-  return { props: { pageTitle } }
+  return { props: { pageTitle, pageDescription } }
 }
 
 export default function () {

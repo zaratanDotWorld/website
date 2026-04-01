@@ -12,10 +12,13 @@ import { choresInstallUrl, quickstartUrl, choresAppDemoUrl } from '../../utils/c
 
 export async function getStaticProps() {
   const pageTitle = "Chores";
+  const pageDescription =
+    "Chores by Chore Wheel: fairly divide household tasks without schedules or nagging. " +
+    "A Slack app for shared houses.";
 
   const regex = /public\/images\/mirror\/framed-mobile-chores.*\.jpg/i;
   const images = await getImages({ regex });
-  return { props: { pageTitle, images } }
+  return { props: { pageTitle, pageDescription, images } }
 }
 
 export default function ({ images }) {

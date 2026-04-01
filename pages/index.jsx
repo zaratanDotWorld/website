@@ -11,6 +11,12 @@ import zaratanPic from "../public/images/zaratan-art.png";
 
 import { joysOfColivingUrl, instagramUrl, mailchimpGeneral } from '../utils/constants';
 
+export async function getStaticProps() {
+  const pageDescription =
+    "Zaratan Coliving builds naturally-affordable shared housing and open-source tools for communities in Los Angeles and beyond.";
+  return { props: { pageDescription } }
+}
+
 export default function () {
   return (
     <Container fluid>

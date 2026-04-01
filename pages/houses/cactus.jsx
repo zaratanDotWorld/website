@@ -10,10 +10,14 @@ import { tongvaUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Cactus Cottage";
+  const pageDescription =
+    "A stunning studio in Highland Park, Los Angeles. " +
+    "Freestanding tiny home with vaulted ceilings, full kitchen, and access to shared amenities. " +
+    "An urban sanctuary right next to Sage House.";
 
   const regex = /public\/images\/cactus\/mls\/.*\.jpg/i;
   const images = await getImages({ regex });
-  return { props: { pageTitle, images } }
+  return { props: { pageTitle, pageDescription, images } }
 }
 
 export default function ({ images }) {

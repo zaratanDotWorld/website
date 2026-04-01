@@ -11,10 +11,13 @@ import { quickstartUrl, thingsInstallUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Things";
+  const pageDescription =
+    "Things by Chore Wheel: manage group purchasing without spreadsheets or Venmo requests. " +
+    "A Slack app for shared houses.";
 
   const regex = /public\/images\/mirror\/framed-mobile-things.*\.jpg/i;
   const images = await getImages({ regex });
-  return { props: { pageTitle, images } }
+  return { props: { pageTitle, pageDescription, images } }
 }
 
 export default function ({ images }) {

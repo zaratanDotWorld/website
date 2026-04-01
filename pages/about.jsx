@@ -21,8 +21,11 @@ import {
 
 export async function getStaticProps() {
   const pageTitle = "About";
+  const pageDescription =
+    "Zaratan was founded in 2020 to advance the art and practice of shared living. " +
+    "We build coliving houses in Los Angeles and open-source tools for communities everywhere.";
 
-  return { props: { pageTitle } }
+  return { props: { pageTitle, pageDescription } }
 }
 
 export default function () {

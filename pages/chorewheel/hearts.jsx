@@ -11,10 +11,13 @@ import { quickstartUrl, heartsInstallUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Hearts";
+  const pageDescription =
+    "Hearts by Chore Wheel: mutual accountability for shared houses. " +
+    "Resolve conflict clearly and respectfully, without escalation.";
 
   const regex = /public\/images\/mirror\/framed-mobile-hearts.*\.jpg/i;
   const images = await getImages({ regex });
-  return { props: { pageTitle, images } }
+  return { props: { pageTitle, pageDescription, images } }
 }
 
 export default function ({ images }) {
