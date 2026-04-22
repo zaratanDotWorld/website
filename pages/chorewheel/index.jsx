@@ -19,8 +19,8 @@ import {
 export async function getStaticProps() {
   const pageTitle = "Chore Wheel";
   const pageDescription =
-    "Chore Wheel is a digital house manager for shared homes. " +
-    "Slack apps that make tasks get done, contributions visible, and conflict resolve — without meetings or managers.";
+    "Chore Wheel is a digital house manager for shared homes. Slack apps " +
+    "that get tasks done and resolve conflict — without meetings or managers.";
 
   const regex = /public\/images\/mirror\/framed-mobile-.*\.jpg/i;
   // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array

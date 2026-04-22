@@ -12,9 +12,8 @@ import { tallyInterestUrl, instagramUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, su
 export async function getStaticProps() {
   const pageTitle = "Sage House";
   const pageDescription =
-    "A beautifully-restored 1905 Craftsman in Highland Park, Los Angeles. " +
-    "9-bedroom coliving house with all-inclusive pricing from $1,250/mo. " +
-    "Community, comfort, and consistency built right in.";
+    "A restored 1905 Craftsman in Highland Park, Los Angeles. 9-bedroom " +
+    "coliving house with all-inclusive pricing from $1,250/mo. Community built-in.";
   const pageImage =
     "https://d3gacl6pm59h8m.cloudfront.net/public/images/sage/mls/DSC04562.jpg";
 
