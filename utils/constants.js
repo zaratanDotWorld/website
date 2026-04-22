@@ -22,8 +22,8 @@ export const thingsInstallUrl = "https://things.mirror.zaratan.world/slack/insta
 // Marketing
 export const mailchimpGeneral = "3025024";
 export const mailchimpAppInterest = "3025025";
-export const slackCommunityUrl = "https://join.slack.com/t/chorewheel-community/shared_invite/zt-2986s4ec6-5YmCmZG3N3kgsAwN~d2PeA";
-export const interestFormUrl = "https://forms.gle/ZAYzNqvQjrGAnDtZ7";
+export const slackCommunityUrl = "https://chorewheel-community.slack.com/join/shared_invite/zt-2986s4ec6-5YmCmZG3N3kgsAwN~d2PeA";
+export const interestFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdrqqiolwyXS6MpjgV8JYKpCniPe-f08zXztd1tj-LvvMycvw/viewform?usp=send_form";
 export const tongvaUrl = "https://www.tongva.land/";
 
 // Media (S3)
