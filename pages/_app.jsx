@@ -39,7 +39,10 @@ export  default function ({ Component, pageProps }) {
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
         <link rel="canonical" href={pageUrl} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/images/icon-512.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
         {/* Open Graph */}
         <meta property="og:title" content={pageTitle} />
