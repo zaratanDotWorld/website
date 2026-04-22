@@ -12,8 +12,8 @@ export const calendlyUrl = "https://calendly.com/zaratan-krono/30min";
 
 // Codebase
 export const repoUrl = "https://github.com/zaratanDotWorld/choreWheel";
-export const docsUrl = "https://docs.chorewheel.zaratan.world/";
-export const quickstartUrl = docsUrl + "en/latest/overview/getting-started.html";
+export const docsUrl = "https://docs.chorewheel.zaratan.world/en/latest/";
+export const quickstartUrl = docsUrl + "overview/getting-started.html";
 
 export const choresInstallUrl = "https://chores.mirror.zaratan.world/slack/install";
 export const heartsInstallUrl = "https://hearts.mirror.zaratan.world/slack/install";
@@ -25,7 +25,7 @@ export const mailchimpAppInterest = "3025025";
 export const interestUrl = "https://forms.gle/Aeod1bNUq2sDoe2Q8";
 export const slackCommunityUrl = "https://join.slack.com/t/chorewheel-community/shared_invite/zt-2986s4ec6-5YmCmZG3N3kgsAwN~d2PeA";
 export const interestFormUrl = "https://forms.gle/ZAYzNqvQjrGAnDtZ7";
-export const tongvaUrl = "https://tongva.land/";
+export const tongvaUrl = "https://www.tongva.land/";
 
 // Media (S3)
 const s3Root = "https://s3.amazonaws.com/zaratan.world/public/";
