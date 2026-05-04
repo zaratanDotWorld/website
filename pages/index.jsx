@@ -82,7 +82,7 @@ export default function () {
             If you <b>need housing</b>, check out <Link href="/houses/sage">Sage House</Link> or <Link href="/houses/cactus">Cactus Cottage</Link>.
           </p>
           <p>
-            If you have housing, but <b>want higher vibes</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
+            If your house is experiencing <b>drama</b> or <b>burnout</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
           </p>
           <p>
             If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl}>Instagram</Link>.

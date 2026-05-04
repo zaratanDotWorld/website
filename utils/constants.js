@@ -4,6 +4,7 @@ export const blogUrl = "https://blog.zaratan.world"
 export const fontsUrl = "https://fonts.googleapis.com/css?family=EB+Garamond:400,700&display=swap";
 export const tallyInterestUrl = "https://tally.so/r/gDLPzN";
 export const instagramUrl = "https://www.instagram.com/zaratan.world";
+export const instagramSageUrl = "https://www.instagram.com/sage.co.op";
 export const kronosapiensUrl ="https://kronosapiens.github.io"
 export const loginUrl = "https://zaratan.managebuilding.com/Resident/portal";
 export const contactUrl = "mailto:hello@zaratan.world";

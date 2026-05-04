@@ -38,10 +38,10 @@ export default function ({ images }) {
       <br></br>
       <Alert variant="info" className="center">
         <Alert.Link
-          href="https://protocolized.summerofprotocols.com/p/chore-protocols"
+          href="/content/fence.pdf"
           style={{ textDecoration: 'underline' }}
         >
-          Read "Chore Protocols" in <i>Protocolized Magazine</i>
+          Read "Beyond the White Picket Fence" — a senior thesis featuring Sage House
         </Alert.Link>
       </Alert>
 
@@ -82,7 +82,7 @@ export default function ({ images }) {
 
           <hr></hr>
           <p>
-            Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is Zaratan's family of <b>Slack apps</b> for helping people <b>share space</b> and <b>avoid burnout</b>:
+            Created by <b>coliving veterans</b> and <b>game designers</b>, Chore Wheel is Zaratan's family of <b>Slack apps</b> for helping people <b>share space</b>:
           </p>
           <ul>
             <li><b><Link href="/chorewheel/chores">Chores</Link></b> for fairly sharing tasks, without schedules or passive-aggressive sticky notes</li>
@@ -92,7 +92,7 @@ export default function ({ images }) {
           </ul>
 
           <p>
-            Designed for <b>intentional communities</b>, <b>casual roommates</b>, <b>cohabitating partners</b>, and everything in-between,
+            Designed for <b>intentional communities</b> and <b>shared houses</b>,
             Chore Wheel helps people share the <b>emotional</b> and <b>mental labor</b> of sustaining communities, increasing <b>quality of life</b> and reducing <b>leadership burnout</b>.
           </p>
 
@@ -126,19 +126,19 @@ export default function ({ images }) {
         <Col md={4} xl={3}>
           <h5>&#x1f62d; Old Way</h5>
           <ul>
-            <li>Dirty dishes</li>
-            <li>Opaque hierarchy</li>
-            <li>Long meetings</li>
-            <li>Burnout</li>
+            <li>Leadership burnout</li>
+            <li>High turnover</li>
+            <li>Invisible labor</li>
+            <li>Unresolved conflict</li>
           </ul>
         </Col>
         <Col md={4} xl={3}>
           <h5>&#x1f929; New Way</h5>
           <ul>
-            <li>Clean sinks</li>
+            <li>Mutual support</li>
+            <li>Long-term residents</li>
+            <li>Recognized contributions</li>
             <li>Clear communication</li>
-            <li>Flexible process</li>
-            <li>Generativity</li>
           </ul>
         </Col>
         <Col/>

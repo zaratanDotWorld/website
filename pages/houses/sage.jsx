@@ -7,13 +7,13 @@ import Headpiece from '../../components/headpiece';
 import YouTube from '../../components/youtube';
 
 import { getImages } from '../../utils/s3';
-import { tallyInterestUrl, instagramUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl } from '../../utils/constants';
+import { tallyInterestUrl, instagramSageUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
   const pageTitle = "Sage House";
   const pageDescription =
     "A restored 1905 Craftsman in Highland Park, Los Angeles. 9-bedroom " +
-    "coliving house with all-inclusive pricing from $1,250/mo. Community built-in.";
+    "coliving house with all-inclusive pricing from $1,200/mo. Community built-in.";
   const pageImage =
     "https://d3gacl6pm59h8m.cloudfront.net/public/images/sage/mls/DSC04562.jpg";
 
@@ -61,7 +61,7 @@ export default function ({ images }) {
             </p>
 
             <p>
-              A beautifully-restored 1905 Craftsman, in the heart of vibrant <b>Highland Park, Los Angeles</b>.
+              A beautifully-restored 1905 Craftsman in the heart of vibrant <b>Highland Park, Los Angeles</b>.
             </p>
 
             <p>
@@ -79,10 +79,14 @@ export default function ({ images }) {
               and four full bathrooms.
             </p>
 
-            <Button variant="warning" size="md" className="mt-2 mb-4" href={tallyInterestUrl}>I'm Interested!</Button>
+            <p>
+              Live with people who <b>actually care</b> about sharing space — a real community that runs itself, not a sterile brand with paid staff and awkward events.
+            </p>
+
+            <Button variant="warning" size="md" className="mt-2 mb-4" href={tallyInterestUrl}>Join the Waitlist</Button>
 
             <p>
-              You can also <b><Link href={instagramUrl}>follow us</Link></b> on Instagram.
+              You can also <b><Link href={instagramSageUrl}>follow us</Link></b> on Instagram.
             </p>
           </div>
 
