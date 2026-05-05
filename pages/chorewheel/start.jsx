@@ -141,7 +141,7 @@ export default function () {
 
           <br></br>
 
-          <h5><b>Step 3:</b>Thrive!</h5>
+          <h5><b>Step 3: </b>Thrive!</h5>
           <hr></hr>
 
           <p>
