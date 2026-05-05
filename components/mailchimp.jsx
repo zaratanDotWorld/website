@@ -1,4 +1,6 @@
-export default function ({ text, placeholder, tags }) {
+import { trackEvent } from '../utils/track';
+
+export default function ({ text, placeholder, tags, eventName }) {
     return (
       <div id="mc_embed_signup">
         <form
@@ -9,6 +11,7 @@ export default function ({ text, placeholder, tags }) {
           className="validate"
           target="_blank"
           noValidate
+          onSubmit={() => { if (eventName) trackEvent(eventName); }}
         >
           <div id="mc_embed_signup_scroll">
             <input

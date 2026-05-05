@@ -7,6 +7,7 @@ import Headpiece from '../../components/headpiece';
 import YouTube from '../../components/youtube';
 
 import { getImages } from '../../utils/s3';
+import { trackEvent, CTA } from '../../utils/track';
 import { tallyInterestUrl, instagramSageUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
@@ -83,7 +84,7 @@ export default function ({ images }) {
               Live with people who <b>actually care</b> about sharing space — a real community that runs itself, not a sterile brand with paid staff and awkward events.
             </p>
 
-            <Button variant="warning" size="md" className="mt-2 mb-4" href={tallyInterestUrl}>Join the Waitlist</Button>
+            <Button variant="warning" size="md" className="mt-2 mb-4" href={tallyInterestUrl} onClick={() => trackEvent(CTA.waitlistSage)}>Join the Waitlist</Button>
 
             <p>
               You can also <b><Link href={instagramSageUrl}>follow us</Link></b> on Instagram.

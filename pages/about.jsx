@@ -9,6 +9,7 @@ import YouTube from '../components/youtube';
 import danielPic from "../public/images/daniel.jpg";
 import bobPic from "../public/images/bob.jpeg";
 
+import { trackEvent, CTA } from '../utils/track';
 import {
   buildingSageUrl,
   structuresUrl,
@@ -112,8 +113,8 @@ export default function () {
             <Col xl={7}>
               <h5><b>Our Story</b></h5>
               <p>
-                Over a ten-year career working across the fields of communal living, organizational design, and technology development, Zaratan founder Daniel Kronovet developed the concept for a certain kind of house
-                — one that was <b>accessible, appealing, and easy to live in</b>.
+                Over a ten-year career working across the fields of communal living, organizational design, and technology development,
+                Zaratan founder Daniel Kronovet developed the concept for a certain kind of house — one that was <b>accessible, appealing, and easy to live in</b>.
               </p>
               <p>
                 In March of 2020, Daniel moved back to his hometown of Los Angeles to try and make this dream a reality.
@@ -183,13 +184,14 @@ export default function () {
               </p>
 
               <p>
-                <b>Want to know more?</b> <Link href="mailto:hello@zaratan.world">Send us a note</Link>.
+                <b>Want to know more?</b> <Link href="mailto:hello@zaratan.world" onClick={() => trackEvent(CTA.emailAbout)}>Send us a note</Link>.
               </p>
 
               <hr></hr>
 
               <p>
-                We offer advising to coliving operators and aspiring communities. To learn more, <Link href={calendlyUrl} target="_blank"><b>book a free consultation</b></Link>.
+                We offer advising to coliving operators and aspiring communities.
+                To learn more, <Link href={calendlyUrl} target="_blank" onClick={() => trackEvent(CTA.bookConsultation)}><b>book a free consultation</b></Link>.
               </p>
             </Col>
           </Row>

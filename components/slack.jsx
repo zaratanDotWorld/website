@@ -1,9 +1,12 @@
-export default function ({ text, url }) {
+import { trackEvent } from '../utils/track';
+
+export default function ({ text, url, eventName }) {
   return (
     <a
       className="m-3"
       target="_blank"
       href={url}
+      onClick={() => { if (eventName) trackEvent(eventName); }}
       style={{
         alignItems:"center",
         color:"#000",

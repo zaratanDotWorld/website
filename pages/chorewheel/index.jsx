@@ -6,6 +6,7 @@ import Headpiece from '../../components/headpiece';
 import SlackButton from '../../components/slack';
 
 import { getImages } from '../../utils/s3';
+import { trackEvent, CTA } from '../../utils/track';
 import {
   repoUrl,
   metagovUrl,
@@ -101,7 +102,7 @@ export default function ({ images }) {
           </p>
 
           <div className="center">
-            <Button variant="primary" size="md" className="mt-3 mb-4" href="/chorewheel/start">✨ Get Started Today ✨</Button>
+            <Button variant="primary" size="md" className="mt-3 mb-4" href="/chorewheel/start" onClick={() => trackEvent(CTA.chorewheelGetStarted)}>✨ Get Started Today ✨</Button>
             <br></br>
 
             <Link href={structuresUrl}>Read the paper</Link>

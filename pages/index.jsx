@@ -9,6 +9,7 @@ import SignupForm from '../components/mailchimp';
 
 import zaratanPic from "../public/images/zaratan-art.png";
 
+import { CTA } from '../utils/track';
 import { joysOfColivingUrl, instagramUrl, mailchimpGeneral } from '../utils/constants';
 
 export async function getStaticProps() {
@@ -90,7 +91,7 @@ export default function () {
 
           <br></br>
 
-          <SignupForm text="Get awesome updates" placeholder="~ email address ~" tags={mailchimpGeneral} />
+          <SignupForm text="Get awesome updates" placeholder="~ email address ~" tags={mailchimpGeneral} eventName={CTA.newsletterSignup} />
         </Col>
         <Col />
       </Row>

@@ -6,6 +6,7 @@ import Carousel from '../../components/carousel';
 import Headpiece from '../../components/headpiece';
 
 import { getImages } from '../../utils/s3';
+import { trackEvent, CTA } from '../../utils/track';
 import { tongvaUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
@@ -61,7 +62,7 @@ export default function ({ images }) {
             on-site.
           </p>
 
-          <p>For availability information, <b><Link href="mailto:hello@zaratan.world">drop us a line</Link></b>.</p>
+          <p>For availability information, <b><Link href="mailto:hello@zaratan.world" onClick={() => trackEvent(CTA.emailCactus)}>drop us a line</Link></b>.</p>
 
           {/* TODO: Add vacancy email signup */}
 

@@ -5,6 +5,7 @@ import Headpiece from '../../components/headpiece';
 import SlackButton from '../../components/slack';
 import YouTube from '../../components/youtube';
 
+import { trackEvent, CTA } from '../../utils/track';
 import {
   quickstartUrl,
   choresInstallUrl,
@@ -58,7 +59,7 @@ export default function () {
           <Alert variant="success" className="center">
             <i>Not sure yet?</i>
             <br></br>
-            <Link href={interestFormUrl} target="_blank"><b>Fill out an interest form</b></Link>
+            <Link href={interestFormUrl} target="_blank" onClick={() => trackEvent(CTA.interestForm)}><b>Fill out an interest form</b></Link>
           </Alert>
         </Col>
         <Col />
@@ -95,7 +96,7 @@ export default function () {
           </p>
 
           <div className="center py-3 pb-4">
-            <Button variant="primary" href="https://slack.com/get-started" target="_blank">
+            <Button variant="primary" href="https://slack.com/get-started" target="_blank" onClick={() => trackEvent(CTA.slackWorkspace)}>
               Create Your Free Workspace
             </Button>
           </div>
@@ -103,7 +104,7 @@ export default function () {
           <div className="center">
             <small>
               For now, Chore Wheel is only on Slack.
-              If you want to help us expand to other platforms, <Link href={contactUrl}>reach out!</Link>
+              If you want to help us expand to other platforms, <Link href={contactUrl} onClick={() => trackEvent(CTA.emailChorewheel)}>reach out!</Link>
             </small>
           </div>
 
@@ -130,11 +131,11 @@ export default function () {
 
           <div className="center py-2">
             ✨
-            <SlackButton text="Get Chores" url={choresInstallUrl} />
+            <SlackButton text="Get Chores" url={choresInstallUrl} eventName={CTA.installChores} />
             ✨
-            <SlackButton text="Get Hearts" url={heartsInstallUrl} />
+            <SlackButton text="Get Hearts" url={heartsInstallUrl} eventName={CTA.installHearts} />
             ✨
-            <SlackButton text="Get Things" url={thingsInstallUrl} />
+            <SlackButton text="Get Things" url={thingsInstallUrl} eventName={CTA.installThings} />
             ✨
           </div>
 
@@ -149,13 +150,13 @@ export default function () {
           <p>
             Once you do, you'll be amazed at how well everything works.
             If you need any help, the <Link href={docsUrl}><b>project docs</b></Link> have details of how the apps work and examples for how to use them.
-            Or, just send us <Link href={supportUrl} target="_blank"><b>an email</b></Link>.
+            Or, just send us <Link href={supportUrl} target="_blank" onClick={() => trackEvent(CTA.emailChorewheel)}><b>an email</b></Link>.
           </p>
 
           <p>
             We'd love to hear about your experience!
             Share your stories (tag <Link href={instagramUrl} target="_blank">@zaratan.world</Link>),
-            or <Link href={contactUrl} target="_blank">contact us</Link>.
+            or <Link href={contactUrl} target="_blank" onClick={() => trackEvent(CTA.emailChorewheel)}>contact us</Link>.
           </p>
 
           <br></br>
@@ -249,7 +250,7 @@ export default function () {
             <li>For <b>app details</b>, see the <Link href={docsUrl}>full documentation</Link></li>
             <li>For <b>peer support</b>, join our <Link href={slackCommunityUrl}>Slack community</Link></li>
             <li>For <b>source code</b>, see the <Link href={repoUrl}>GitHub repository</Link></li>
-            <li>For <b>general questions</b>, please <Link href={contactUrl}>contact us</Link></li>
+            <li>For <b>general questions</b>, please <Link href={contactUrl} onClick={() => trackEvent(CTA.emailChorewheel)}>contact us</Link></li>
           </ul>
         </Col>
         <Col />
