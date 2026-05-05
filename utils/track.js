@@ -14,6 +14,7 @@ export const CTA = {
 };
 
 export function trackEvent(name, params = {}) {
+  console.log('[trackEvent]', name, 'gtag:', typeof window !== 'undefined' && typeof window.gtag);
   if (typeof window === 'undefined') return;
   if (typeof window.gtag !== 'function') return;
   window.gtag('event', name, params);
