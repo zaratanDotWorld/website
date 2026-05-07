@@ -59,7 +59,7 @@ export default function () {
           <Alert variant="success" className="center">
             <i>Not sure yet?</i>
             <br></br>
-            <Link href={interestFormUrl} target="_blank" onClick={() => trackEvent(CTA.interestForm)}><b>Fill out an interest form</b></Link>
+            <Link href={interestFormUrl} target="_blank" onClick={() => trackEvent(CTA.cwInterest)}><b>Fill out an interest form</b></Link>
           </Alert>
         </Col>
         <Col />
