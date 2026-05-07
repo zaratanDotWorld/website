@@ -3,7 +3,7 @@
 export const CTA = {
   newsletterSignup: 'newsletter_signup',              // homepage — Mailchimp newsletter signup
   waitlistSage: 'cta_waitlist_sage',                  // Sage House — join waitlist
-  emailCactus: 'cta_email_cactus',                    // Cactus House — email inquiry
+  emailCactus: 'cta_email_cactus',                    // Cactus Cottage — email inquiry
   bookConsult: 'cta_book_consult',                    // About page — Calendly consultation
   emailAbout: 'cta_email_about',                      // About page — email inquiry
   cwGetStarted: 'cta_cw_get_started',                 // Chore Wheel — "Get Started" CTA on /chorewheel
