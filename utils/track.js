@@ -1,16 +1,18 @@
+// GA4 event names sent via gtag. The CRO agent reads this file to attribute
+// each event to its product and page; keep the trailing comments accurate.
 export const CTA = {
-  newsletterSignup: 'newsletter_signup',
-  waitlistSage: 'cta_waitlist_sage',
-  emailCactus: 'cta_email_cactus',
-  bookConsultation: 'cta_book_consultation',
-  emailAbout: 'cta_email_about',
-  chorewheelGetStarted: 'cta_chorewheel_get_started',
-  interestForm: 'cta_interest_form',
-  slackWorkspace: 'cta_slack_workspace',
-  installChores: 'cta_install_chores',
-  installHearts: 'cta_install_hearts',
-  installThings: 'cta_install_things',
-  emailChorewheel: 'cta_email_chorewheel',
+  newsletterSignup: 'newsletter_signup',              // homepage — Mailchimp newsletter signup
+  waitlistSage: 'cta_waitlist_sage',                  // Sage House — join waitlist
+  emailCactus: 'cta_email_cactus',                    // Cactus House — email inquiry
+  bookConsultation: 'cta_book_consultation',          // About page — Calendly consultation
+  emailAbout: 'cta_email_about',                      // About page — email inquiry
+  chorewheelGetStarted: 'cta_chorewheel_get_started', // Chore Wheel — "Get Started" CTA on /chorewheel
+  cwInterest: 'cta_cw_interest',                      // Chore Wheel — deployment interest form (Google Form)
+  slackWorkspace: 'cta_slack_workspace',              // Chore Wheel — link to create a Slack workspace
+  installChores: 'cta_install_chores',                // Chore Wheel — install Chores Slack app
+  installHearts: 'cta_install_hearts',                // Chore Wheel — install Hearts Slack app
+  installThings: 'cta_install_things',                // Chore Wheel — install Things Slack app
+  emailChorewheel: 'cta_email_chorewheel',            // Chore Wheel — email contact (multiple placements)
 };
 
 export function trackEvent(name, params = {}) {
