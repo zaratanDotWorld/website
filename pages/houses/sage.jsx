@@ -106,7 +106,7 @@ export default function ({ images }) {
               <tr><th>Supplies</th><td>Included</td><td>Included</td><td>$60</td></tr>
               <tr><th>Food Staples</th><td>Included</td><td>$120</td><td>$120</td></tr>
               <tr><th>Internet</th><td>Included</td><td>Included</td><td>$50</td></tr>
-              <tr><th>Community Fee</th><td>$0</td><td>$175</td><td>$0</td></tr>
+              <tr><th>Service Fee</th><td>$0</td><td>$175</td><td>$0</td></tr>
               <tr><th>Total</th><td style={{backgroundColor: "#00ff7f33"}}>$1,250</td><td>$1,495</td><td>$1,360</td></tr>
             </tbody>
           </Table>
