@@ -57,3 +57,39 @@ This feedback is captured in detail in spec/TOOLS.md under "Pilot Playbook."
 - Does an operator need cross-house visibility?
 - What does the minimum viable operator dashboard look like?
 - How to reach more coliving operators? (Substack audience? Conferences? Partnerships?)
+
+## Competitor Notes: Outpost Club (outpost.me)
+
+NYC coliving operator at very different scale (50+ properties, 12,000+ tenants), so not all tactics transfer.
+But several patterns are cheap to adopt and worth stealing.
+
+### What they do well
+
+- **Stacked social proof above the fold.** Google (4.4, 638 reviews), Facebook (4.6), Trustpilot (4.0) ratings displayed together, plus press logos (Forbes, Fox, NYC.gov). Quantified credibility before any copy.
+- **Video testimonials.** ~10 embedded resident videos, not just text quotes. Higher trust per pixel.
+- **Concrete numbers as positioning.** "12,000+ Tenants", "50+ Nationalities", "24/7 Support" — every claim has a number attached.
+- **"How it Works" as a 4-step graphic.** Demystifies the application flow upfront, reduces friction for first-time renters.
+- **Promotional pricing with strikethroughs.** Original price crossed out next to discounted price. Creates urgency without scarcity language.
+- **Community-first language.** "Find Your People", matching narrative ("live with like-minded people"). Sells belonging, not square footage.
+- **Segmented funnels.** Separate landing experiences for students (FALL2026 promo code), corporate groups, and individual renters.
+- **Amenities transparency.** Icon grid (~25 items per listing) so visitors don't have to ask basic questions.
+
+### What we could adopt for Zaratan
+
+1. **Pull review counts onto the homepage.** Even one Google rating with a count beats a generic testimonial. Low-cost trust win.
+2. **One short resident video.** A 30–60s clip of a Sage House resident is more persuasive than any copy I can write.
+3. **Numbers on the home page.** "9 residents, X years operating, Y% application-to-move-in." We already have the 80% number — use it.
+4. **"How applying works" 3-step block.** Apply → Visit → Move in. Reduces the perceived risk of clicking /apply.
+5. **Community/matching language.** Lead with the people, not the house. "Find your house, find your people" or similar.
+6. **Press/mention strip if/when we get any.** Substack mentions, podcast appearances, etc. count.
+
+### What NOT to copy
+
+- Their hero copy ("Rent Furnished Rooms & Apartments Stress-Free") is generic. We can do better with specific positioning (governance, community-run, not a landlord product).
+- Heavy promotional pricing / discount theater is wrong for our scale and brand. We're not running a sales funnel, we're filling 1–2 rooms.
+- Complex nested navigation. Our site should stay simple — one house, one studio, one application flow.
+
+### Caveat
+
+Per the key insights above, the website is a landing pad, not the growth engine.
+These are cheap upgrades to make when we touch the site, not a reason to prioritize a refresh.
