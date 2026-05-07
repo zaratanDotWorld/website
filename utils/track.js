@@ -12,7 +12,7 @@ export const CTA = {
   installChores: 'cta_install_chores',                // Chore Wheel — install Chores Slack app
   installHearts: 'cta_install_hearts',                // Chore Wheel — install Hearts Slack app
   installThings: 'cta_install_things',                // Chore Wheel — install Things Slack app
-  emailChorewheel: 'cta_email_chorewheel',            // Chore Wheel — email contact (multiple placements)
+  emailCw: 'cta_email_cw',                            // Chore Wheel — email contact (multiple placements)
 };
 
 export function trackEvent(name, params = {}) {

@@ -104,7 +104,7 @@ export default function () {
           <div className="center">
             <small>
               For now, Chore Wheel is only on Slack.
-              If you want to help us expand to other platforms, <Link href={contactUrl} onClick={() => trackEvent(CTA.emailChorewheel)}>reach out!</Link>
+              If you want to help us expand to other platforms, <Link href={contactUrl} onClick={() => trackEvent(CTA.emailCw)}>reach out!</Link>
             </small>
           </div>
 
@@ -150,13 +150,13 @@ export default function () {
           <p>
             Once you do, you'll be amazed at how well everything works.
             If you need any help, the <Link href={docsUrl}><b>project docs</b></Link> have details of how the apps work and examples for how to use them.
-            Or, just send us <Link href={supportUrl} target="_blank" onClick={() => trackEvent(CTA.emailChorewheel)}><b>an email</b></Link>.
+            Or, just send us <Link href={supportUrl} target="_blank" onClick={() => trackEvent(CTA.emailCw)}><b>an email</b></Link>.
           </p>
 
           <p>
             We'd love to hear about your experience!
             Share your stories (tag <Link href={instagramUrl} target="_blank">@zaratan.world</Link>),
-            or <Link href={contactUrl} target="_blank" onClick={() => trackEvent(CTA.emailChorewheel)}>contact us</Link>.
+            or <Link href={contactUrl} target="_blank" onClick={() => trackEvent(CTA.emailCw)}>contact us</Link>.
           </p>
 
           <br></br>
@@ -250,7 +250,7 @@ export default function () {
             <li>For <b>app details</b>, see the <Link href={docsUrl}>full documentation</Link></li>
             <li>For <b>peer support</b>, join our <Link href={slackCommunityUrl}>Slack community</Link></li>
             <li>For <b>source code</b>, see the <Link href={repoUrl}>GitHub repository</Link></li>
-            <li>For <b>general questions</b>, please <Link href={contactUrl} onClick={() => trackEvent(CTA.emailChorewheel)}>contact us</Link></li>
+            <li>For <b>general questions</b>, please <Link href={contactUrl} onClick={() => trackEvent(CTA.emailCw)}>contact us</Link></li>
           </ul>
         </Col>
         <Col />
