@@ -6,7 +6,6 @@ export const tallyInterestUrl = "https://tally.so/r/gDLPzN";
 export const instagramUrl = "https://www.instagram.com/zaratan.world";
 export const instagramSageUrl = "https://www.instagram.com/sage.co.op";
 export const kronosapiensUrl ="https://kronosapiens.github.io"
-export const loginUrl = "https://zaratan.managebuilding.com/Resident/portal";
 export const contactUrl = "mailto:hello@zaratan.world";
 export const supportUrl = "mailto:support@zaratan.world";
 export const calendlyUrl = "https://calendly.com/zaratan-krono/30min";

@@ -28,20 +28,7 @@ export default function () {
             <Nav.Link href={blogUrl} target="_blank">📚 Blog ↗</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        {/* <LoginButton /> */}
       </Container>
     </Navbar>
-  )
-}
-
-export function LoginButton() {
-  const loginUrl = "https://zaratan.managebuilding.com/Resident/portal";
-
-  return (
-    <ul className="navbar-nav navbar-right">
-      <li className="nav-item btn btn-sm btn-outline-success">
-        <a className="nav-link" href={loginUrl}><b>Housemate Login</b></a>
-      </li>
-  </ul>
   )
 }
