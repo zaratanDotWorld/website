@@ -1,0 +1,60 @@
+name: CRO Agent
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Pull GA4 data
+        env:
+          GA4_PROPERTY_ID: '411790166'
+          GA4_SERVICE_ACCOUNT_KEY: ${{ secrets.GA4_SERVICE_ACCOUNT_KEY }}
+        run: node scripts/cro-agent/run.mjs > /tmp/cro-data.md
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            REPO: ${{ github.repository }}
+            RUN ID: ${{ github.run_id }}
+
+            You are the Zaratan CRO agent. The repo is checked out at the workspace root.
+
+            Inputs:
+            - GA4 data for the last 30 days is at `/tmp/cro-data.md` (raw tables).
+            - Product context lives in `spec/GROWTH.md`, `spec/HOUSING.md`, `spec/TOOLS.md`.
+            - CTA event names are defined in `utils/track.js`.
+
+            Task:
+            1. Read the inputs above.
+            2. Create a new file `cro/report-<YYYY-MM-DD>.md` (use today's UTC date) containing:
+               - The raw data tables from `/tmp/cro-data.md`
+               - Headline numbers (3-4 bullets)
+               - What is working / what is underperforming
+               - 3-5 specific, prioritized recommendations. For each: page path, change, expected impact, effort (S/M/L)
+               Be concrete. Reference exact page paths and event names. No fluff.
+            3. Create a new branch `cro-agent/report-${{ github.run_id }}`, commit only the new report file with message `chore(cro): monthly report`, push to origin, and open a PR to `main` titled `chore(cro): monthly report` with a 1-2 sentence body summarizing the top recommendation.
+          claude_args: |
+            --max-turns 30
