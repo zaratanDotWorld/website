@@ -34,5 +34,8 @@
     "onlyBuiltDependencies": [
       "sharp"
     ]
+  },
+  "devDependencies": {
+    "@google-analytics/data": "^5.2.2"
   }
 }
