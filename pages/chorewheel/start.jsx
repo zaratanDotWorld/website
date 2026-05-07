@@ -126,7 +126,7 @@ export default function () {
 
           <p>
             You can install the apps by <b>clicking the buttons below</b> (must be a workspace admin).
-            You can read the <Link href={quickstartUrl}><b>getting started guide</b></Link> for more details about the apps and how to use them.
+            You can read the <Link href={quickstartUrl} target="_blank"><b>getting started guide</b></Link> for more details about the apps and how to use them.
           </p>
 
           <div className="center py-2">
@@ -149,14 +149,14 @@ export default function () {
           </p>
           <p>
             Once you do, you'll be amazed at how well everything works.
-            If you need any help, the <Link href={docsUrl}><b>project docs</b></Link> have details of how the apps work and examples for how to use them.
-            Or, just send us <Link href={supportUrl} target="_blank" onClick={() => trackEvent(CTA.emailCw)}><b>an email</b></Link>.
+            If you need any help, the <Link href={docsUrl} target="_blank"><b>project docs</b></Link> have details of how the apps work and examples for how to use them.
+            Or, just send us <Link href={supportUrl} onClick={() => trackEvent(CTA.emailCw)}><b>an email</b></Link>.
           </p>
 
           <p>
             We'd love to hear about your experience!
             Share your stories (tag <Link href={instagramUrl} target="_blank">@zaratan.world</Link>),
-            or <Link href={contactUrl} target="_blank" onClick={() => trackEvent(CTA.emailCw)}>contact us</Link>.
+            or <Link href={contactUrl} onClick={() => trackEvent(CTA.emailCw)}>contact us</Link>.
           </p>
 
           <br></br>
@@ -213,8 +213,8 @@ export default function () {
           <p>
             <b>Is Chore Wheel open-source?</b>
             <br></br>
-            Yes! Chore Wheel is open-source under the <Link href="https://choosealicense.com/licenses/agpl-3.0/">AGPL-3 license</Link>.
-            You can see the <Link href={repoUrl}>source code on GitHub</Link>,
+            Yes! Chore Wheel is open-source under the <Link href="https://choosealicense.com/licenses/agpl-3.0/" target="_blank">AGPL-3 license</Link>.
+            You can see the <Link href={repoUrl} target="_blank">source code on GitHub</Link>,
             and contributions are welcome.
           </p>
 
@@ -230,9 +230,9 @@ export default function () {
           <p>
             <b>What were the influences for Chore Wheel?</b>
             <br></br>
-            Chore Wheel was heavily influenced by the work of Nobel Laureate Elinor Ostrom (<Link href={bookUrlOstrom}>Governing the Commons</Link>),
-            Stafford Beer (<Link href={bookUrlBeer}>Designing Freedom</Link>),
-            and Frederic Laloux (<Link href={bookUrlLaloux}>Reinventing Organizations</Link>).
+            Chore Wheel was heavily influenced by the work of Nobel Laureate Elinor Ostrom (<Link href={bookUrlOstrom} target="_blank">Governing the Commons</Link>),
+            Stafford Beer (<Link href={bookUrlBeer} target="_blank">Designing Freedom</Link>),
+            and Frederic Laloux (<Link href={bookUrlLaloux} target="_blank">Reinventing Organizations</Link>).
             While Chore Wheel might seem like a "tech" solution to a human problem,
             it's actually the result of a lot of deep thinking about how people work together.
           </p>
@@ -247,9 +247,9 @@ export default function () {
           </p>
 
           <ul>
-            <li>For <b>app details</b>, see the <Link href={docsUrl}>full documentation</Link></li>
-            <li>For <b>peer support</b>, join our <Link href={slackCommunityUrl}>Slack community</Link></li>
-            <li>For <b>source code</b>, see the <Link href={repoUrl}>GitHub repository</Link></li>
+            <li>For <b>app details</b>, see the <Link href={docsUrl} target="_blank">full documentation</Link></li>
+            <li>For <b>peer support</b>, join our <Link href={slackCommunityUrl} target="_blank">Slack community</Link></li>
+            <li>For <b>source code</b>, see the <Link href={repoUrl} target="_blank">GitHub repository</Link></li>
             <li>For <b>general questions</b>, please <Link href={contactUrl} onClick={() => trackEvent(CTA.emailCw)}>contact us</Link></li>
           </ul>
         </Col>

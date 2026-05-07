@@ -86,7 +86,7 @@ export default function () {
             If your house is experiencing <b>drama</b> or <b>burnout</b>, check out <Link href="/chorewheel">Chore Wheel</Link>.
           </p>
           <p>
-            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl}>Instagram</Link>.
+            If you <b>just want to chat</b>, <Link href="mailto:hello@zaratan.world">drop us a line</Link> or find us on <Link href={instagramUrl} target="_blank">Instagram</Link>.
           </p>
 
           <br></br>
@@ -99,7 +99,7 @@ export default function () {
       <Row className="p-5">
         <Col />
         <Col md={8} xl={6}  style={{position:"relative", height:"600px"}}>
-          <Link href={instagramUrl}>
+          <Link href={instagramUrl} target="_blank">
             <Image
               fill
               src={zaratanPic}

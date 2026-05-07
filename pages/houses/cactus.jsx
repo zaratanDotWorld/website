@@ -66,7 +66,7 @@ export default function ({ images }) {
 
           {/* TODO: Add vacancy email signup */}
 
-          <p><i>Cactus Cottage is a proud supporter of the <Link href={tongvaUrl}>Tongva Conservancy</Link></i></p>
+          <p><i>Cactus Cottage is a proud supporter of the <Link href={tongvaUrl} target="_blank">Tongva Conservancy</Link></i></p>
         </Col>
         <Col />
       </Row>

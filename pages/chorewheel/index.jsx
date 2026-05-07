@@ -78,7 +78,7 @@ export default function ({ images }) {
         <Col />
         <Col md={8} xl={6}>
           <h5>
-            <b>Chore Wheel</b> is Zaratan's suite of <Link href={structuresUrl}>collaboration tools</Link>, turning <b>unspoken expectations</b> into <b>shared agreements</b>.
+            <b>Chore Wheel</b> is Zaratan's suite of <Link href={structuresUrl} target="_blank">collaboration tools</Link>, turning <b>unspoken expectations</b> into <b>shared agreements</b>.
           </h5>
 
           <hr></hr>
@@ -105,11 +105,11 @@ export default function ({ images }) {
             <Link href="/chorewheel/start" className="btn btn-primary btn-md mt-3 mb-4" onClick={() => trackEvent(CTA.cwGetStarted)}>✨ Get Started Today ✨</Link>
             <br></br>
 
-            <Link href={structuresUrl}>Read the paper</Link>
+            <Link href={structuresUrl} target="_blank">Read the paper</Link>
             &nbsp;·&nbsp;
-            <Link href={metagovUrl}>Watch the talk</Link>
+            <Link href={metagovUrl} target="_blank">Watch the talk</Link>
             &nbsp;·&nbsp;
-            <Link href={repoUrl}>See the code</Link>
+            <Link href={repoUrl} target="_blank">See the code</Link>
           </div>
 
           <hr></hr>
@@ -176,9 +176,9 @@ export function Pricing() {
           <tr><td>Up to 5 users</td><td>Up to 10 users</td><td>Up to 20 users</td></tr>
           <tr><td><s>$20/mo</s></td><td><s>$40/mo</s></td><td><s>$60/mo</s></td></tr>
           <tr>
-            <td><Button variant="outline-success" size="sm" href={roommateUrl}>Subscribe</Button></td>
-            <td><Button variant="outline-success" size="sm" href={familyUrl}>Subscribe</Button></td>
-            <td><Button variant="outline-success" size="sm" href={communityUrl}>Subscribe</Button></td>
+            <td><Button variant="outline-success" size="sm" href={roommateUrl} target="_blank">Subscribe</Button></td>
+            <td><Button variant="outline-success" size="sm" href={familyUrl} target="_blank">Subscribe</Button></td>
+            <td><Button variant="outline-success" size="sm" href={communityUrl} target="_blank">Subscribe</Button></td>
           </tr>
           <tr>
             <td><SlackButton text="Get Chores" installUrl={choresInstallUrl} /></td>
