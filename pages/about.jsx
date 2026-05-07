@@ -71,7 +71,7 @@ export default function () {
 
               <p>
                 We see these challenges as linked, and believe that <b>coliving can address them all</b>, by enabling residents to co-create their own housing —
-                building relationships, saving money, and <Link href="https://geo.coop/archives/huetman604.htm">cultivating skills</Link> in the process.
+                building relationships, saving money, and <Link href="https://geo.coop/archives/huetman604.htm" target="_blank">cultivating skills</Link> in the process.
               </p>
 
               <p>
@@ -87,7 +87,7 @@ export default function () {
               <p>
                 To-date we have built two sites, <Link href="/houses/sage">Sage House</Link> and <Link href="/houses/cactus">Cactus Cottage</Link>, on a shared lot in Los Angeles.
                 We have developed a suite of pioneering organizational tools, called <Link href="/chorewheel">Chore Wheel</Link>.
-                Lastly, we have been cultivating knowledge within our community of <Link href={structuresUrl}>academics</Link> and <Link href={blogUrl}>practitioners</Link>.
+                Lastly, we have been cultivating knowledge within our community of <Link href={structuresUrl} target="_blank">academics</Link> and <Link href={blogUrl} target="_blank">practitioners</Link>.
                 Zaratan has an expansive vision, and we are in it for the long haul.
               </p>
 
@@ -95,12 +95,12 @@ export default function () {
                 <i>What is a Zaratan?</i>
               </p>
               <p>
-                A <Link href={zaratanUrl}>Zaratan</Link> is a <b>mythical giant sea turtle</b>, often mistaken for an island by sailors lost at sea.
+                A <Link href={zaratanUrl} target="_blank">Zaratan</Link> is a <b>mythical giant sea turtle</b>, often mistaken for an island by sailors lost at sea.
                 By naming ourselves after this creature, we evoke the way that organizational innovations can act as foundations for thriving communities.
                 In addition, Zaratani are known for their slow movements and long life, which we evoke through our patient and intentional approach to growth.
               </p>
               {/* <p>
-                The Zaratan is opposed by the fearsome <Link href={manticoreUrl}>Manticore</Link>, symbolizing the egotistical drive for status and control.
+                The Zaratan is opposed by the fearsome <Link href={manticoreUrl} target="_blank">Manticore</Link>, symbolizing the egotistical drive for status and control.
                 With its thick shell and careful movements, the Zaratan is able to withstand the Manticore, who quickly tires and loses its edge.
                 This (fictional) conflict evokes the way that thoughtful process can outlast charismatic leadership.
               </p> */}
@@ -165,7 +165,7 @@ export default function () {
               </p>
               <p>
                 An energetic student, Daniel studied at UC Berkeley, pursuing a double-major in Political Economy and Cognitive Science.
-                While at Cal, Daniel had his first experience of communal living through the <Link href="https://bsc.coop">Berkeley Student Cooperative</Link>.
+                While at Cal, Daniel had his first experience of communal living through the <Link href="https://bsc.coop" target="_blank">Berkeley Student Cooperative</Link>.
                 Connecting deeply with the co-op's mission, Daniel got involved in leadership, eventually becoming president — complementing his intellectual development with a rich experience of practice.
               </p>
               <p>
@@ -173,8 +173,8 @@ export default function () {
                 These experiences broadened his perspective, exposing him to a diversity of organizational structures and practices.
               </p>
               <p>
-                Returning to the United States, Daniel went to New York City and into technology, earning a master's degree in Quantitative Social Science at Columbia University, <Link href={thesisUrl}>researching voting systems</Link>.
-                Starting his career as a machine learning engineer, he soon pivoted to mechanism design, as a research engineer at the pioneering future-of-work project <Link href="https://colony.io">Colony</Link>.
+                Returning to the United States, Daniel went to New York City and into technology, earning a master's degree in Quantitative Social Science at Columbia University, <Link href={thesisUrl} target="_blank">researching voting systems</Link>.
+                Starting his career as a machine learning engineer, he soon pivoted to mechanism design, as a research engineer at the pioneering future-of-work project <Link href="https://colony.io" target="_blank">Colony</Link>.
                 In this role, Daniel gained a deeper understanding of the skills needed to design and implement complex systems.
               </p>
               <p>
