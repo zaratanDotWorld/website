@@ -6,7 +6,7 @@ export const CTA = {
   emailCactus: 'cta_email_cactus',                    // Cactus House — email inquiry
   bookConsultation: 'cta_book_consultation',          // About page — Calendly consultation
   emailAbout: 'cta_email_about',                      // About page — email inquiry
-  chorewheelGetStarted: 'cta_chorewheel_get_started', // Chore Wheel — "Get Started" CTA on /chorewheel
+  cwGetStarted: 'cta_cw_get_started',                 // Chore Wheel — "Get Started" CTA on /chorewheel
   cwInterest: 'cta_cw_interest',                      // Chore Wheel — deployment interest form (Google Form)
   slackWorkspace: 'cta_slack_workspace',              // Chore Wheel — link to create a Slack workspace
   installChores: 'cta_install_chores',                // Chore Wheel — install Chores Slack app

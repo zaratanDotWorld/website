@@ -102,7 +102,7 @@ export default function ({ images }) {
           </p>
 
           <div className="center">
-            <Link href="/chorewheel/start" className="btn btn-primary btn-md mt-3 mb-4" onClick={() => trackEvent(CTA.chorewheelGetStarted)}>✨ Get Started Today ✨</Link>
+            <Link href="/chorewheel/start" className="btn btn-primary btn-md mt-3 mb-4" onClick={() => trackEvent(CTA.cwGetStarted)}>✨ Get Started Today ✨</Link>
             <br></br>
 
             <Link href={structuresUrl}>Read the paper</Link>
