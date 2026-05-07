@@ -58,7 +58,7 @@ export default function ({ images }) {
         <Col md={8} xl={6}>
           <div className="center">
             <p>
-              <em>As seen on <Link href={nbcUrl}>NBC4</Link> and <Link href={supernuclearUrl}>Supernuclear</Link></em>
+              <em>As seen on <Link href={nbcUrl} target="_blank">NBC4</Link> and <Link href={supernuclearUrl} target="_blank">Supernuclear</Link></em>
             </p>
 
             <p>
@@ -81,13 +81,13 @@ export default function ({ images }) {
             </p>
 
             <p>
-              Live with people who <b>actually care</b> about sharing space — a real community that runs itself, not a sterile brand with paid staff and awkward events.
+              Live with people who <b>genuinely care</b> about sharing space — a real community that runs itself.
             </p>
 
             <Button variant="warning" size="md" className="mt-2 mb-4" href={tallyInterestUrl} target="_blank" onClick={() => trackEvent(CTA.waitlistSage)}>Join the Waitlist</Button>
 
             <p>
-              You can also <b><Link href={instagramSageUrl}>follow us</Link></b> on Instagram.
+              You can also <b><Link href={instagramSageUrl} target="_blank">follow us</Link></b> on Instagram!
             </p>
           </div>
 
@@ -115,7 +115,7 @@ export default function ({ images }) {
 
           <br></br>
 
-          <p><i>Sage House is a proud supporter of the <Link href={tongvaUrl}>Tongva Conservancy</Link></i></p>
+          <p><i>Sage House is a proud supporter of the <Link href={tongvaUrl} target="_blank">Tongva Conservancy</Link></i></p>
         </Col>
         <Col />
       </Row>
