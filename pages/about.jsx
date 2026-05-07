@@ -191,7 +191,7 @@ export default function () {
 
               <p>
                 We offer advising to coliving operators and aspiring communities.
-                To learn more, <Link href={calendlyUrl} target="_blank" onClick={() => trackEvent(CTA.bookConsultation)}><b>book a free consultation</b></Link>.
+                To learn more, <Link href={calendlyUrl} target="_blank" onClick={() => trackEvent(CTA.bookConsult)}><b>book a free consultation</b></Link>.
               </p>
             </Col>
           </Row>
