@@ -11,10 +11,10 @@ import { trackEvent, CTA } from '../../utils/track';
 import { tallyInterestUrl, instagramSageUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
-  const pageTitle = "Sage House";
+  const pageTitle = "Sage House — Coliving in Highland Park, LA";
   const pageDescription =
-    "A restored 1905 Craftsman in Highland Park, Los Angeles. 9-bedroom " +
-    "coliving house with all-inclusive pricing from $1,200/mo. Community built-in.";
+    "Coliving in Highland Park, Los Angeles. 9-bedroom restored 1905 Craftsman " +
+    "with all-inclusive pricing from $1,140/mo. Join the Sage House waitlist.";
   const pageImage =
     "https://d3gacl6pm59h8m.cloudfront.net/public/images/sage/mls/DSC04562.jpg";
 
@@ -62,7 +62,7 @@ export default function ({ images }) {
             </p>
 
             <p>
-              A beautifully-restored 1905 Craftsman in the heart of vibrant <b>Highland Park, Los Angeles</b>.
+              A beautifully-restored 1905 Craftsman in the heart of vibrant <b>Highland Park, Los Angeles</b> — with cafes, bars, and restaurants along Figueroa Street and York Boulevard, and quick access to Eagle Rock, South Pasadena, and Downtown LA via the Metro Gold Line.
             </p>
 
             <p>
@@ -113,6 +113,49 @@ export default function ({ images }) {
 
           <p>*Price varies by room</p>
 
+          <br></br>
+
+          <h5>Frequently Asked Questions</h5>
+
+          <h6>Is Sage House coliving?</h6>
+          <p>
+            Yes. Sage House is a 9-bedroom coliving home in Highland Park, Los Angeles.
+            Residents have private bedrooms and share fully-equipped common areas — a restaurant-style kitchen, dining room, living room, art space, gym, recording studio, and backyard with fire pit.
+            Leases are initially 4 months, and then month-to-month for as long as you want to stay.
+          </p>
+
+          <h6>How much does coliving at Sage House cost?</h6>
+          <p>
+            Rent starts at $1,140/month and varies by room.
+            Pricing is all-inclusive — utilities, internet, household supplies, and food staples are covered.
+            There are no hidden fees.
+          </p>
+
+          <h6>Where is Sage House located?</h6>
+          <p>
+            Sage House is in <b>Highland Park, Los Angeles</b>, close to Eagle Rock, South Pasadena, and Downtown LA.
+            The neighborhood is walkable, served by the Metro Gold Line, steps from Figueroa Street's restaurants, cafes, and bookstores, and a short walk to York Boulevard.
+          </p>
+
+          <h6>What's included in rent?</h6>
+          <p>
+            All utilities, internet, household supplies, and food staples — plus access to common space including kitchen, dining room, art space, gym, recording studio, fire pit, and guest room.
+          </p>
+
+          <h6>Who lives at Sage House?</h6>
+          <p>
+            Residents are professionals, creatives, and students who want real community at home.
+            The residents run the house with the help of <Link href="/chorewheel">open-source tools.</Link>
+          </p>
+
+          <h6>How do I apply?</h6>
+          <p>
+            Join the waitlist below — we'll reach out when a room opens up that matches what you're looking for.
+          </p>
+
+          <Button variant="warning" size="md" className="mt-3 mb-2" href={tallyInterestUrl} target="_blank" onClick={() => trackEvent(CTA.waitlistSage)}>Join the Waitlist</Button>
+
+          <br></br>
           <br></br>
 
           <p><i>Sage House is a proud supporter of the <Link href={tongvaUrl} target="_blank">Tongva Conservancy</Link></i></p>
