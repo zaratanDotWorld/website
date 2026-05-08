@@ -82,7 +82,7 @@ export default function ({ images }) {
             </p>
 
             <p>
-              A beautifully-restored 1905 Craftsman in the heart of vibrant <b>Highland Park, Los Angeles</b> — steps away from the cafes, bars, and restaurants of Figueroa Street and York Boulevard, with quick access to Eagle Rock, South Pasadena, and Downtown LA via the Metro Gold Line.
+              A beautifully-restored 1905 Craftsman in the heart of vibrant <b>Highland Park, Los Angeles</b> — steps away from the cafes, bars, and restaurants of Figueroa Street and York Boulevard, with quick access to Eagle Rock, South Pasadena, and Downtown LA via the Metro A Line.
             </p>
 
             <p>
@@ -172,7 +172,7 @@ export default function ({ images }) {
           <p>
             <b>Where is Sage House located?</b>
             <br></br>
-            Sage House is in Highland Park, Los Angeles, close to Eagle Rock, South Pasadena, and Downtown LA on the Metro Gold Line.
+            Sage House is in Highland Park, Los Angeles, close to Eagle Rock, South Pasadena, and Downtown LA on the Metro A Line.
             The area is highly walkable, just steps from Figueroa Street and York Boulevard's restaurants, bars, and cafes.
           </p>
 
