@@ -20,7 +20,27 @@ export async function getStaticProps() {
 
   const regex = /public\/images\/sage\/mls\/.*\.jpg/i;
   const images = await getImages({ regex });
-  return { props: { pageTitle, pageDescription, pageImage, images } }
+
+  const pageStructuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Sage House",
+      "description": pageDescription,
+      "url": "https://zaratan.world/houses/sage",
+      "image": pageImage,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "addressCountry": "US",
+      },
+      "priceRange": "$$",
+      "numberOfRooms": 9,
+    },
+  ];
+
+  return { props: { pageTitle, pageDescription, pageImage, images, pageStructuredData } }
 }
 
 export default function ({ images }) {

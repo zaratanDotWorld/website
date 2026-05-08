@@ -15,7 +15,24 @@ import { joysOfColivingUrl, instagramUrl, mailchimpGeneral } from '../utils/cons
 export async function getStaticProps() {
   const pageDescription =
     "Zaratan Coliving builds naturally-affordable shared housing and open-source tools for communities in Los Angeles and beyond.";
-  return { props: { pageDescription } }
+
+  const pageStructuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Zaratan Coliving",
+      "url": "https://zaratan.world",
+      "logo": "https://zaratan.world/images/zaratan-art.png",
+      "description": pageDescription,
+      "sameAs": [
+        "https://www.instagram.com/zaratan.world",
+        "https://blog.zaratan.world",
+        "https://github.com/zaratanDotWorld/choreWheel",
+      ],
+    },
+  ];
+
+  return { props: { pageDescription, pageStructuredData } }
 }
 
 export default function () {

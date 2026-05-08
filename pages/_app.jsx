@@ -61,6 +61,15 @@ export  default function ({ Component, pageProps }) {
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content={pageImage} />
         <meta name="twitter:image:alt" content={pageImageAlt} />
+
+        {/* JSON-LD structured data */}
+        {(pageProps.pageStructuredData || []).map((schema, i) => (
+          <script
+            key={i}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        ))}
       </Head>
 
       <Layout>
