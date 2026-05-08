@@ -17,7 +17,26 @@ export async function getStaticProps() {
 
   const regex = /public\/images\/cactus\/mls\/.*\.jpg/i;
   const images = await getImages({ regex });
-  return { props: { pageTitle, pageDescription, images } }
+
+  const pageStructuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Cactus Cottage",
+      "description": pageDescription,
+      "url": "https://zaratan.world/houses/cactus",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "addressCountry": "US",
+      },
+      "priceRange": "$$",
+      "numberOfRooms": 1,
+    },
+  ];
+
+  return { props: { pageTitle, pageDescription, images, pageStructuredData } }
 }
 
 export default function ({ images }) {
