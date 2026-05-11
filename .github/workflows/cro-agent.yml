@@ -49,7 +49,7 @@ jobs:
 
             Task:
             1. Read the inputs above.
-            2. Create a new file `cro/report-<YYYY-MM-DD>.md` (use today's UTC date) containing:
+            2. Create a new file `analytics/cro/report-<YYYY-MM-DD>.md` (use today's UTC date) containing:
                - The raw data tables from `/tmp/cro-data.md`
                - Headline numbers (3-4 bullets)
                - What is working / what is underperforming
