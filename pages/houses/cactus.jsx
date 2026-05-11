@@ -10,7 +10,7 @@ import { trackEvent, CTA } from '../../utils/track';
 import { tongvaUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
-  const pageTitle = "Cactus Cottage";
+  const pageTitle = "Cactus Cottage — Highland Park, Los Angeles";
   const pageDescription =
     "A stunning studio in Highland Park, Los Angeles. Freestanding tiny " +
     "home with vaulted ceilings, full kitchen, and shared amenities next to Sage House.";

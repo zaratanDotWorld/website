@@ -10,7 +10,7 @@ import { getImages } from '../../utils/s3';
 import { quickstartUrl, heartsInstallUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
-  const pageTitle = "Hearts";
+  const pageTitle = "Hearts by Chore Wheel";
   const pageDescription =
     "Hearts by Chore Wheel: mutual accountability for shared houses. " +
     "Resolve conflict clearly and respectfully, without escalation.";

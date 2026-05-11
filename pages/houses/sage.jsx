@@ -11,7 +11,7 @@ import { trackEvent, CTA } from '../../utils/track';
 import { tallyInterestUrl, instagramSageUrl, tongvaUrl, nbcUrl, sageHouseFullUrl, supernuclearUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
-  const pageTitle = "Sage House — Coliving in Highland Park, LA";
+  const pageTitle = "Sage House — Highland Park, Los Angeles";
   const pageDescription =
     "Coliving in Highland Park, Los Angeles. 9-bedroom restored 1905 Craftsman " +
     "with all-inclusive pricing from $1,140/mo. Join the Sage House waitlist.";

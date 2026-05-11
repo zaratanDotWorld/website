@@ -8,10 +8,10 @@ import SlackButton from '../../components/slack';
 import YouTube from '../../components/youtube';
 
 import { getImages } from '../../utils/s3';
-import { choresInstallUrl, quickstartUrl, choresAppDemoUrl } from '../../utils/constants';
+import { choresInstallUrl, choresAppDemoUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
-  const pageTitle = "Chores";
+  const pageTitle = "Chores by Chore Wheel";
   const pageDescription =
     "Chores by Chore Wheel: fairly divide household tasks without schedules or nagging. " +
     "A Slack app for shared houses.";

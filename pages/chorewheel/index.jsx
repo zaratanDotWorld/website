@@ -18,10 +18,10 @@ import {
 } from '../../utils/constants';
 
 export async function getStaticProps() {
-  const pageTitle = "Chore Wheel";
+  const pageTitle = "Chore Wheel — coordination tools for shared houses";
   const pageDescription =
-    "Chore Wheel is a digital house manager for shared homes. Slack apps " +
-    "that get tasks done and resolve conflict — without meetings or managers.";
+    "Chore Wheel is a digital house manager for shared homes. " +
+    "Slack apps that get tasks done and resolve conflict — without meetings or managers.";
 
   const regex = /public\/images\/mirror\/framed-mobile-.*\.jpg/i;
   // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
@@ -52,7 +52,6 @@ export default function ({ images }) {
          <Headpiece
             mainText="Chore Wheel"
             subText="Community Made Easier"
-            // icon="☀️"
             icon="&#x1F506;"
             color="blue"
           />
