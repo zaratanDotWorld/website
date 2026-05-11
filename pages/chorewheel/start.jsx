@@ -26,7 +26,7 @@ import {
 } from '../../utils/constants';
 
 export async function getStaticProps() {
-  const pageTitle = "Getting Started";
+  const pageTitle = "Getting Started with Chore Wheel";
   const pageDescription =
     "Get started with Chore Wheel in 20 minutes. " +
     "Install the Slack apps, invite your housemates, and start running your shared house without meetings or managers.";

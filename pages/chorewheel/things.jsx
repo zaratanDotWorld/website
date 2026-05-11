@@ -10,7 +10,7 @@ import { getImages } from '../../utils/s3';
 import { quickstartUrl, thingsInstallUrl } from '../../utils/constants';
 
 export async function getStaticProps() {
-  const pageTitle = "Things";
+  const pageTitle = "Things by Chore Wheel";
   const pageDescription =
     "Things by Chore Wheel: manage group purchasing without spreadsheets or Venmo requests. " +
     "A Slack app for shared houses.";
