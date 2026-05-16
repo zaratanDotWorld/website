@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "@google-analytics/data": "^5.2.2"
+    "@google-analytics/data": "^5.2.2",
+    "cheerio": "^1.0.0"
   }
 }

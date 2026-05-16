@@ -1,6 +1,10 @@
 # Fluff
 .DS_Store
 
+# Private strategy docs (folder ignored, README kept for context)
+strategy/*
+!strategy/README.md
+
 # Logs
 logs
 *.log
