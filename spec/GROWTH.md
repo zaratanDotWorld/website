@@ -1,7 +1,7 @@
 # Zaratan Growth
 
 Living document for growth strategy and company-building.
-Last updated: 2026-03-29.
+Last updated: 2026-05-23.
 
 ## Two Businesses
 
@@ -58,10 +58,29 @@ This feedback is captured in detail in spec/TOOLS.md under "Pilot Playbook."
 - What does the minimum viable operator dashboard look like?
 - How to reach more coliving operators? (Substack audience? Conferences? Partnerships?)
 
+## Positioning
+
+The pitch has to thread a needle.
+Over-emphasizing community sets the wrong internal expectation (residents wanting weeks of candidate review, veto power, boutique selection theater) — which the business model can't sustain, since vacancies fill from real-time applicants on Craigslist and Facebook.
+Under-emphasizing community erases the real differentiator and concedes the language to operators who don't deliver it.
+
+**The resolution: separate operational agency from selection agency.**
+
+- **Selection (who moves in):** operator-driven, fast, fit-screened. Applicants should expect a quick yes/no based on whether they want shared living, can cover rent, and plan to stay 12+ months. No selection theater. The "good enough" standard is a feature, not a compromise — hand-picked communities are fragile, system-driven communities are resilient.
+- **Operations (how the house runs):** resident-led, system-supported. Chore Wheel distributes tasks, residents shape norms, no programming director. This is where the real community claim lives, and it's rare in the category.
+
+This is honest in a way competitors aren't.
+Outpost markets "Find Your People" over a centrally-placed boarding-house product with zero resident agency.
+Zaratan offers *less* selection agency than residents might wish, and *more* operational agency than any branded coliving operator actually delivers.
+
+**Language direction:** "A house residents actually run." "Operator-light, resident-led." "The community runs the house, not the other way around."
+**Avoid:** "Find your people," "find your house find your people," "matching" framing — all imply selection agency and set the wrong expectation in both directions (applicants think it's curated; residents think they get to curate).
+
 ## Competitor Notes: Outpost Club (outpost.me)
 
 NYC coliving operator at very different scale (50+ properties, 12,000+ tenants), so not all tactics transfer.
-But several patterns are cheap to adopt and worth stealing.
+Lived-in perspective: I'm a current Outpost resident, so these notes are firsthand, not site-reading.
+Several patterns are cheap to adopt and worth stealing — but their community claim is marketing fiction, not a model.
 
 ### What they do well
 
@@ -70,9 +89,12 @@ But several patterns are cheap to adopt and worth stealing.
 - **Concrete numbers as positioning.** "12,000+ Tenants", "50+ Nationalities", "24/7 Support" — every claim has a number attached.
 - **"How it Works" as a 4-step graphic.** Demystifies the application flow upfront, reduces friction for first-time renters.
 - **Promotional pricing with strikethroughs.** Original price crossed out next to discounted price. Creates urgency without scarcity language.
-- **Community-first language.** "Find Your People", matching narrative ("live with like-minded people"). Sells belonging, not square footage.
 - **Segmented funnels.** Separate landing experiences for students (FALL2026 promo code), corporate groups, and individual renters.
 - **Amenities transparency.** Icon grid (~25 items per listing) so visitors don't have to ask basic questions.
+
+### What they market well but don't deliver
+
+- **"Find Your People" / community-forward language.** In practice, Outpost centrally places tenants. Residents have zero say over who moves in — it's a branded boarding house with a community wrapper. Informative for two reasons: (1) the market clearly rewards community language even with nothing behind it, so Zaratan's real claim has competitive value; (2) the words "find your people" / "matching" have been devalued by misuse and shouldn't be borrowed. We need different language (see Positioning above).
 
 ### What we could adopt for Zaratan
 
@@ -80,12 +102,12 @@ But several patterns are cheap to adopt and worth stealing.
 2. **One short resident video.** A 30–60s clip of a Sage House resident is more persuasive than any copy I can write.
 3. **Numbers on the home page.** "9 residents, X years operating, Y% application-to-move-in." We already have the 80% number — use it.
 4. **"How applying works" 3-step block.** Apply → Visit → Move in. Reduces the perceived risk of clicking /apply.
-5. **Community/matching language.** Lead with the people, not the house. "Find your house, find your people" or similar.
-6. **Press/mention strip if/when we get any.** Substack mentions, podcast appearances, etc. count.
+5. **Press/mention strip if/when we get any.** Substack mentions, podcast appearances, etc. count.
 
 ### What NOT to copy
 
-- Their hero copy ("Rent Furnished Rooms & Apartments Stress-Free") is generic. We can do better with specific positioning (governance, community-run, not a landlord product).
+- Their hero copy ("Rent Furnished Rooms & Apartments Stress-Free") is generic. We can do better with specific positioning (resident-led, system-supported, not a landlord product).
+- "Find Your People" / matching language — see above. Devalued by misuse; sets the wrong selection-agency expectation.
 - Heavy promotional pricing / discount theater is wrong for our scale and brand. We're not running a sales funnel, we're filling 1–2 rooms.
 - Complex nested navigation. Our site should stay simple — one house, one studio, one application flow.
 
@@ -93,3 +115,43 @@ But several patterns are cheap to adopt and worth stealing.
 
 Per the key insights above, the website is a landing pad, not the growth engine.
 These are cheap upgrades to make when we touch the site, not a reason to prioritize a refresh.
+
+## Competitor Notes: June Homes (junehomes.com)
+
+VC-backed furnished-rental network (SoftBank + Demi Lovato, $50M, TechCrunch 2021).
+Different category — national flex-lease aggregator, not coliving — with ~2,200 units across NYC (1,488), Boston (507), DC, LA, Chicago, Austin.
+Site is well-engineered and worth mining for tactics.
+
+### What they do well
+
+- **Filter-first hero.** Homepage is a search form: city, hometype, lease length (1/3/6/12mo), move-in date. Visitors self-segment before reading any copy.
+- **"3 business hours to approval" as a headline promise.** A concrete, time-bound commitment beats any "easy" adjective.
+- **Qualification rules published upfront.** Each city states income (3x rent), assets (36x), credit score (550–650+). Honest filter — no surprise rejection after applying.
+- **Itemized upfront costs.** "First month + deposit + fees, due within 3 days of signing." The transparency itself is a trust signal.
+- **Neighborhood-level SEO pages.** Brooklyn has 15 (Bed-Stuy, Bushwick, Williamsburg…), Boston 25. Each a long-tail search target.
+- **Schema.org structured data.** Organization + WebSite + SearchAction markup. Google can render their search box in SERPs.
+- **Dismissible press banner.** "Check out our recent write-up in TechCrunch!" — low-pressure, top-of-page.
+- **Two parallel off-ramps.** Klaviyo email capture + Frontapp live chat for visitors who aren't ready to apply.
+
+### What we could adopt for Zaratan
+
+1. **Publish fit expectations, not credit gates.** One line: "We look for residents who want shared living and plan to stay 12+ months." Self-screens for fit. Avoids selection theater (which the business model can't sustain) and credit-gating language (which attracts the wrong applicants and is also what Outpost-style operators use to screen for revenue, not for community).
+2. **Concrete time commitment, fast.** "We respond to applications within 48 hours" or "We schedule visits within a week." A number beats a vibe — and a *fast* number reinforces the operator-driven selection model (no weeks-long deliberation, no curated boutique process).
+3. **Itemized cost breakdown.** "$1,250/mo includes rent + utilities + food staples + internet + supplies. First month + deposit due at signing." We have the all-in story — make the itemization visible.
+4. **Neighborhood-flavored content.** A "Living in Highland Park" page (walkability, coffee, transit) is a cheap SEO + qualification asset.
+5. **Schema.org markup.** Already on the GROWTH list as "SEO basics" — June Homes shows the working pattern (Organization + LocalBusiness JSON-LD).
+
+### What NOT to copy
+
+- **Filter-search hero.** They have 1,488 NYC units; we have 9 rooms in one house. A search UI would feel absurd. Our hero is the house.
+- **Virtual-only move-in.** Anti-pattern for community housing — the in-person visit is the conversion event where mutual fit gets established.
+- **Lease-length filter (1/3/6 months).** We want 12+ month residents. Surfacing short stays would invite churn.
+- **Credit-score gating language.** Our application is relational, not algorithmic. "650+ required" would attract the wrong applicants.
+- **App for rent + maintenance.** Overengineering at our scale, and the opposite of the Chore Wheel self-management ethos.
+- **Generic "easiest rental experience" framing.** Treats housing as a transaction. Our pitch is the opposite.
+
+### Underlying lesson
+
+June Homes optimizes for **reducing friction in a low-trust transaction**.
+Zaratan is the opposite problem: **increasing trust in a high-commitment relationship**.
+Borrow their honesty mechanics (qualification rules, itemized costs, time commitments) and SEO infrastructure (neighborhood pages, schema markup); reject their transactional UX.
