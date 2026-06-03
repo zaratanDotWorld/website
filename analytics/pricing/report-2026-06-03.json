@@ -1,0 +1,1149 @@
+{
+  "date": "2026-06-03",
+  "queries": [
+    {
+      "name": "NELA — Rooms",
+      "url": "https://losangeles.craigslist.org/search/los-angeles-ca/roo?lat=34.11&lon=-118.19&search_distance=4",
+      "priceMin": 500,
+      "priceMax": 5000,
+      "skipWantedFilter": false,
+      "listings": [
+        {
+          "title": "Spacious & Furnished Room For Rent In A Great Area",
+          "price": 850,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Private room with bathroom",
+          "price": 1500,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Room for rent in highland park, ca $950",
+          "price": 950,
+          "hood": "Highland Park, CA"
+        },
+        {
+          "title": "Room for rent in highland park, ca $950",
+          "price": 950,
+          "hood": "Highland Park, CA"
+        },
+        {
+          "title": "room available in 4 bedroom house",
+          "price": 1150,
+          "hood": "Atwater"
+        },
+        {
+          "title": "roommate wanted $1150 in musician's residence. DISCOUNT!",
+          "price": 1150,
+          "hood": "downtown LA"
+        },
+        {
+          "title": "Furnished Room for Rent in Silverlake Hills/Stairstreet Cottage",
+          "price": 975,
+          "hood": "Silver Lake"
+        },
+        {
+          "title": "Private Room Available in Exchange for Caregiving Assistance",
+          "price": 0,
+          "hood": "Simi Valley"
+        },
+        {
+          "title": "SILVERLAKE- PRIVATE ROOM AND BATH",
+          "price": 1785,
+          "hood": "Silverlake"
+        },
+        {
+          "title": "Temporary room and work exchange",
+          "price": 0,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Alhambra private room",
+          "price": 800,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "3 FEMALE USC HSC GRAD STUDENTS LOOKING FOR 4TH FEMALE HOUSEMATE",
+          "price": 1020,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Boarding House 1 Block from Brewery Art Colony",
+          "price": 750,
+          "hood": "Lincoln Heights"
+        },
+        {
+          "title": "a roommate to share 2 bd 2 ba at a Luxury Apartment building",
+          "price": 1700,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Furnished room in heart of Echo Park vintage cottage",
+          "price": 1400,
+          "hood": "Echo Park"
+        },
+        {
+          "title": "Alhambra  / Alhambra independent Room for Rent",
+          "price": 1000,
+          "hood": "san gabriel valley"
+        },
+        {
+          "title": "Private Room Available",
+          "price": 1000,
+          "hood": "Atwater"
+        },
+        {
+          "title": "A newly furnished and renovated room for rent in a shared house locate",
+          "price": 1050,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Room with private bath available in spacious 3 bedroom house",
+          "price": 1100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "FOR FEMALE: PRIVATE BDRM + SHARED BATHRM NEAR USC HSC",
+          "price": 1020,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Bedroom available in a 2 bdrm Apartment",
+          "price": 1100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "PRIVATE ROOM, POOL, ZIPLINE, ARCADE, and more!",
+          "price": 999,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Seeking fellow grown woman to share 2 br Alhambra/South Pas apartment",
+          "price": 1281,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Asian Roommate Wanted",
+          "price": 100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Private Guest Room in Creative Eagle Rock Home, Furnished ",
+          "price": 1395,
+          "hood": "Eagle Rock"
+        },
+        {
+          "title": "Alhambra Apartment Share (rent master bedroom/bathroom)",
+          "price": 1100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Alhambra Apartment Share (rent master bedroom/bathroom)",
+          "price": 1100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Private Room. Private Bath. Shared Kitchen. Wifi.  UTILITIES INCLUDED!",
+          "price": 1195,
+          "hood": "Pasadena/Caltech/Art Center South"
+        },
+        {
+          "title": "Master bedroom",
+          "price": 1400,
+          "hood": "Glendale"
+        },
+        {
+          "title": "Cozy Bedroom for rent, Utilities Included",
+          "price": 800,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Highland Park Light Filled Room",
+          "price": 1000,
+          "hood": "central LA 213/323"
+        },
+        {
+          "title": "Looking for 2 rommates to share 3 bedroom condo located in Alhambra",
+          "price": 1000,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "PRIVATE ROOM, POOL, ZIPLINE, ARCADE, and more!",
+          "price": 999,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Espacioso cuarto en renta",
+          "price": 1250,
+          "hood": "Los Angeles, Mount Washington"
+        },
+        {
+          "title": "Private room for rent!",
+          "price": 1250,
+          "hood": "Los Angeles, Mount Washington"
+        },
+        {
+          "title": "Asian Roommate Wanted",
+          "price": 100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Room for Rent w/ private bathroom  - $1250 utilities included",
+          "price": 1250,
+          "hood": "El Sereno"
+        },
+        {
+          "title": "Affordable Room in Safe Neighborhood",
+          "price": 1250,
+          "hood": "los angeles"
+        },
+        {
+          "title": "Large Studio, with refrigerator & stove. Now 1,700",
+          "price": 1700,
+          "hood": "Alhambra CA"
+        },
+        {
+          "title": "Room in Cool Cypress Park House - avail now (flexible)",
+          "price": 950,
+          "hood": "central LA 213/323"
+        },
+        {
+          "title": "Detached Highland Park Studio",
+          "price": 1500,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "✨Bright Cozy Furnished Studio/Room - Female Only✨",
+          "price": 1250,
+          "hood": "Glendale"
+        },
+        {
+          "title": "Large Room & Private Bath for Rent near Old Town Pasadena",
+          "price": 1725,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "Private room with private entrance; bathroom; compact kitchenette;",
+          "price": 1300,
+          "hood": "central LA 213/323"
+        },
+        {
+          "title": "Roommate Wanted (Military Owner/Landlord) Walk to Starbucks!",
+          "price": 454,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "White bisexual male here renting out one of my rooms.",
+          "price": 354,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "LOVELY ROOM IN QUIET HOUSE - OWN ENTRANCE",
+          "price": 1097,
+          "hood": "GLASSELL PARK"
+        },
+        {
+          "title": "LOVELY ROOM IN QUIET HOUSE - OWN ENTRANCE",
+          "price": 1097,
+          "hood": "GLASSELL PARK"
+        },
+        {
+          "title": "Room for rent in cute neighborhood NELA",
+          "price": 975,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "1br Bedroom & Semi-Private Bathroom for Rent -Utilities Included",
+          "price": 1225,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Room for Rent ASAP",
+          "price": 1100,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Priv. Bd/Ba in Walkable Pasadena!",
+          "price": 1200,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Dog Sitting & Tidying in exchange for rent - Starting June 16",
+          "price": 0,
+          "hood": "central LA 213/323"
+        },
+        {
+          "title": "Room in 2b/1b Highland Park",
+          "price": 1100,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "2 bedrooms for rent 600-800",
+          "price": 600,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Room For Rent Private BedRoom Share BathRoom",
+          "price": 800,
+          "hood": "Alhambra, Pasadena, Monterey Park, Rosemead, San Gabriel,"
+        },
+        {
+          "title": "Searching for 3rd house mate for housing app/search",
+          "price": 1400,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Private Furnished Room for Rent",
+          "price": 550,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Room for Rent in NELA",
+          "price": 1100,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Room for rent in a share apt . Ela safe & clean .",
+          "price": 800,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Room for rent San Gabriel area",
+          "price": 1100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "$950 - Private Room & Shared Bathroom (LOS ANGELES, CA)",
+          "price": 950,
+          "hood": "san gabriel valley"
+        },
+        {
+          "title": "Room in Highland Park (utilities paid)",
+          "price": 1400,
+          "hood": "Highland Park, CA"
+        }
+      ],
+      "rows": [
+        {
+          "hood": "alhambra",
+          "n": 13,
+          "p25": 850,
+          "median": 1050,
+          "p75": 1100
+        },
+        {
+          "hood": "los angeles",
+          "n": 7,
+          "p25": 888,
+          "median": 1020,
+          "p75": 1100
+        },
+        {
+          "hood": "highland park",
+          "n": 5,
+          "p25": 950,
+          "median": 1100,
+          "p75": 1400
+        },
+        {
+          "hood": "pasadena",
+          "n": 4,
+          "p25": 1350,
+          "median": 1450,
+          "p75": 1550
+        },
+        {
+          "hood": "central la 213/323",
+          "n": 3,
+          "p25": 975,
+          "median": 1000,
+          "p75": 1150
+        },
+        {
+          "hood": "atwater",
+          "n": 2,
+          "p25": 1038,
+          "median": 1075,
+          "p75": 1113
+        },
+        {
+          "hood": "san gabriel valley",
+          "n": 2,
+          "p25": 963,
+          "median": 975,
+          "p75": 988
+        },
+        {
+          "hood": "glendale",
+          "n": 2,
+          "p25": 1288,
+          "median": 1325,
+          "p75": 1363
+        },
+        {
+          "hood": "los angeles, mount washington",
+          "n": 2,
+          "p25": 1250,
+          "median": 1250,
+          "p75": 1250
+        },
+        {
+          "hood": "glassell park",
+          "n": 2,
+          "p25": 1097,
+          "median": 1097,
+          "p75": 1097
+        },
+        {
+          "hood": "silver lake",
+          "n": 1,
+          "p25": 975,
+          "median": 975,
+          "p75": 975
+        },
+        {
+          "hood": "silverlake",
+          "n": 1,
+          "p25": 1785,
+          "median": 1785,
+          "p75": 1785
+        },
+        {
+          "hood": "lincoln heights",
+          "n": 1,
+          "p25": 750,
+          "median": 750,
+          "p75": 750
+        },
+        {
+          "hood": "echo park",
+          "n": 1,
+          "p25": 1400,
+          "median": 1400,
+          "p75": 1400
+        },
+        {
+          "hood": "eagle rock",
+          "n": 1,
+          "p25": 1395,
+          "median": 1395,
+          "p75": 1395
+        },
+        {
+          "hood": "pasadena/caltech/art center south",
+          "n": 1,
+          "p25": 1195,
+          "median": 1195,
+          "p75": 1195
+        },
+        {
+          "hood": "el sereno",
+          "n": 1,
+          "p25": 1250,
+          "median": 1250,
+          "p75": 1250
+        },
+        {
+          "hood": "alhambra ca",
+          "n": 1,
+          "p25": 1700,
+          "median": 1700,
+          "p75": 1700
+        },
+        {
+          "hood": "old town pasadena",
+          "n": 1,
+          "p25": 1725,
+          "median": 1725,
+          "p75": 1725
+        },
+        {
+          "hood": "alhambra, pasadena, monterey park, rosemead, san gabriel,",
+          "n": 1,
+          "p25": 800,
+          "median": 800,
+          "p75": 800
+        }
+      ]
+    },
+    {
+      "name": "NELA — 3+BR houses",
+      "url": "https://losangeles.craigslist.org/search/los-angeles-ca/apa?lat=34.11&lon=-118.19&search_distance=4&max_bedrooms=10&min_bedrooms=3",
+      "priceMin": 2000,
+      "priceMax": 10000,
+      "skipWantedFilter": true,
+      "listings": [
+        {
+          "title": "Sophisticated 4 BR-Private Balcony, Gated Entry, Central AC",
+          "price": 4099,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "Lounge/Co-working Space, Modern 3 Bedroom in Highland Park",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Large 4BR 2BA Apartment in Los Angeles with Parking Options",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Bright and Spacious 4 Bedroom Apartment Near Downtown LA",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Comfortable 4BR Living at Happy Valley City Lights",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom Apartment Near El Sereno in Los Angeles",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom Apartment in Los Angeles Leasing Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom Near Downtown LA Leasing Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Happy Valley City Lights Bright 4 Bedrooms Apartment Now Leasing",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Happy Valley City Lights Apartment Available Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Large 4 Bedroom Apartment for Rent Near El Sereno",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Bright and Spacious 4 Bedroom Near El Sereno and Downtown LA",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom Apartment Near El Sereno",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Large 4 Bedroom Home Near El Sereno Available Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4BR Apartment in Los Angeles at Happy Valley City Lights",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom at Happy Valley City Lights",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Large 4BR Apartment Near El Sereno Available Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Bright and Spacious 4BR Apartment Near El Sereno",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom Apartment in Los Angeles Near El Sereno",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Large 4 Bedroom Apartment Available in Los Angeles",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Prime LA Location 4BR Living with Plenty of Space and Storage",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Large 4 Bedroom Apartment Near El Sereno Available Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Highland Park 3 Bedroom 2 Bath | Modern & Spacious | 6 Weeks Free",
+          "price": 4445,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Large House in Triplex",
+          "price": 5400,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "3 Bedroom 2 Bath in Highland Park with W/D + Large Outdoor Patio",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Easy DTLA and freeway access, Pet wash station, Ring doorbell security",
+          "price": 0,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Must-See 3 BR-Controlled Access, Modern Interiors, Outdoor Lounge",
+          "price": 3745,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "3 bedroom 2 bath house for rent",
+          "price": 3100,
+          "hood": "central LA 213/323"
+        },
+        {
+          "title": "Sophisticated 3 BR-Plank Flooring & Energy Efficient Living",
+          "price": 3730,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "Summer's Here! Cool Off Inside Spacious 3B3B Townhome! 1400+ SQFT!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Modern 3 Bedroom in Highland Park | Luxury Vinyl Floors | 6 WEEKS FREE",
+          "price": 4470,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Charming updated 3 Bedroom house",
+          "price": 4500,
+          "hood": "Lincoln Heights"
+        },
+        {
+          "title": "6 WEEKS FREE + Co-Working Lounge + Stylish 3 Bedroom in Highland Park",
+          "price": 4445,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 Bedroom / 1 Bathroom Renovated Home for Rent in El Sereno",
+          "price": 2900,
+          "hood": "El Sereno"
+        },
+        {
+          "title": "Ideal 3 BR-Modern Features, Walk-In Closets, Pool Access",
+          "price": 3885,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "6 Weeks Free | Elegant 3+2 in Highland Park | Designer Interiors",
+          "price": 4445,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Inviting 4 BR, Prime Location-Lease in Glendale's Hottest Spots",
+          "price": 4099,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "Fully-equipped fitness center, Single-family homes, Pet wash station",
+          "price": 0,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Easy DTLA and freeway access, Quartz countertops, Spacious closets",
+          "price": 0,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Private entry, Spacious closets, Quartz countertops",
+          "price": 0,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "3 Bedroom 2 Bath in Highland Park+ Gym+ Large Outdoor Patio+ Must See!",
+          "price": 3395,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Limited Availability: Stunning 3 BR Near Dining & Shops",
+          "price": 3745,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "Private entry, Rio de LA State Park nearby, In-unit washer, dryer",
+          "price": 0,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "3 Bedroom 2 Bathroom Apt. Living Room Has Door Can Be 4th Bedroom",
+          "price": 2300,
+          "hood": "Alhambra, Pasadena, Monterey Park, Rosemead, San Gabriel,"
+        },
+        {
+          "title": "Modern 3+2 in Highland Park | Luxury Vinyl Flooring | W/D | Call Now!",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Huge Penthouse on 4 Acre Elysian Estate/Decks/Vus/Hdwds",
+          "price": 5295,
+          "hood": "Elysian Heights"
+        },
+        {
+          "title": "BRAND NEW HIGHLAND PARK 3 Bedroom with Luxury Amenities, 6 Weeks Free",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Fully-equipped fitness center, Quartz countertops, Spacious closets",
+          "price": 0,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "3 Bedroom 2 bath condo in Alhambra",
+          "price": 3200,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Private Eagle Rock House - Peaceful, Creative Oasis",
+          "price": 6875,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "Beautiful three bedroom,  two baths house",
+          "price": 3700,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Brand New 3 Bedroom in Highland Park Near South Pasadena, W/D",
+          "price": 4295,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "✔ Design-Centric Living * 3+2 in Highland Park * 6 Weeks Free ✔",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Rare, 3B3B Townhome in Pasadena! Two Stories, 1400+ SQFT!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "6 WEEKS FREE + Fitness Center + Stylish 3 Bedroom in Highland Park",
+          "price": 4445,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Spacious 3BR/3BA – Room for Everyone + More!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Beautiful 3 bedroom  apartment in a great location",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Spacious  3 bed 2 bath",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Leasing 3 bedroom 2 bathroom apt",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 bedroom unit for 2,700",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 bedroom unit for 2,700",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 bedroom 2 bathroom unit for 2,700",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Leasing 3 bedroom 2 bathroom apt",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Spacious  3 bed 2 bath",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Brand New 3+2 in Highland Park | Luxury Vinyl Flooring | 6 Weeks Free",
+          "price": 4845,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Brand New 3 Bedroom in Highland Park with Luxury Finishes + SPECIALS",
+          "price": 4470,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Design Centric 3+2 in Highland Park with 6 Weeks Free + SS Appliances",
+          "price": 4470,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Brand New 3+2 in Highland Park with Specials + Luxury Finishes",
+          "price": 4470,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 Bedroom 2 Bath in Highland Park, SS Appliances, 6 Weeks Free!",
+          "price": 4445,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Brand New 3+2 Apartment | Highland Park Lifestyle | SPECIALS",
+          "price": 4445,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Luxury 3 Bedroom in Highland Park | Quartz Counters +  6 Weeks Free!",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3+2 in Highland Park, W/D, Pet-Friendly, High Ceilings, Call Now!",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Alhambra SFR 3 beds/2 baths $3980/month",
+          "price": 3600,
+          "hood": "san gabriel valley"
+        },
+        {
+          "title": "Beautiful 4 Bed/3 Bath Single Family Home in Montebello, CA",
+          "price": 4800,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Spacious, Two-Story 3B3B Townhome! 1400+ SQFT! Easy Access!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Modern Home with Solar Power – Includes Alarm & Central Air",
+          "price": 3200,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Modern Home with Solar Power – Near CSULA & ELAC",
+          "price": 3200,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "6311 MONTEREY RD., 305, HERMON, CA 90042",
+          "price": 3350,
+          "hood": "Hermon"
+        },
+        {
+          "title": "Entire 3 BR 2 Bath Home Summer Rental (during World Cup of Soccer)",
+          "price": 3950,
+          "hood": "El Sereno"
+        },
+        {
+          "title": "Pet friendly Mt Washington Charmer",
+          "price": 4500,
+          "hood": "Mt Washington"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "For Rent House: 3 Bedroom / 2 Bathroom Home – Approx. 1,533 Sq Ft",
+          "price": 4500,
+          "hood": "Lincoln Heights"
+        },
+        {
+          "title": "For Rent House: 3 Bedroom / 2 Bathroom Home – Approx. 1,533 Sq Ft",
+          "price": 4500,
+          "hood": "Lincoln Heights"
+        },
+        {
+          "title": "*PERFECT LOCATION* 3 Bed 1 Bath Single Family Home For Rent",
+          "price": 2800,
+          "hood": "Alhambra, CA"
+        },
+        {
+          "title": "Need More Space? This 3B3B Has You Covered! Inclusive Parking!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Spacious Town Home Style Apartment for Rent",
+          "price": 3500,
+          "hood": "Glendale"
+        },
+        {
+          "title": "Rare, Two-Story 3B3B Townhome, Near Old Town Pasadena! 1400+ SQFT!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Spacious Two-Story 3B3B! 1400+ SQFT! Walkable to Old Pasadena!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "STUDENT HOUSING/SHARED ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 695,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "Need More Space? Wide Open 3B3B! 1400+ SQFT! Two Stories!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Location, location, location ! The best in North Alhambra",
+          "price": 2393,
+          "hood": "central LA 213/323"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "Fantastic, Two Story 3B3B! 1400+ SQFT! Come View Today!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "STUDENT HOUSING/SHARED ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 695,
+          "hood": "san gabriel valley"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "Centerally located house in pasadena near Caltech",
+          "price": 3695,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "STUDENT HOUSING/SHARED ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 695,
+          "hood": "san gabriel valley"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        },
+        {
+          "title": "Stylish Two-Story Townhome with Modern Comforts",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Step Inside This 1400+ SQFT 3B3B! Two-Stories! Tour Today!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Newly Renovated & Bright Mid-Century Home (3 Bed/2 Bath ans 1500 SQFT)",
+          "price": 5800,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Lovely 3 Bedroom 1 Bath | 2 MONTHS FREE | SECTION 8 WELCOME",
+          "price": 2800,
+          "hood": "Pasadena / Monterey Hills"
+        },
+        {
+          "title": "Spacious 3B3B Walkable to Old Town Pasadena! 1400+ SQFT! View Now!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "STUDENT HOUSING/PRIVATE ROOM/ALL UTILITIES INCLUDED AND FREE WIFI",
+          "price": 1200,
+          "hood": "CITY TERRACE"
+        }
+      ],
+      "rows": [
+        {
+          "hood": "highland park",
+          "n": 28,
+          "p25": 2700,
+          "median": 4370,
+          "p75": 4470
+        },
+        {
+          "hood": "los angeles",
+          "n": 21,
+          "p25": 2997,
+          "median": 2997,
+          "p75": 2997
+        },
+        {
+          "hood": "pasadena",
+          "n": 13,
+          "p25": 6423,
+          "median": 6423,
+          "p75": 6423
+        },
+        {
+          "hood": "san fernando valley",
+          "n": 7,
+          "p25": 3745,
+          "median": 3885,
+          "p75": 4099
+        },
+        {
+          "hood": "westside-southbay-310",
+          "n": 5,
+          "p25": 3200,
+          "median": 4800,
+          "p75": 5400
+        },
+        {
+          "hood": "lincoln heights",
+          "n": 3,
+          "p25": 4500,
+          "median": 4500,
+          "p75": 4500
+        },
+        {
+          "hood": "central la 213/323",
+          "n": 2,
+          "p25": 2570,
+          "median": 2747,
+          "p75": 2923
+        },
+        {
+          "hood": "el sereno",
+          "n": 2,
+          "p25": 3163,
+          "median": 3425,
+          "p75": 3688
+        },
+        {
+          "hood": "alhambra",
+          "n": 2,
+          "p25": 2900,
+          "median": 3000,
+          "p75": 3100
+        },
+        {
+          "hood": "alhambra, pasadena, monterey park, rosemead, san gabriel,",
+          "n": 1,
+          "p25": 2300,
+          "median": 2300,
+          "p75": 2300
+        },
+        {
+          "hood": "elysian heights",
+          "n": 1,
+          "p25": 5295,
+          "median": 5295,
+          "p75": 5295
+        },
+        {
+          "hood": "san gabriel valley",
+          "n": 1,
+          "p25": 3600,
+          "median": 3600,
+          "p75": 3600
+        },
+        {
+          "hood": "hermon",
+          "n": 1,
+          "p25": 3350,
+          "median": 3350,
+          "p75": 3350
+        },
+        {
+          "hood": "mt washington",
+          "n": 1,
+          "p25": 4500,
+          "median": 4500,
+          "p75": 4500
+        },
+        {
+          "hood": "glendale",
+          "n": 1,
+          "p25": 3500,
+          "median": 3500,
+          "p75": 3500
+        },
+        {
+          "hood": "pasadena / monterey hills",
+          "n": 1,
+          "p25": 2800,
+          "median": 2800,
+          "p75": 2800
+        }
+      ]
+    }
+  ]
+}
