@@ -20,7 +20,7 @@ That's the motion being refined here: phone screens, listing channels, compariso
 
 ## Positioning
 
-Zaratan is positioned somewhat uniquely in the market -- half corporate coliving (operational support, residents not financial exposed to each other), half diy coliving (people choose their housemates, are involved in daily operations).
+Zaratan is positioned somewhat uniquely in the market -- half corporate coliving (operational support, residents not financially exposed to each other), half diy coliving (people choose their housemates, are involved in daily operations).
 The end result is a much stronger product -- a richer social experience than that given by corporate coliving, while being more stable and convenient than the diy alternative.
 The challenge is communicating this to prospective applicants, and being able to meet them where they are at in terms of decision timeline.
 
@@ -32,7 +32,7 @@ Under-emphasizing community erases the real differentiator and concedes the lang
 
 **The resolution: separate operational agency from selection agency.**
 
-- **Selection (who moves in):** operator-driven, fast, two-layer filter. *Hard gate:* landlord due-diligence — income, credit, references. *Past that:* housemate-fit judgment call (wants shared living, plans to stay 12+ months, no obvious red flags). No selection theater, no weeks of candidate review. The "good enough" standard is a feature, not a compromise — hand-picked communities are fragile, system-driven communities are resilient.
+- **Selection (who moves in):** two-stage process with a clear handoff. *Operator-owned (top-of-funnel):* landlord due-diligence (income, credit, references) + initial fit screen via phone call. *Housemate-owned (final decision):* visit, culture-fit conversation, yes/no on the candidate. Aspirational standard per the lease is fast turnaround with "default yes / maybe veto"; in practice the housemate stage has drifted toward extended multi-candidate evaluation — a structural gap (see Open questions). The "good enough" standard is a feature, not a compromise — hand-picked communities are fragile, system-driven communities are resilient.
 - **Operations (how the house runs):** resident-led, system-supported. Chore Wheel distributes tasks, residents shape norms, no programming director. This is where the real community claim lives, and it's rare in the category.
 
 This is honest in a way competitors aren't.
@@ -122,14 +122,16 @@ It's engagement — the impersonal "here's the application link" handoff doesn't
 
 Modeled on Outpost's own intake when the founder first applied there.
 
-1. **Awareness** — same as above.
-2. **Landing** — same.
-3. **Interest** — Tally form.
-4. **Soft response** — automated email with a Google Drive of additional photos + a promise to call within 24 hours. Builds desire while introducing personal contact.
-5. **Phone screen** — verbal conversation. Operator confirms fit and interest; candidate confirms the place. Replaces the impersonal "here's the application link" handoff. **Target conversion: ~30%** (baseline guess, refine after first cohort).
-6. **Application** — `/apply`, sent only after verbal interest is confirmed.
-7. **Visit** — in-person tour. Conversion event.
-8. **Move-in** — 4-month initial lease, then month-to-month.
+1. **Awareness** *(operator)* — same as above.
+2. **Landing** *(operator)* — same.
+3. **Interest** *(operator)* — Tally form.
+4. **Soft response** *(operator)* — automated email with a Google Drive of additional photos + a promise to call within 24 hours. Builds desire while introducing personal contact.
+5. **Phone screen** *(operator)* — verbal conversation. Operator confirms fit and interest; candidate confirms the place. Replaces the impersonal "here's the application link" handoff. **Target conversion: ~30%** (baseline guess, refine after first cohort).
+6. **Application** *(operator delivers candidate)* — `/apply`, sent shortly after phone screen while intent is still fresh.
+7. **Visit** *(housemates)* — in-person tour. Culture-fit conversation. Housemate-owned decision.
+8. **Move-in** *(operator)* — 4-month initial lease, then month-to-month.
+
+**Ownership boundary.** Steps 1–6 are operator-owned: sourcing, screening, delivering a qualified, applied candidate. Step 7 hands off to housemates for the final culture-fit decision. Step 8 returns to the operator for lease and logistics. The whole point of this playbook is to make the operator side fast and reliable so the housemate side can do its work without back-end pressure on candidate timing.
 
 **Reported conversion:** 80% application-to-move-in (per GROWTH.md). Most of the leak is upstream — interest → application is the largest drop.
 
@@ -234,6 +236,7 @@ Borrow honesty mechanics (qualification rules, itemized costs, time commitments)
 
 ## Open questions
 
+- **Structural gap: cost-bearer ≠ decision-maker (high priority, next few months).** Operator bears 100% of vacancy cost during recruitment; housemates hold veto power but have no skin in the game. The pattern that emerges — slow, perfectionist multi-candidate evaluation — contradicts the lease's "default yes / maybe veto" design and bottlenecks the external-sourcing motion this playbook optimizes for (candidates time out before housemates decide; one recent cycle: 7 interested → 0 applied). Planned structural fixes to discuss at next house meeting: 50/50 vacancy cost split, Long Stay rent credits, retroactive tenure credits. Until resolved, the housemate decision stage is the binding constraint on funnel speed.
 - **External-sourcing motion design.** The core focus of this doc — the v1 funnel (interest form → email + Drive → phone screen → application → visit) is designed but not yet built. Needs implementation and first-cohort data.
 - **Phone screen conversion target.** 30% as initial baseline. Real number TBD once enough phone screens have run to compute.
 - **Sage page comparison table additions.** Candidate new rows: Conflict resolution, House budget, Mutual lease flexibility (reframing the current lease mention). Continue gathering ideas before deciding what ships publicly.
