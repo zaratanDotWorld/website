@@ -1,7 +1,7 @@
 # Zaratan Growth
 
 Living document for growth strategy and company-building.
-Last updated: 2026-05-24.
+Last updated: 2026-06-03.
 
 For the coliving leasing playbook (positioning, funnel, listing surfaces, competitor tactics), see [LEASING.md](./LEASING.md).
 Sections below on Positioning, Competitor Notes, and the pricing comparison framings are the source for that doc and will be trimmed here in a follow-up.
