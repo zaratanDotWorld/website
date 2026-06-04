@@ -1,0 +1,63 @@
+name: GSC Agent
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Pull GSC data
+        env:
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_REFRESH_TOKEN: ${{ secrets.GSC_REFRESH_TOKEN }}
+        run: node scripts/gsc-agent/run.mjs > /tmp/gsc-data.md
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            REPO: ${{ github.repository }}
+            RUN ID: ${{ github.run_id }}
+
+            You are the Zaratan GSC agent. The repo is checked out at the workspace root.
+
+            Inputs:
+            - GSC data for the last 28 days is at `/tmp/gsc-data.md` (raw tables: totals, top queries, top pages, country, device, daily).
+            - Prior GSC reports live in `analytics/gsc/` named `report-MM-DD-YYYY.md`. Read the most recent one to anchor trends.
+            - Product context lives in `spec/GROWTH.md`, `spec/HOUSING.md`, `spec/TOOLS.md`.
+
+            Task:
+            1. Read the inputs above.
+            2. Create a new file `analytics/gsc/report-<MM-DD-YYYY>.md` (use today's UTC date) containing:
+               - The raw data tables from `/tmp/gsc-data.md`
+               - Headline numbers (3-4 bullets): clicks, impressions, CTR, avg position, plus direction vs the prior report
+               - What is working (queries / pages gaining ground)
+               - What is underperforming (high-impression / low-CTR queries; pages slipping in position)
+               - 3-5 specific, prioritized SEO recommendations. For each: target query or page, change, expected impact, effort (S/M/L)
+               Be concrete. Reference exact queries and page paths. No fluff.
+            3. Create a new branch `gsc-agent/report-${{ github.run_id }}`, commit only the new report file with message `chore(gsc): monthly report`, push to origin, and open a PR to `main` titled `chore(gsc): monthly report` with a 1-2 sentence body summarizing the top recommendation.
+          claude_args: |
+            --max-turns 30
+            --allowedTools "Read,Write,Edit,Bash"
