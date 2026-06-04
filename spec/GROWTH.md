@@ -1,7 +1,7 @@
 # Zaratan Growth
 
 Living document for growth strategy and company-building.
-Last updated: 2026-06-03.
+Last updated: 2026-06-04.
 
 For the coliving leasing playbook (positioning, funnel, listing surfaces, competitor tactics), see [LEASING.md](./LEASING.md).
 Sections below on Positioning, Competitor Notes, and the pricing comparison framings are the source for that doc and will be trimmed here in a follow-up.
@@ -24,6 +24,11 @@ Can work, needs stronger onboarding and marketing pitch.
 ## Key Insights
 
 - The website is a landing pad, not a growth engine. Substack is the strongest distribution channel.
+- Organic search is not an acquisition channel for us.
+  The 2026-06 GSC report shows traffic is competitor-name searches (the SettleLiving review post ≈ half of clicks) and generic "sage" / "chore wheel" terms with no ICP intent.
+  With one house's worth of pages, SEO scale doesn't apply.
+- Acquisition is push and relational (Substack, warm intros, being where operators already are), not pull.
+  The site converts traffic we send it; it doesn't manufacture traffic.
 - Onboarding is the #1 product bottleneck. Not distribution, not design.
 - Chore Wheel works when: physical shared space + recurring obligations + enforcement mechanism.
 - When context is right and onboarding succeeds, the product sticks. When either is wrong, it churns.
@@ -44,7 +49,9 @@ This feedback is captured in detail in spec/TOOLS.md under "Pilot Playbook."
 1. **Follow up on the multi-house operator intro** — warm connection from Feb 2026, follow-up overdue. One org with multiple houses could be more users than the entire current base.
 2. **Fix Chore Wheel onboarding** — self-serve setup so new houses don't need founder hand-holding. Concierge onboarding for pilots in the meantime.
 3. **Leverage Substack** — it's already the strongest channel. Write more, link strategically.
-4. **SEO basics** — meta descriptions, structured data, proper headings.
+4. **Site hygiene, not SEO-as-growth** — canonicalize www vs apex, fix titles/snippets, structured data, meta descriptions, headings.
+   The 2026-06 GSC report confirms organic search delivers non-ICP traffic, so these are cheap correctness fixes, not a growth lever.
+   The one real-ICP search surface is *local* housing intent — a Google Business Profile + a "Living in Highland Park" neighborhood page — but weigh GBP against the reputation-channel risk under Positioning before opening any public review profile.
 5. **Website refresh** — deprioritized until traffic grows.
 
 ## Pipeline (Housing)
@@ -78,6 +85,33 @@ Zaratan offers *less* selection agency than residents might wish, and *more* ope
 
 **Language direction:** "A house residents actually run." "Operator-light, resident-led." "The community runs the house, not the other way around."
 **Avoid:** "Find your people," "find your house find your people," "matching" framing — all imply selection agency and set the wrong expectation in both directions (applicants think it's curated; residents think they get to curate).
+
+### Resident relationship: agency, expectations, and reputation
+
+The split above covers two kinds of agency; the resident relationship needs a third.
+
+- **Financial agency** is the third axis.
+  Operational agency is cheap to grant and is the differentiator — grant it generously.
+  Financial agency (rev-share framed as "their money," "free" perks, resident-directed funds) is expensive to grant loosely: it feeds an entitlement frame and sets expectations the economics can't always meet.
+
+Most resident upset comes from **violated expectations**, not from the model itself — and expectation-shaping is a lever the operator controls.
+Calibrated, not catastrophized: ~1 in 5 residents won't reconcile with a for-profit operator no matter what (a fixed cost, not worth optimizing for); the other ~80% are maintainable, and stay maintainable when reality matches what they expected.
+
+Root distortion: residents (often a few years out of college) read Zaratan as a "University administration" — an institution of abundant resources — rather than an individual carrying real financial risk.
+This imports false expectations: deep pockets, abundance owed, asking-is-costless.
+
+Two operator-controlled levers:
+
+- **Front-load the full shape of any deal before saying yes.**
+  Name every condition and feasibility check up front so they read as stated goalposts, not moved ones.
+  An enthusiastic yes followed by drip-fed terms is the most reliable way to look like bad faith, even with good intent.
+- **Make operator risk legible early, as baseline — never reactively when declining a request.**
+  The same fact ("one person carrying real risk, not an endowment") earns goodwill set at move-in and reads as nickel-and-diming when surfaced under pressure.
+
+**Reputation as a channel.**
+This is why uncontrolled public review profiles (e.g. Google Business) are a poor fit: they capture expectation-violation moments (rent, exit) with no way to set context first, and grievance writes more reviews than contentment.
+Build social proof from sources that don't depend on resident goodwill toward the brand: operator-owned outcomes (80% application-to-move-in, tenure/retention), the product itself (Chore Wheel as proof the model works), and third-party/press.
+This qualifies the resident-review and testimonial tactics borrowed from competitors below.
 
 ## Pricing
 
@@ -138,6 +172,9 @@ Several patterns are cheap to adopt and worth stealing — but their community c
 3. **Numbers on the home page.** "9 residents, X years operating, Y% application-to-move-in." We already have the 80% number — use it.
 4. **"How applying works" 3-step block.** Apply → Visit → Move in. Reduces the perceived risk of clicking /apply.
 5. **Press/mention strip if/when we get any.** Substack mentions, podcast appearances, etc. count.
+
+> Caveat (items 1–2): resident-sourced public reputation is structurally fragile for our model — see Positioning → "Resident relationship: agency, expectations, and reputation."
+> Lead with #3/#5 (operator-owned numbers, press) as the load-bearing proof; treat resident reviews/video as curated and optional, never an open review profile.
 
 ### What NOT to copy
 
