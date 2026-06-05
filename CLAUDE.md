@@ -12,11 +12,13 @@ Next.js 15 (Pages Router), React 18, Bootstrap, deployed via AWS Amplify.
 
 ## Product context
 
-Living product docs sit under `spec/`:
+Living product docs sit under `spec/`, organized as two businesses (coliving, Chore Wheel), each with a product spec and a go-to-market playbook, under one strategy doc:
 
-- `spec/GROWTH.md`
-- `spec/HOUSING.md`
-- `spec/TOOLS.md`
+- `spec/STRATEGY.md` — overall Zaratan strategy (two businesses, growth priorities)
+- `spec/CO-PROD.md` — coliving product spec
+- `spec/CO-GTM.md` — coliving go-to-market (positioning, pricing, funnel, competitors)
+- `spec/CW-PROD.md` — Chore Wheel product spec
+- `spec/CW-GTM.md` — Chore Wheel go-to-market (pitch, pilot playbook)
 
 ## Analytics
 

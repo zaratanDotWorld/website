@@ -1,7 +1,10 @@
-# Zaratan Housing — Product Spec
+# Coliving — Product Spec
 
-Living product definition.
+Living product definition for the Zaratan coliving business.
 Last updated: 2026-03-29.
+
+For the coliving go-to-market playbook (positioning, pricing, funnel, listing surfaces, competitors), see [CO-GTM.md](./CO-GTM.md).
+For overall company strategy, see [STRATEGY.md](./STRATEGY.md).
 
 ## What It Is
 
@@ -37,6 +40,8 @@ Typically: young professionals, creatives, students, people new to the city who 
 The bottleneck is between interest and application.
 The reservoir/waitlist model (capture interest continuously, activate when vacancy occurs) addresses this.
 
+The detailed funnel architecture, ownership boundaries, and channel data live in [CO-GTM.md](./CO-GTM.md) (§ Funnel architecture).
+
 ## Vacancy Model
 
 - 9 residents, 2-3 vacancies per year
@@ -62,7 +67,7 @@ The reservoir/waitlist model (capture interest continuously, activate when vacan
 
 - **Website:** https://zaratan.world
 - **Sage House page:** https://zaratan.world/houses/sage
-- **Interest form:** https://zaratan.world/interst
+- **Interest form:** https://zaratan.world/interest
 - **Rental application:** https://zaratan.world/apply
 - **Zaratan Instagram:** https://www.instagram.com/zaratan.world
 - **Sage House Instagram:** https://www.instagram.com/sage.co.op
