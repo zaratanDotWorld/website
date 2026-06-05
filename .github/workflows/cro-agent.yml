@@ -44,7 +44,7 @@ jobs:
 
             Inputs:
             - GA4 data for the last 30 days is at `/tmp/cro-data.md` (raw tables).
-            - Product context lives in `spec/GROWTH.md`, `spec/HOUSING.md`, `spec/TOOLS.md`.
+            - Product context lives in `spec/` (`STRATEGY.md`, `CO-PROD.md`, `CO-GTM.md`, `CW-PROD.md`, `CW-GTM.md`).
             - CTA event names are defined in `utils/track.js`.
 
             Task:
