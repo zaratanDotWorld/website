@@ -1,7 +1,7 @@
 # Zaratan Strategy
 
 Living document for overall company strategy and growth.
-Last updated: 2026-06-05.
+Last updated: 2026-06-06.
 
 Zaratan runs two businesses under one brand.
 Each has a product spec and a go-to-market playbook:
@@ -13,6 +13,36 @@ Each has a product spec and a go-to-market playbook:
 
 1. **Coliving rental business** — Sage House (9 residents), Cactus Cottage (studio). Revenue from rent. Local to LA.
 2. **Chore Wheel** — open-source governance tool suite for shared houses, deployed as Slack apps. The strategy is that communities already use Slack, so adoption is a lightweight install rather than a new platform. Donation-based. Seeking growth and adoption.
+
+## Operating Principles
+
+### The Parable of the Washer
+
+A recorded incident that anchors how resident expectations, agency, and operator economics interact.
+Keep it front and center for growth, product, and operations.
+
+**What happened.**
+Residents wanted to replace the contracted coin-op washer (Wash Laundry) with a unit bought using their set-aside revenue-share funds — to them, "free laundry."
+I said yes, in the spirit of giving residents more agency, since the funds were already earmarked as theirs.
+As I worked through the implications, I added conditions: they'd own the maintenance (the contractor handles it today, and I'd lose a small revenue share), and we'd trim the food/supply budget to offset my lost income and the moral hazard of now-unmetered water use.
+I experienced this as thinking the deal through; they experienced it as me changing the deal.
+The moment ownership carried real responsibility, they flipped — "it's not for us, it's for the house" — i.e. you buy it.
+I agreed anyway, spent $600 on a lease addendum, and told the contractor to remove the units — then discovered I'd misread the lease: not month-to-month but an 84-month term with five years left.
+I had to frantically tell residents to cancel the purchase they'd just made. They read it as negligence.
+The order was canceled and it worked out, but the net feeling was disappointment at every turn — despite my trying, at every turn, to be supportive.
+
+**The lessons.**
+- Sentiment tracks the *delta from expectations*, not absolute generosity. Every objectively generous act (revenue-share funds no other owner offers, ceding a profit center, the $600 addendum) still netted to disappointment.
+- Surface every condition up front. Conditions added one at a time read as moving the goalposts, even when each is reasonable on its own. Decide the full terms before saying yes, don't agree casually.
+- Residents want the *benefit* of agency, not the *burden* of ownership. The instant ownership carried cost, they pushed it back to me. The principal-agent gap in miniature.
+- Operator competence is part of the deal. One visible error (the misread lease) erased goodwill and read as negligence.
+- Operator sacrifices are invisible unless made legible. Funds set aside, income forgone, money spent — none of it registered.
+- Improvised agency is worse than a structured yes or a clean no. The fix is structural — front-loaded terms, clear ownership of costs and responsibilities, legible operator economics — not ad-hoc niceness.
+
+**Implication.**
+Bring agency-and-money decisions into standing structure, not live founder negotiation.
+Scope the rev-share fund and attach its standing conditions (ownership, maintenance, economic offsets) at move-in, so a resident initiative begins inside known boundaries instead of generating them mid-conversation.
+This is the same structural fix the cost-bearer ≠ decision-maker gap needs (see [CO-GTM.md](./CO-GTM.md) § Open questions) — handle it through the system, the way Chore Wheel governs the rest of house life, rather than as a one-off exception.
 
 ## Key Insights
 
