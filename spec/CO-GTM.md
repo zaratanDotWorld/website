@@ -45,6 +45,8 @@ Zaratan offers *less* selection agency than residents might wish, and *more* ope
 
 ### Resident relationship: agency, expectations, and reputation
 
+The canonical incident behind this section is the **Parable of the Washer** ([STRATEGY.md](./STRATEGY.md) § Operating Principles) — well-intended generosity that netted to disappointment through under-structured agency and drip-fed conditions.
+
 The split above covers two kinds of agency; the resident relationship needs a third.
 
 - **Financial agency** is the third axis.

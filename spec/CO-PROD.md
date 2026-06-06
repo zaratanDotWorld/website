@@ -23,6 +23,9 @@ A real community that runs itself, where residents have agency and contributions
 **The differentiator (systems):** Chore Wheel is the mechanism that makes the community actually function.
 Residents don't need a house manager telling them what to do. The system handles coordination, accountability, and institutional knowledge.
 
+> **Note:** Resident agency is the hook — but agency granted without structure backfires.
+> See the *Parable of the Washer* ([STRATEGY.md](./STRATEGY.md) § Operating Principles) and the operator-controlled levers in [CO-GTM.md](./CO-GTM.md) (§ Resident relationship).
+
 ## Who It's For
 
 People in LA looking for housing who want more than a room.
