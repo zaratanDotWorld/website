@@ -16,9 +16,14 @@ Each has a product spec and a go-to-market playbook:
 
 ## Operating Principles
 
+The throughline here is Zaratan's founding thesis — the same one Chore Wheel embodies: **systems that organize collective decisions beat a founder's ad-hoc discretion.**
+Discretion (charisma is its seductive form) feels warm and fast, but its failures are systematic: it *personalizes* outcomes, so disappointment becomes a grievance against you specifically; it's *unpredictable*, so expectations get violated; and it *improvises conditions*, so they read as moving goalposts.
+Systems depersonalize decisions and make them legible — which removes the surface where resentment forms. (This is also why governance tooling works: it takes the principal out of the principal-agent loop, so there's no deal-changer to resent.)
+This isn't "discretion is evil" — it's "discretion is fragile, and its failures are systematic." Systematize recurring decisions; where a genuine one-off is unavoidable, apply a system's discipline to it (front-loaded, legible, depersonalized).
+
 ### The Parable of the Washer
 
-A recorded incident that anchors how resident expectations, agency, and operator economics interact.
+A recorded incident that anchors how resident expectations, agency, and operator economics interact — and the canonical case of *abandoning* the thesis above: a collective resource decision run as improvised personal negotiation instead of a rule, producing exactly the disappointment the thesis predicts.
 Keep it front and center for growth, product, and operations.
 
 **What happened.**
