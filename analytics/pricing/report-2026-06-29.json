@@ -1,0 +1,1097 @@
+{
+  "date": "2026-06-29",
+  "queries": [
+    {
+      "key": "rooms",
+      "name": "NELA — Rooms",
+      "url": "https://losangeles.craigslist.org/search/los-angeles-ca/roo?lat=34.11&lon=-118.19&search_distance=4",
+      "priceMin": 500,
+      "priceMax": 5000,
+      "skipWantedFilter": false,
+      "listings": [
+        {
+          "title": "Corner Room with Backyard Pool/Spa: includes WiFi/Utilities!",
+          "price": 526,
+          "hood": "1350 Carlton Dr, Glendale"
+        },
+        {
+          "title": "Private bedroom in clean Pasadena Apartment, utilities included",
+          "price": 1100,
+          "hood": "Madison Heights"
+        },
+        {
+          "title": "PRIVATE ROOM, POOL, ZIPLINE, ARCADE, and more!",
+          "price": 999,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Bright Sunny Room/ Great Location Sunset Junction",
+          "price": 800,
+          "hood": "Silver Lake"
+        },
+        {
+          "title": "*Big Room in Beautiful House for July Sublet",
+          "price": 540,
+          "hood": "Glendale"
+        },
+        {
+          "title": "1br - Glendale room for rent",
+          "price": 875,
+          "hood": "Glendale Area"
+        },
+        {
+          "title": "1Bedroom - Glendale room for rent",
+          "price": 875,
+          "hood": "Glendale Area"
+        },
+        {
+          "title": "a roommate to share 2 bd 2 ba at a Luxury Apartment building",
+          "price": 700,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Corner Room with Backyard Pool/Spa: includes WiFi/Utilities! (Glendale",
+          "price": 526,
+          "hood": "1350 Carlton Dr, Glendale"
+        },
+        {
+          "title": "Eastside Room/Bath for Rent",
+          "price": 1350,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Large room in a spacious home with pool and view",
+          "price": 1500,
+          "hood": "South Pasadena"
+        },
+        {
+          "title": "Quiet Home with Friendly Housemates",
+          "price": 450,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Master bedroom available on the hills",
+          "price": 1350,
+          "hood": "lincoln heights"
+        },
+        {
+          "title": "Asian Roommate Wanted",
+          "price": 100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Room For Rent Private BedRoom Share BathRoom",
+          "price": 800,
+          "hood": "Alhambra, Pasadena, Monterey Park, Rosemead, San Gabriel,"
+        },
+        {
+          "title": "Spacious & Furnished Room For Rent In A Great Area",
+          "price": 850,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Master Bedroom w/ Private Bath near DTLA, USC, Pasadena",
+          "price": 1350,
+          "hood": "dtla Lincoln heights"
+        },
+        {
+          "title": "PRIVATE ROOM, POOL, ZIPLINE, ARCADE, and more!",
+          "price": 999,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Private Room and Bath for Rent in Beautiful South Pasadena Townhouse",
+          "price": 1325,
+          "hood": "South Pasadena"
+        },
+        {
+          "title": "$1,800 / 1br 1bt- 365ft2 - Private RoomNear DTLA, Highland Park – Mode",
+          "price": 1800,
+          "hood": "Lincoln Height"
+        },
+        {
+          "title": "1br - 1br - Corner Room with Backyard Pool/Spa: includes WiFi/Utilitie",
+          "price": 526,
+          "hood": "Glendale"
+        },
+        {
+          "title": "Small room for rent private",
+          "price": 700,
+          "hood": "San Gabriel valley"
+        },
+        {
+          "title": "Master Bedroom in 3BR Apt - $1650 per month",
+          "price": 1650,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Master Bedroom in 3BR Apt - $1650 per month",
+          "price": 1650,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "a roommate to share 2 bd 2 ba at a Luxury Apartment building",
+          "price": 1700,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Room with private bath available in spacious 3 bedroom house",
+          "price": 1100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Private Room and Bath for Rent in Beautiful South Pasadena Townhouse",
+          "price": 1325,
+          "hood": "South Pasadena"
+        },
+        {
+          "title": "Roomate Needed",
+          "price": 1029,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Living room for rent",
+          "price": 780,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "3 FEMALE USC HSC GRAD STUDENTS LOOKING FOR 4TH FEMALE HOUSEMATE",
+          "price": 1020,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Private Room for rent in heart of Echo Park move in July 1st",
+          "price": 1450,
+          "hood": "Echo Park"
+        },
+        {
+          "title": "Large nice bed room in a house",
+          "price": 900,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Asian Roommate Wanted",
+          "price": 100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Private Room in Silver Lake - Excellent Location",
+          "price": 1350,
+          "hood": "Silver Lake"
+        },
+        {
+          "title": "Private Room and Bathroom for Rent - Alhambra - Near Cal State LA",
+          "price": 1000,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "🏠 Room available in my Echo Park Hills home — July 1st / August 1st",
+          "price": 2100,
+          "hood": "Echo Park"
+        },
+        {
+          "title": "Room for rent in highland park, ca $950",
+          "price": 950,
+          "hood": "Highland Park, CA"
+        },
+        {
+          "title": "Great Location near Sunset Junction",
+          "price": 800,
+          "hood": "Silver Lake"
+        },
+        {
+          "title": "Single bedroom for rent, shared bathroom",
+          "price": 880,
+          "hood": "Lincoln Heights, CA"
+        },
+        {
+          "title": "Open to sharing a house - relocate from out of town",
+          "price": 69,
+          "hood": "Torrance"
+        },
+        {
+          "title": "Room for rent in a So Pasadena PRVT BATH, All UTL INCLD",
+          "price": 1300,
+          "hood": "South Pasadena"
+        },
+        {
+          "title": "FOR FEMALE: $1,020 PRIVATE BDRM + SHARED BATHRM - WALK TO USC HSC",
+          "price": 1020,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Private: Entrance, Bathroom & Patio",
+          "price": 1300,
+          "hood": "Alhambra; Emery Park Hills"
+        },
+        {
+          "title": "EXTRA LARGE ROOM W/ PRIVATE BATH",
+          "price": 1725,
+          "hood": "Silverlake"
+        },
+        {
+          "title": "Los Angeles",
+          "price": 1200,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Boarding House 1 Block from Brewery Art Colony",
+          "price": 750,
+          "hood": "Lincoln Heights"
+        },
+        {
+          "title": "Room for Rent – Highland Park | $750/mo | Available July 1st",
+          "price": 750,
+          "hood": "central LA 213/323"
+        },
+        {
+          "title": "1 bed room for rent in 2 bedroom house (pinoy rental property)",
+          "price": 650,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Walking distance to Cal State LA $850 and $550",
+          "price": 550,
+          "hood": "East/Central LA, Alhambra, Monterey Park, San Gabriel, El se"
+        },
+        {
+          "title": "HOUSE TO SHARE!",
+          "price": 0,
+          "hood": "EAGLE ROCK"
+        },
+        {
+          "title": "Private Room in Highland Park House July 1! $1500",
+          "price": 1500,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "2 Private Rooms in Hilltop Home",
+          "price": 1450,
+          "hood": "Northeast LA"
+        },
+        {
+          "title": "Room for Rent in a Shared Apartment",
+          "price": 1100,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Charming & Affordable Room in a Magickal Highland Park Home Available",
+          "price": 1000,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Single bedroom for rent, shared bathroom",
+          "price": 880,
+          "hood": "Lincoln Heights, CA"
+        },
+        {
+          "title": "Alhambra  / Alhambra independent Room for Rent",
+          "price": 1000,
+          "hood": "san gabriel valley"
+        },
+        {
+          "title": "Room available in Master Room Available move in Immediately - $550",
+          "price": 550,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Cute private room with own bathroom and garage parking space",
+          "price": 550,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Large Light Filled Furnished  Upstairs Bedroom Avail July 1",
+          "price": 1600,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "$1100 Master bedroom",
+          "price": 1100,
+          "hood": "East/Central LA, Alhambra, Monterey Park, San Gabriel, El se"
+        },
+        {
+          "title": "GREAT LOCATION! ROOM FOR RENT IN GLASSEL PARK/SILVER LAKE (ACCEPTING HANDY WORK)",
+          "price": 600,
+          "hood": "Low Angeles/NELA/ Glassel/Silver Lake"
+        },
+        {
+          "title": "🏡 PASADENA STUDIO FOR RENT – OPEN HOUSE THIS WEEKEND! 🏡",
+          "price": 1200,
+          "hood": "san gabriel valley"
+        },
+        {
+          "title": "Room for rent",
+          "price": 775,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Spacious furnished room and bathroom, beauty LA area (30+ days stay)",
+          "price": 1550,
+          "hood": "LA, Monterey Hills"
+        },
+        {
+          "title": "FURNISHED PRIVATE ROOM W/SHARE BATHROOM",
+          "price": 1850,
+          "hood": "PASADENA"
+        },
+        {
+          "title": "Private Room Available in Exchange for Caregiving Assistance",
+          "price": 0,
+          "hood": "Simi Valley"
+        },
+        {
+          "title": "Alhambra private room",
+          "price": 800,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Seeking fellow grown woman to share 2 br Alhambra/South Pas apartment",
+          "price": 1281,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Alhambra Apartment Share (rent master bedroom/bathroom)",
+          "price": 1100,
+          "hood": "Alhambra"
+        }
+      ],
+      "rows": [
+        {
+          "hood": "alhambra",
+          "n": 11,
+          "p25": 788,
+          "median": 999,
+          "p75": 1050
+        },
+        {
+          "hood": "pasadena",
+          "n": 6,
+          "p25": 998,
+          "median": 1650,
+          "p75": 1688
+        },
+        {
+          "hood": "los angeles",
+          "n": 6,
+          "p25": 930,
+          "median": 1025,
+          "p75": 1157
+        },
+        {
+          "hood": "lincoln heights",
+          "n": 5,
+          "p25": 880,
+          "median": 880,
+          "p75": 1350
+        },
+        {
+          "hood": "silver lake",
+          "n": 4,
+          "p25": 800,
+          "median": 1075,
+          "p75": 1444
+        },
+        {
+          "hood": "glendale",
+          "n": 4,
+          "p25": 537,
+          "median": 708,
+          "p75": 875
+        },
+        {
+          "hood": "south pasadena",
+          "n": 4,
+          "p25": 1319,
+          "median": 1325,
+          "p75": 1369
+        },
+        {
+          "hood": "highland park",
+          "n": 4,
+          "p25": 988,
+          "median": 1250,
+          "p75": 1525
+        },
+        {
+          "hood": "san gabriel valley",
+          "n": 3,
+          "p25": 850,
+          "median": 1000,
+          "p75": 1100
+        },
+        {
+          "hood": "1350 carlton dr, glendale",
+          "n": 2,
+          "p25": 526,
+          "median": 526,
+          "p75": 526
+        },
+        {
+          "hood": "echo park",
+          "n": 2,
+          "p25": 1613,
+          "median": 1775,
+          "p75": 1938
+        },
+        {
+          "hood": "east/central la, alhambra, monterey park, san gabriel, el se",
+          "n": 2,
+          "p25": 688,
+          "median": 825,
+          "p75": 963
+        },
+        {
+          "hood": "madison heights",
+          "n": 1,
+          "p25": 1100,
+          "median": 1100,
+          "p75": 1100
+        },
+        {
+          "hood": "alhambra, pasadena, monterey park, rosemead, san gabriel,",
+          "n": 1,
+          "p25": 800,
+          "median": 800,
+          "p75": 800
+        },
+        {
+          "hood": "dtla lincoln heights",
+          "n": 1,
+          "p25": 1350,
+          "median": 1350,
+          "p75": 1350
+        },
+        {
+          "hood": "alhambra; emery park hills",
+          "n": 1,
+          "p25": 1300,
+          "median": 1300,
+          "p75": 1300
+        },
+        {
+          "hood": "central la 213/323",
+          "n": 1,
+          "p25": 750,
+          "median": 750,
+          "p75": 750
+        },
+        {
+          "hood": "northeast la",
+          "n": 1,
+          "p25": 1450,
+          "median": 1450,
+          "p75": 1450
+        },
+        {
+          "hood": "low angeles/nela/ glassel/silver lake",
+          "n": 1,
+          "p25": 600,
+          "median": 600,
+          "p75": 600
+        },
+        {
+          "hood": "la, monterey hills",
+          "n": 1,
+          "p25": 1550,
+          "median": 1550,
+          "p75": 1550
+        }
+      ]
+    },
+    {
+      "key": "houses",
+      "name": "NELA — 3+BR houses",
+      "url": "https://losangeles.craigslist.org/search/los-angeles-ca/apa?lat=34.11&lon=-118.19&search_distance=4&max_bedrooms=10&min_bedrooms=3",
+      "priceMin": 2000,
+      "priceMax": 10000,
+      "skipWantedFilter": true,
+      "listings": [
+        {
+          "title": "Lovely 3 Bedroom 1 Bath | 2 MONTHS FREE | SECTION 8 WELCOME",
+          "price": 2800,
+          "hood": "Pasadena / Monterey Hills"
+        },
+        {
+          "title": "Newly Renovated 3 BR-Laundry, Gated, Outdoor Lounge Access",
+          "price": 3885,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "Brand New 3 Bedroom in Highland Park Near South Pasadena, SPECIALS",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3+2 in Highland Park ^ Luxury Finishes ^ Pet-Friendly ^ SPECIALS",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "TMLP 12-mo. | Easy DTLA and freeway access, Quartz countertops",
+          "price": 5475,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Sophisticated 4 BR-Private Balcony, Gated Entry, Central AC",
+          "price": 4099,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "TMLP 12-mo. | 2-car garage, Single-family homes, Spacious closets",
+          "price": 5325,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "TMLP 12-mo. | Single-family homes, Frogtown destination walkability",
+          "price": 4605,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Inviting 3 BR, Prime Location-Lease in Glendale's Hottest Spots",
+          "price": 3745,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "TMLP 12-mo. | Frogtown destination walkability, Spacious closets",
+          "price": 6150,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Exclusive 3 BR with Quartz Counters, Luxe Amenities Await",
+          "price": 3730,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "4 Bed 3 Bath    HIGHLAND PARK HOUSE   Pets Welcome  JULY 1st",
+          "price": 5395,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "TMLP 12-mo. | Public art encounters, Private entry",
+          "price": 5475,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Oak Tree Yard, Skylights – 3 BR Silver Lake",
+          "price": 6471,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "TMLP 12-mo. | Rare Opportunity! 3 BR Near Colorado Blvd, Resort-Style Pool",
+          "price": 5000,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "TMLP 12-mo. | Frogtown destination walkability",
+          "price": 5325,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "TMLP 12-mo. | Pet wash station, Private entry",
+          "price": 4605,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Luxury 3 BR in Ideal Glendale Setting-Reserved Parking",
+          "price": 3885,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "TMLP 12-mo. | Public art encounters, Direct LA River Path access",
+          "price": 6150,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Must-See 4 BR-Controlled Access, Modern Interiors, Outdoor Lounge",
+          "price": 4099,
+          "hood": "san fernando valley"
+        },
+        {
+          "title": "TMLP 12-mo. | Clubhouse entertainment room, Pet wash station",
+          "price": 5475,
+          "hood": "Frogtown, Elysian Valley"
+        },
+        {
+          "title": "Brand New 3+2 in Highland Park*Luxury Finishes*Pet-Friendly*SPECIALS",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Large 4 Bedroom Home Near El Sereno Ready for Move In",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "6 Weeks Free | 3 Bedroom in Highland Park | Washer/Dyer | Roof Deck",
+          "price": 4445,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "TMLP 12-mo. | Limited Availability! Stunning 3 BR w/ Courtyards & Spa Retreat",
+          "price": 5000,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "Luxury 3+2 in Highland Park, Lounge/Co-working Space, 6 Weeks Free!!",
+          "price": 4795,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Large 4 Bedroom Home Ready for Move In",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Beautiful 4 Bedroom 2 Bath Apartment Near El Sereno",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Lounge/Co-working Space, Modern 3 Bedroom in Highland Park",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "6 Weeks Free | 3+2 in Highland Park | W/D | Large Outdoor Patio",
+          "price": 4445,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Renovated 4 Bedroom 2 Bath, Washer and Dryer, 2 Months Free!",
+          "price": 3550,
+          "hood": "Pasadena / Monterey Hills / Alhambra"
+        },
+        {
+          "title": "Luxurious 3 Bed, 3 Bath Single Family Home in Eagle Rock - Available 6",
+          "price": 5500,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Spacious 5BD/3BA Home for 5-6 Roommates | Near DTLA | 4 Parking Spots",
+          "price": 5950,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious Four Bedroom Apartment Available Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "4 Bedroom Living at Happy Valley City Lights for Large Family",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom Apartment Available Near Downtown Los Angeles",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Extra Space and Comfort at Happy Valley City Lights",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Huge 4 Bedroom Apartment In Los Angeles Available Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Happy Valley City Lights Large 4 Bedroom 2 Bath Apartment Available",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom Apartment Near Downtown LA Available Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Large 4 Bed 2 Bath Home Available in El Sereno Area",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Huge 4BR 2BA Apartment in Los Angeles | Great Value",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Large 4 Bedroom 2 Bath | Near El Sereno | Parking Available",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Spacious 4 Bedroom Apartment Available Near El Sereno",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Brand New 3+2 in Highland Park, SPECIALS, Lounge & Fitness Center",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Modern Tri level Townhomes 4 Bedroom 4 Bath ^ Rooftop Deck ^ Garage",
+          "price": 4500,
+          "hood": "Pasadena / Monterey Hills"
+        },
+        {
+          "title": "Spacious 3 bed 2 bath Front House in Alhambra",
+          "price": 3250,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Stunning 3BR/3BA – Space, Style & Comfort!",
+          "price": 6050,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "Huge 4 Bedroom Apartment in LA Available Now",
+          "price": 2997,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "Modern 3+2 in Highland Park | Luxury Vinyl Flooring | W/D | SPECIALS",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 bedroom apt 2,700 Highland Park",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Large 3 bedroom apt 2,700",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Spacious 3 bedroom apt in Highland Park",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 bedroom apt 2,700",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Newly Renovated 4 Bedroom 2 Bath in Pasadena | 2 MONTHS FREE | Balcony",
+          "price": 3500,
+          "hood": "Pasadena / Monterey Hills"
+        },
+        {
+          "title": "6 Weeks Free | Elegant 3+2 in Highland Park | Designer Interiors",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 Bedroom 2 Bathroom Apt. Living Room Has Door Can Be 4th Bedroom",
+          "price": 2300,
+          "hood": "Alhambra, Pasadena, Monterey Park, Rosemead, San Gabriel,"
+        },
+        {
+          "title": "BRAND NEW HIGHLAND PARK 3 Bedroom with Luxury Amenities, 6 Weeks Free",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "✔ Design-Centric Living * 3+2 in Highland Park * 6 Weeks Free ✔",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "6 WEEKS FREE + Fitness Center + Stylish 3 Bedroom in Highland Park",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Charming 2 Story Home in Madison Heights Area of Pasadena for Lease",
+          "price": 4950,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "3 Bedroom 2 Bath in Highland Park+ Gym+ Large Outdoor Patio+ Specials",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Brand New 3+2 in Highland Park | Luxury Vinyl Flooring | 6 Weeks Free",
+          "price": 4795,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Luxurious 3B3B Apartment Townhome! 1400+ SQFT! Rent Today!",
+          "price": 6050,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "Highland Park 3 Bedroom 2 Bath | Modern & Spacious | 6 Weeks Free",
+          "price": 3995,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "6 WEEKS FREE + Co-Working Lounge + Stylish 3 Bedroom in Highland Park",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Brand New 3+2 Apartment | Highland Park Lifestyle | W/D | 6 Weeks Free",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Large, Two-Story 3B3B Townhome! 1400+ SQFT! Private Entrance!",
+          "price": 6050,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "3 Bedroom 2 Bath in Highland Park, SS Appliances, 6 Weeks Free!",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3+2 in Highland Park, W/D, Pet-Friendly, High Ceilings, 6 Weeks Free!",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Spacious Town Home Style Apartment for Rent",
+          "price": 3500,
+          "hood": "Glendale"
+        },
+        {
+          "title": "Design Centric 3+2 in Highland Park with 6 Weeks Free + SS Appliances",
+          "price": 4475,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Charming..... HillTop Craftsman with Spectacular Views",
+          "price": 3500,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "3 bed 2 bath Highland Park",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Spacious 3 bedroom 2 bathrooms",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Spacious 3 bedroom apt in Highland Park",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 bedroom apartment great neighborhood",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Lovely spacious 3 bedroom apt in Highland Park",
+          "price": 2700,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "Spacious 3-Bedroom, 2-Bath Condo in Gated Zen Terrace Community",
+          "price": 3200,
+          "hood": "Alhambra"
+        },
+        {
+          "title": "Gorgeous four-bedroom,two-full bathroom big house in hill side village",
+          "price": 4795,
+          "hood": "LOS ANGELES"
+        },
+        {
+          "title": "1500+ SQFT Historic Loft! Natural Light! Check It Out Today!",
+          "price": 4308,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "Two-Story 3B3B Walkable to Old Town Pasadena! 1400+ SQFT! View Now!",
+          "price": 6423,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "Newly Renovated 4 Bedroom 2 Bath + 2 Month Free + Low Deposit + Sectio",
+          "price": 3550,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Lovely 4 Bedroom 2 Bath with 2 Months Free + Section 8 Welcome",
+          "price": 3500,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Modern 4 Bedroom 4 BA Tri-Level Townhouse in Pasadena W/ Rooftop Deck",
+          "price": 4500,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Newly Renovated 3 Bedroom + 2 Months Free + Section 8 Welcome",
+          "price": 2800,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Silver Lake 3 Bedroom Available Now – Great Location!",
+          "price": 4500,
+          "hood": "Silver Lake"
+        },
+        {
+          "title": "Spacious 3 bedroom, 2 1/2 Bath in Glendale",
+          "price": 3150,
+          "hood": "Glendale"
+        },
+        {
+          "title": "Larger-Than-Life 3B3B Townhome! 1400+ SQFT! Two Stories, Washer/Dryer!",
+          "price": 6423,
+          "hood": "Old Town Pasadena"
+        },
+        {
+          "title": "Spacious room in lovely Highland Park 3bdr house",
+          "price": 1600,
+          "hood": "Highland Park"
+        },
+        {
+          "title": "3 Bedroom 1Bath (2carparking, in unit laundry front&back yard) $3400!",
+          "price": 3400,
+          "hood": "Los Angeles"
+        },
+        {
+          "title": "House for Rent",
+          "price": 4700,
+          "hood": "Glendale, CA"
+        },
+        {
+          "title": "3 Bedroom 2 Bathroom",
+          "price": 2300,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "Large House in Triplex",
+          "price": 5400,
+          "hood": "westside-southbay-310"
+        },
+        {
+          "title": "3 bedroom 2 bath house for rent in Cypress park LA",
+          "price": 2950,
+          "hood": "central LA 213/323"
+        },
+        {
+          "title": "Summer's Here! Cool Off Inside Spacious 3B3B Townhome! 1400+ SQFT!",
+          "price": 6423,
+          "hood": "Pasadena"
+        },
+        {
+          "title": "Rare, 3B3B Townhome in Pasadena! Two Stories, 1400+ SQFT!",
+          "price": 6423,
+          "hood": "Pasadena"
+        }
+      ],
+      "rows": [
+        {
+          "hood": "highland park",
+          "n": 31,
+          "p25": 2700,
+          "median": 4445,
+          "p75": 4475
+        },
+        {
+          "hood": "los angeles",
+          "n": 20,
+          "p25": 2997,
+          "median": 2997,
+          "p75": 3098
+        },
+        {
+          "hood": "frogtown, elysian valley",
+          "n": 9,
+          "p25": 5325,
+          "median": 5475,
+          "p75": 5475
+        },
+        {
+          "hood": "old town pasadena",
+          "n": 8,
+          "p25": 5000,
+          "median": 6050,
+          "p75": 6143
+        },
+        {
+          "hood": "westside-southbay-310",
+          "n": 7,
+          "p25": 3150,
+          "median": 3550,
+          "p75": 4950
+        },
+        {
+          "hood": "san fernando valley",
+          "n": 6,
+          "p25": 3780,
+          "median": 3885,
+          "p75": 4046
+        },
+        {
+          "hood": "pasadena / monterey hills",
+          "n": 3,
+          "p25": 3150,
+          "median": 3500,
+          "p75": 4000
+        },
+        {
+          "hood": "pasadena",
+          "n": 3,
+          "p25": 5687,
+          "median": 6423,
+          "p75": 6423
+        },
+        {
+          "hood": "glendale",
+          "n": 3,
+          "p25": 3325,
+          "median": 3500,
+          "p75": 4100
+        },
+        {
+          "hood": "alhambra",
+          "n": 2,
+          "p25": 3213,
+          "median": 3225,
+          "p75": 3238
+        },
+        {
+          "hood": "pasadena / monterey hills / alhambra",
+          "n": 1,
+          "p25": 3550,
+          "median": 3550,
+          "p75": 3550
+        },
+        {
+          "hood": "alhambra, pasadena, monterey park, rosemead, san gabriel,",
+          "n": 1,
+          "p25": 2300,
+          "median": 2300,
+          "p75": 2300
+        },
+        {
+          "hood": "silver lake",
+          "n": 1,
+          "p25": 4500,
+          "median": 4500,
+          "p75": 4500
+        },
+        {
+          "hood": "central la 213/323",
+          "n": 1,
+          "p25": 2950,
+          "median": 2950,
+          "p75": 2950
+        }
+      ]
+    }
+  ]
+}
