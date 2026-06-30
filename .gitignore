@@ -1,9 +1,9 @@
 # Fluff
 .DS_Store
 
-# Private strategy docs (folder ignored, README kept for context)
+# Private strategy docs (folder ignored, only the housing canon kept)
 strategy/*
-!strategy/README.md
+!strategy/hood-canon.json
 
 # Logs
 logs
