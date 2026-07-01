@@ -13,6 +13,7 @@ import { CTA } from '../utils/track';
 import { joysOfColivingUrl, instagramUrl, mailchimpGeneral } from '../utils/constants';
 
 export async function getStaticProps() {
+  const pageTitle = "Naturally-Affordable Shared Housing in Los Angeles";
   const pageDescription =
     "Zaratan Coliving builds naturally-affordable shared housing and open-source tools for communities in Los Angeles and beyond.";
 
@@ -32,7 +33,7 @@ export async function getStaticProps() {
     },
   ];
 
-  return { props: { pageDescription, pageStructuredData } }
+  return { props: { pageTitle, pageDescription, pageStructuredData } }
 }
 
 export default function () {
