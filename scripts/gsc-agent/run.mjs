@@ -11,14 +11,35 @@ oauth2.setCredentials({ refresh_token: process.env.GSC_REFRESH_TOKEN });
 
 const webmasters = google.webmasters({ version: 'v3', auth: oauth2 });
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Google's token endpoint intermittently drops the connection mid-response
+// (ERR_STREAM_PREMATURE_CLOSE), so retry transient failures with backoff.
+const withRetry = async (fn, attempts = 4) => {
+  for (let i = 0; ; i += 1) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (i >= attempts - 1) throw err;
+      const delay = 1000 * 2 ** i;
+      console.error(`Attempt ${i + 1} failed: ${err.message}. Retrying in ${delay}ms...`);
+      await sleep(delay);
+    }
+  }
+};
+
+// Refresh the access token up front so a flaky token exchange is retried in
+// isolation, before it fans out across the parallel queries below.
+await withRetry(() => oauth2.getAccessToken());
+
 const iso = (d) => d.toISOString().slice(0, 10);
 const endDate = iso(new Date(Date.now() - 86400000));
 const startDate = iso(new Date(Date.now() - (DAYS + 1) * 86400000));
 
-const query = (dimensions, rowLimit = 50) => webmasters.searchanalytics.query({
+const query = (dimensions, rowLimit = 50) => withRetry(() => webmasters.searchanalytics.query({
   siteUrl: SITE,
   requestBody: { startDate, endDate, dimensions, rowLimit },
-}).then((r) => r.data.rows ?? []);
+}).then((r) => r.data.rows ?? []));
 
 const [totals, queries, pages, countries, devices, dates] = await Promise.all([
   query([], 1),
