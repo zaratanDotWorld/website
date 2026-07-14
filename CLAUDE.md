@@ -17,6 +17,7 @@ Living product docs sit under `spec/`, organized as two businesses (coliving, Ch
 - `spec/STRATEGY.md` — overall Zaratan strategy (two businesses, growth priorities)
 - `spec/CO-PROD.md` — coliving product spec
 - `spec/CO-GTM.md` — coliving go-to-market (positioning, pricing, funnel, competitors)
+- `spec/CO-TESTIMONIALS.md` — verbatim resident quotes, raw material for listings and marketing copy
 - `spec/CW-PROD.md` — Chore Wheel product spec
 - `spec/CW-GTM.md` — Chore Wheel go-to-market (pitch, pilot playbook)
 

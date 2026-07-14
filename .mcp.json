@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "airtable": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "set -a; [ -f .env ] && . ./.env; set +a; exec npx -y airtable-mcp-server"
+      ]
+    }
+  }
+}
