@@ -32,7 +32,7 @@ Ask for whatever the user hasn't already given:
 
 ## Channel notes
 
-- **Craigslist flagging (learned 2026-07):** a post was auto-flagged; flagging appears cumulative, not single-keyword. Never use urgency/scarcity phrasing ("expect it to go quickly") — textbook scam-filter trigger with no informational value. The off-site link (zaratan.world/interest) has survived on past posts but likely adds risk — keep it, but don't stack other triggers on top. When reposting after a flag or expiry, reword meaningfully (e.g. rotate the resident quote); the similarity filter compares against prior posts.
+- **Craigslist flagging (learned 2026-07):** a post was auto-flagged; flagging appears cumulative, not single-keyword. Never use urgency/scarcity phrasing ("expect it to go quickly") — textbook scam-filter trigger with no informational value. The off-site link (zaratan.world/interest) is fine, but only alongside an on-platform option ("…or reply to this listing") — CL's prohibited-content policy bans posts whose "primary purpose is to drive traffic to a website," and a link as the sole CTA reads as exactly that. The ad that survived had the reply fallback; the flagged one didn't. When reposting after a flag or expiry, reword meaningfully (e.g. rotate the resident quote); the similarity filter compares against prior posts.
 
 ## Output
 
