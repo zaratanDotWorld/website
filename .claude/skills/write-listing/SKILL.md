@@ -30,6 +30,12 @@ Ask for whatever the user hasn't already given:
 - **Anchor on the bundle.** The differentiator is all-in cost + mutual lease flexibility (short min stay + month-to-month) vs. a 12-month Craigslist lock-in with strangers. Make the itemized inclusion visible where the channel allows.
 - **Keep it truthful and concrete.** Time-bound promises ("approval in 3 business hours") beat vague adjectives ("easy," "amazing"). No claims the house can't back.
 
+## Sage posting facts
+
+- Address: 215 N Ave 56, Los Angeles, CA 90042 (Highland Park). On listings, show cross-streets only, not the exact street number.
+- Craigslist geography: subarea **central LA 213/323**, neighborhood field "Highland Park", postal code 90042. Post in one subarea only — cross-posting (e.g. also san gabriel valley) trips the "overposted, cross-posted" clause.
+- Transit selling point: ~2 blocks from the A Line Highland Park station (Ave 57 & Marmion Way); walking distance to the York Blvd and Figueroa corridors. Speaks to car-free room-shoppers — worth a line in the house-facts paragraph.
+
 ## Channel notes
 
 - **Craigslist flagging (learned 2026-07):** a post was auto-flagged; flagging appears cumulative, not single-keyword. Never use urgency/scarcity phrasing ("expect it to go quickly") — textbook scam-filter trigger with no informational value. The off-site link (zaratan.world/interest) is fine, but only alongside an on-platform option ("…or reply to this listing") — CL's prohibited-content policy bans posts whose "primary purpose is to drive traffic to a website," and a link as the sole CTA reads as exactly that. The ad that survived had the reply fallback; the flagged one didn't. When reposting after a flag or expiry, reword meaningfully (e.g. rotate the resident quote); the similarity filter compares against prior posts.
