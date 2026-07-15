@@ -82,11 +82,51 @@ Because we receive a high volume of applications, we aren’t able to chat with 
 
 Know someone who might be a great fit? We’d appreciate you sharing this with them ❤️
 
-### Sage House
+### Sage House — year-long survivor
+
+- Channel: Craigslist
+- Source: our own ad
+- Why it's here: ran for a year with no flags, off-site link and all. Warm first-person prose ("Come live in…"), no price in the body (price field only), inclusions described in sentences. Reference for register only — do NOT reuse or lightly rework this text: per `craigslist-policies.md`, recycling a past ad (even a successful one) is itself a flag trigger ("ad fatigue" / "unfixed retry ad"), and by the forum's content recipe it's also inverted (mostly house-and-community, room last) and heavy on boast words (beautifully-restored, vibrant, elegant) that current filters dislike.
+
+Great house, location, people, value.
+
+Come live in a beautifully-restored 1905 Craftsman, in the heart of vibrant Highland Park, Los Angeles. Steps away from bustling Figueroa and a short walk from York.
+
+This nine-bedroom home features hardwood floors, a restaurant-style kitchen, elegant dining room, sunny living room, quiet library, upstairs deck, backyard fire pit, recording studio, gym, guest room, and four full bathrooms.
+
+Lease is 4 months and then month-to-month. Rent includes all utilities as well as a large monthly budget for food and supplies (worth over $150).
+
+Housemates are a mix of creatives and professionals. There is one house meeting per month and everyone contributes 4-5 hours of monthly chores. Most decisions and communication happen over Slack, and most things run as a do-ocracy. Projects are encouraged. In general folks keep a quiet and clean house, with occasional parties and dinners. Due to allergies, we cannot accommodate pets.
+
+The room is medium-size (107 sqft), on the second floor with a casement window opening up onto a deck. Available Jan 7, with earlier move-in possible.
+
+For more info and to apply: https://www.zaratan.world/houses/sage
+
+### Sage House — flagged rewrite (anti-pattern)
+
+- Channel: Craigslist
+- Source: our own ad, 2026-07
+- Why it's here: repeatedly flagged despite having no off-site link ("reply to this listing" was the only CTA). Commercial register throughout: spec-sheet opener, "$/mo all-in" + "no hidden fees" pricing-sheet language, "prime Highland Park," and a resident testimonial — a marketing artifact no real roommate ad has. Same house, same facts as the survivor above; the register is the difference. Do not imitate on Craigslist.
+
+107 sqft 2nd floor bedroom in Sage House, a fully-restored 9-bed / 4-bath 1905 Craftsman in prime Highland Park.
+
+$1,195/mo all-in: utilities, WiFi, and a shared budget for food and supplies (~$150/mo value). No hidden fees. Coin-op laundry; parking extra.
+
+Shared spaces: restaurant-style kitchen, living and dining rooms, library, recording studio, art space, gym, guest room, upstairs deck, backyard fire pit.
+
+From a recent resident: "Sage is an especially great place to move as a first home in LA. As I've gotten closer to everyone I've been introduced to their communities and made tons of new friends."
+
+How the house runs: coordination over Slack, one meeting and a few hours of chores a month. Clean and generally quiet, with occasional dinners and parties. No pets (allergies).
+
+Lease: 4-month minimum, then month-to-month.
+
+To learn more and apply, reply to this listing.
+
+### Sage House — earlier ad
 
 - Channel: Craigslist
 - Source: online
-- Why it's here: this is our latest ad, so you can see what we've been doing so far
+- Why it's here: an earlier ad of ours, for reference
 
 Room in Creative Coliving House — All-Inclusive
 
