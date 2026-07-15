@@ -122,6 +122,38 @@ Lease: 4-month minimum, then month-to-month.
 
 To learn more and apply, reply to this listing.
 
+### Stephen & Elly — departing-roommate opener
+
+- Channel: Facebook
+- Source: online
+- Why it's here: another grassroots peer listing (Facebook roommate ad); mostly overlaps what Silverlake (peer voice) and Lightning (managed amenities) already teach. The one move worth borrowing is the departing-roommate opener — "our roommate Anya is moving, we're looking for someone to take her spot" — which frames the room as a seat opening in an existing group rather than a vacancy to fill. Also note: room described after the people, price in the body. (Amenities imply a coliving operator underneath, but nothing says the operator wrote the ad — read it as resident-written.)
+
+🏡 Stephen & Elly Are Looking for a Cool New Roomie! 🏡
+
+Our roommate **Anya** is moving into her new home, so we're looking for someone friendly and easygoing to take her spot!
+
+A little about us: **Elly** is a fashionista who loves to dance, and **Stephen** is an actor who's always down to throw a backyard BBQ or hang out with friends. We're looking for someone who enjoys a positive, welcoming home and is excited to be part of a fun community.
+
+📍By Larchmont Village in (Koreatown)
+
+🛏️ The Room:
+* Huge private bedroom with plenty of space for a bed, couch, desk, and more
+* SOME Furniture included: bed, nightstand, and white table
+* Two closets with plenty of space
+* Shared 3BR/1BA apartment with Stephen & Elly
+* $1,150/month — Utilities included**, including WiFi, electricity, water, and weekly professional cleaning of shared spaces
+
+🏢 Community Amenities:
+* Onsite gym
+* Movie room & co-working lounges
+* Beautiful backyard with BBQ & fire pit
+* Weekly professional cleaning of common areas
+* Monthly community events like BBQs, movie nights, paint nights, and more
+
+✨ If you're looking for more than just a room—a place with great roommates, awesome amenities, and a welcoming community—we'd love to meet you!
+
+📅 **Available next week. DM us to schedule a tour!**
+
 ### Sage House — earlier ad
 
 - Channel: Craigslist
