@@ -188,6 +188,8 @@ Modeled on Outpost's own intake when the founder first applied there.
 
 **Ownership boundary.** Steps 1–6 are operator-owned: sourcing, screening, delivering a qualified, applied candidate. Step 7 hands off to housemates for the final culture-fit decision. Step 8 returns to the operator for lease and logistics. The whole point of this playbook is to make the operator side fast and reliable so the housemate side can do its work without back-end pressure on candidate timing.
 
+**Early signal (2026-07-15):** first runs of the phone-screen step are promising — 2 interest forms → 2 screens → 2 applications (n=2, watch form→screen as volume grows).
+
 **Reported conversion:** 80% application-to-move-in. Most of the leak is upstream — interest → application is the largest drop.
 
 ### Decision-timeline assumption
