@@ -39,3 +39,8 @@ Prompt that works: "What would you tell a friend who was thinking about moving i
 > Way better than a one-bedroom.
 
 > Living here is surprisingly easy.
+
+### Anonymous, departing resident (2026-07)
+- Context: exit chat; asked to remain anonymous.
+
+> Sage House has been a really friendly and welcoming place to live, I have enjoyed being able to live with a group of people with such diverse interests. The house strikes a good balance of independence and communal activities/gatherings, and the atmosphere is lively without being overwhelming.
