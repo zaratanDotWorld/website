@@ -173,3 +173,25 @@ The vibe: vetted mix of creatives and professionals. Most decisions and communic
 Lease: 4 month minimum then month-to-month.
 
 Learn more and apply at zaratan.world/interest, or reply to this listing.
+
+### Highland Park bungalow — tenant-occupied, bio-forward
+
+- Channel: Listings Project
+- Source: https://www.listingsproject.com/listings/private-room-in-sweet-highland-park-bungalow
+- Why it's here: first Listings Project sample in the canon, and a direct local comp — same neighborhood as Sage, $1,313 + utilities, current tenant renting 2 of the 3 bedrooms in her bungalow (the platform's "Lister's Relationship to the Space" field says "I am the current tenant" — she's a resident finding roommates, not the owner/operator). Two lessons. (1) Peer voice carried almost entirely by *personal specificity*: a full "about me" paragraph (jeweler with a studio off York, yoga, astrology, "not a big drinker but I do like wine on occasion," a dog named Apollo) with the room itself barely described — just "2 bedrooms," price last. The specificity is the credibility; it reads as a real resident because that's exactly who wrote it. Same person-forward, room-last structure as Silverlake and Stephen & Elly, pushed further. (2) It grounds the neighborhood in named real places (Kitchen Mouse, Cafe Birdie, Civil Coffee) and casual register ("super sweet") instead of boast adjectives — the opposite of the flagged Sage rewrite. For our purposes it's also a pricing/positioning datapoint: at $1,313 **+ utilities** it sits just above Sage's ~$1,195 **all-in** (utilities, WiFi, food budget) — the all-inclusive number is a real differentiator against comps like this, worth making legible in our own copy. Note also the title — "Private Room in Sweet Highland Park Bungalow": leads with the room and one warm, un-boastful adjective ("sweet," not "beautifully-restored"), the same casual register as the body.
+
+Private Room in Sweet Highland Park Bungalow
+
+(AVAILABLE NOW, FLEX START DATES) (HIGHLAND PARK)
+
+Hi! Renting 2 bedrooms in my 3 bedroom / 2 bathroom bungalow in Highland Park.
+
+I enjoy living with people who are proactive roommates who also enjoy the community aspect of living together.
+
+House is super sweet and centrally located. It is a 5 min drive to the Gold Line and 25 min from Downtown LA. Close to all the new shops and restaurants on York and Figueroa. (Kitchen Mouse, Cafe Birdie, Namaste Yoga, Civil Coffee, and more!)
+
+There is Central AC, a garage, backyard deck and table area for BBQs and a fire pit for get togethers (twinkly lights included), washer/dryer, dishwasher, backyard with a veggie garden, front porch with a porch swing and a ton of plants! Plus if you like to garden!
+
+I am a 39 year old jeweler and artist. I have a studio off York nearby and usually I'm there most of the time. I like to do yoga and am interested in art, home decor, travel, music, astrology. Not a big drinker, but I do like wine on occasion. When I am home I like to cook, bake and just relax. I have a really cute well behaved pup named Apollo. He's a true angel!
+
+Rent is $1313 + utilities
